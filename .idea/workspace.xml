@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (beginning-101)" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (beginning-102) : storybook added">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\component-library\bbm-component-library\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
-      <workItem from="1656852591671" duration="1048000" />
+      <workItem from="1656852591671" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -44,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656853455595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rcl (beginning-102) : storybook added">
+      <created>1656853785768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656853785768</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rcl (beginning-102) : storybook added">
+      <created>1656853795722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656853795722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rcl (beginning-101)" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (beginning-101)" />
+    <MESSAGE value="rcl (beginning-102) : storybook added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (beginning-102) : storybook added" />
   </component>
 </project>
