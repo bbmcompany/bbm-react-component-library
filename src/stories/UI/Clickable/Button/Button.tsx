@@ -16,8 +16,7 @@ export const Button = ({
                            border = false,
                            progress = false,
                            size = 'medium',
-                           label,
-                           ...props
+                           label = 'Button',
                        }: ButtonProps) => {
     const isDisabled = disabled ? 'bbm-rcl-button--disabled' : ' ';
     const isProgress = progress ? 'bbm-rcl-button--progress' : ' ';
@@ -27,7 +26,6 @@ export const Button = ({
             aria-disabled={disabled}
             type={'button'}
             className={['bbm-rcl-button', `bbm-rcl-button--${size}`, `bbm-rcl-button--${variant}`, isDisabled, isProgress, isBorder].join(' ')}
-            {...props}
         >{label}</button>
     )
 }
