@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (beginning-102) : storybook added">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (button - 101) : primary,secondary button added with small,medium,large options">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/_main-color.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
-      <workItem from="1656852591671" duration="8263000" />
+      <workItem from="1656852591671" duration="14702000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -75,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656853795722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rcl (button - 101) : primary,secondary button added with small,medium,large options">
+      <created>1656890063526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656890063526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rcl (beginning-101)" />
     <MESSAGE value="rcl (beginning-102) : storybook added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (beginning-102) : storybook added" />
+    <MESSAGE value="rcl (button - 101) : primary,secondary button added with small,medium,large options" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (button - 101) : primary,secondary button added with small,medium,large options" />
   </component>
 </project>
