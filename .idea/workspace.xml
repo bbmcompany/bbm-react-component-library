@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (button - 104) : buttons templated added. - contained, types, variants">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (button - 104) : buttons templated added. - progress, progress text, outlined">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/add.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/colors.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +31,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\component-library\bbm-component-library\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\component-library\bbm-component-library\src\stories\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\component-library\bbm-component-library\public" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\Clickable\Button" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
-      <workItem from="1656852591671" duration="43924000" />
+      <workItem from="1656852591671" duration="54958000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -91,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657025962673</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rcl (button - 104) : buttons templated added. - progress, progress text, outlined">
+      <created>1657026588755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657026588755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +135,7 @@
     <MESSAGE value="rcl (button - 102) : primary,secondary,danger,success button added with options" />
     <MESSAGE value="rcl (button - 103) : primary,secondary,danger,success button added with options" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - contained, types, variants" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (button - 104) : buttons templated added. - contained, types, variants" />
+    <MESSAGE value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
   </component>
 </project>

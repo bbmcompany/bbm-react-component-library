@@ -21,15 +21,23 @@ $theme-colors: (
 
 
 @mixin base-button {
-  font-weight: 700;
+  font-weight: 400;
+
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
   border: 1px solid;
   border-radius: 4px;
   cursor: pointer;
-  display: inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+
+  img {
+  }
 }
 
 @mixin base-size {
-  font-size: 15px;
   padding: 12px 22px;
   margin: 5px;
 }
@@ -108,18 +116,15 @@ $theme-colors: (
   }
 
   &--small {
-    font-size: 12px;
-    padding: 6px 10px;
+    padding: 4px 14px;
   }
 
   &--medium {
-    font-size: 14px;
-    padding: 6px 16px;
+    padding: 7px 19px;
   }
 
   &--large {
-    font-size: 16px;
-    padding: 7px 16px;
+    padding: 11px 29px;
   }
 
   &--disabled {

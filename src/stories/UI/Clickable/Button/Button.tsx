@@ -1,6 +1,4 @@
 import './button.scss'
-import {object} from "prop-types";
-
 interface ButtonProps {
     size?: 'small' | 'medium' | 'large';
     primary?: boolean,
@@ -18,6 +16,9 @@ interface ButtonProps {
     progressText?: string;
     label?: string;
     target?: string;
+    display?: string;
+    maxWidth?: number;
+    icon?: string;
 }
 
 
@@ -28,14 +29,16 @@ export const Button = ({
                            size = 'medium',
                            label = 'Button',
                            target = '_self',
+                           display = ' ',
+                           icon = ' ',
                            children = label,
                            progressText = 'Saving...',
+                           maxWidth = 0,
                            ...props
                        }: ButtonProps) => {
     const isDisabled = disabled ? 'bbm-rcl-button--disabled' : ' ';
     let isProgress = progress ? 'bbm-rcl-button--progress' : ' ';
     let variantClasses = '';
-
     if (isProgressText) {
         isProgress = 'bbm-rcl-button--progress';
         children = progressText;
@@ -47,13 +50,21 @@ export const Button = ({
         }
     }
 
-
+console.log(icon)
     return (
         <button
+            style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
             aria-disabled={disabled}
             type={'button'}
             formTarget={target}
             className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses].join(' ')}
-        >{children}</button>
+        >
+            {icon == ' ' ? <>
+                {children}
+            </> : <>
+                    <img src={"./add.svg"} alt={"anan"}/>
+                {children}
+            </>}
+        </button>
     )
 }
