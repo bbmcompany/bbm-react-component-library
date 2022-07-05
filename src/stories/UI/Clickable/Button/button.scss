@@ -1,21 +1,29 @@
 @use 'sass:map';
-@import "src/stories/UI/styles/color/main-color.scss";
+@import "../../styles/color/color-pallette";
 
 $theme-background-colors: (
-        'primary' : $color-green,
-        'secondary' : transparent,
-        'orange' : $color-orange,
-        'red' : $color-red,
-        'green' : $color-green,
+        'transparent' : transparent,
+        'orange-400' : $orange-400,
+        'orange-300' : $orange-300,
+        'red-400' : $red-400,
+        'red-300' : $red-300,
+        'green-400' : $green-400,
+        'green-300' : $green-300,
+        'white': $color-white,
+        'black': $color-black,
 );
+
 $theme-colors: (
         'white': $color-white,
         'black': $color-black,
-        'orange' : $color-orange,
+        'orange' : $orange-400,
 );
+
 
 @mixin base-button {
   font-weight: 700;
+  border: 1px solid;
+  border-radius: 4px;
   cursor: pointer;
   display: inline-block;
 }
@@ -23,11 +31,40 @@ $theme-colors: (
 @mixin base-size {
   font-size: 15px;
   padding: 12px 22px;
+  margin: 5px;
 }
 
-@mixin colorGenerator($color: map.get($theme-colors, 'white'), $background-color: map.get($theme-background-colors, 'orange')) {
+@mixin colorGenerator($color: $color-white,
+  $background-color: $orange-400,
+  $hover-background-color: $orange-300) {
+
+  &[class*='--transparent'] {
+    color: $background-color;
+    border-color: $transparent;
+    background-color: $transparent;
+
+    &:hover {
+      color: $background-color;
+      border-color: $hover-background-color;
+      background-color: $transparent;
+    }
+  }
+  &[class*='--outline'] {
+    color: $background-color;
+    border-color: $background-color;
+    background-color: $transparent;
+
+    &:hover {
+      color: $color;
+      background-color: $hover-background-color;
+    }
+  }
   color: $color;
+  border-color: $background-color;
   background-color: $background-color;
+  &:hover {
+    background-color: $hover-background-color;
+  }
 }
 
 
@@ -35,35 +72,54 @@ $theme-colors: (
   @include base-button;
   @include base-size;
 
+
   &--primary {
     @include colorGenerator();
   }
 
-  &--outline {
-    @include colorGenerator($color: map.get($theme-colors, 'black'), $background-color: map.get($theme-background-colors, 'secondary'));
+  &--secondary {
+    @include colorGenerator($color: $color-white,
+    $background-color: $blue-400,
+    $hover-background-color: $blue-300);
+  }
+
+  &--tertiary {
+    @include colorGenerator($color: $color-white,
+    $background-color: $mid-grey-200,
+    $hover-background-color: $mid-grey-100);
+  }
+
+  &--text {
+    @include colorGenerator($color: $color-black,
+    $background-color: $color-white,
+    $hover-background-color: $color-white);
   }
 
   &--danger {
-    @include colorGenerator($color: map.get($theme-colors, 'white'), $background-color: map.get($theme-background-colors, 'red'));
+    @include colorGenerator($color: $color-white,
+    $background-color: $red-400,
+    $hover-background-color: $red-300);
   }
 
   &--success {
-    @include colorGenerator($color: map.get($theme-colors, 'white'), $background-color: map.get($theme-background-colors, 'green'));
+    @include colorGenerator($color: $color-white,
+    $background-color: $green-400,
+    $hover-background-color: $green-300);
   }
 
   &--small {
     font-size: 12px;
-    padding: 10px 16px;
+    padding: 6px 10px;
   }
 
   &--medium {
     font-size: 14px;
-    padding: 11px 20px;
+    padding: 6px 16px;
   }
 
   &--large {
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 7px 16px;
   }
 
   &--disabled {
@@ -74,10 +130,6 @@ $theme-colors: (
   &--progress {
     filter: grayscale(50%);
     cursor: progress;
-  }
-
-  &--border {
-    border: none;
   }
 
 }

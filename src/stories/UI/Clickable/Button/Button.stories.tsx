@@ -5,46 +5,40 @@ export default {
     title: 'UI/Clickable/Button',
     component: Button,
     argTypes: {},
+
 } as ComponentMeta<typeof Button>;
 
-const Template: ComponentStory<typeof Button> = args => <Button {...args}/>;
+const VariantTemplate: ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary>Primary</Button>
+        <Button {...args} secondary>Secondary</Button>
+        <Button {...args} tertiary>Tertiary</Button>
+        <Button {...args} danger>Danger</Button>
+        <Button {...args} success>Success</Button>
+        <Button {...args} >Default</Button>
 
-export const Primary = Template.bind({});
-Primary.args = {
-    variant: 'primary',
-};
+    </div>
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-    variant: 'outline',
-};
+);
+export const Variants = VariantTemplate.bind({});
 
-export const Small = Template.bind({});
-Small.args = {
-    size: 'small',
-};
+const TypesTemplate : ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary>Contained</Button>
+        <Button {...args} primary outline>Outline</Button>
+        <Button {...args} primary>Default</Button>
+    </div>
+);
+export const Types = TypesTemplate.bind({});
 
-export const Medium = Template.bind({});
-Medium.args = {
-    size: 'medium',
-}
-
-export const Large = Template.bind({});
-Large.args = {
-    size: 'large',
-}
-
-export const Active = Template.bind({});
-Active.args = {
-    disabled: false,
-}
-
-export const Disabled = Template.bind({});
-Disabled.args = {
-    disabled: true,
-}
-
-export const Progress = Template.bind({});
-Progress.args = {
-    progress: true,
-}
+const ContainedButtonsTemplate : ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary>Primary</Button>
+        <Button {...args} secondary>Secondary</Button>
+        <Button {...args} tertiary>Tertiary</Button>
+        <Button {...args} danger>Danger</Button>
+        <Button {...args} success>Success</Button>
+        <Button {...args} >Default</Button>
+    </div>
+);
+export const ContainedButtons = ContainedButtonsTemplate.bind({});
