@@ -38,7 +38,7 @@ export const Button = ({
 
     if (isProgressText) {
         isProgress = 'bbm-rcl-button--progress';
-        label = progressText;
+        children = progressText;
     }
 
     for (const [key, value] of Object.entries(props)) {

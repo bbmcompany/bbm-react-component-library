@@ -42,3 +42,39 @@ const ContainedButtonsTemplate : ComponentStory<typeof Button> = args => (
     </div>
 );
 export const ContainedButtons = ContainedButtonsTemplate.bind({});
+
+const OutlinedButtonTemplate : ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary outline>Primary</Button>
+        <Button {...args} secondary outline>Secondary</Button>
+        <Button {...args} tertiary outline>Tertiary</Button>
+        <Button {...args} danger outline>Danger</Button>
+        <Button {...args} success outline>Success</Button>
+        <Button {...args} outline>Default</Button>
+    </div>
+);
+export const OutlinedButtons = OutlinedButtonTemplate.bind({});
+
+const ProgressButtonsTemplate : ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary progress>Primary</Button>
+        <Button {...args} secondary progress>Secondary</Button>
+        <Button {...args} tertiary progress>Tertiary</Button>
+        <Button {...args} danger progress>Danger</Button>
+        <Button {...args} success progress>Success</Button>
+        <Button {...args} progress>Default</Button>
+    </div>
+);
+export const ProgressButtons = ProgressButtonsTemplate.bind({});
+
+const ProgressTextButtonsTemplate : ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary isProgressText progressText={'Primary...'}>Primary</Button>
+        <Button {...args} secondary isProgressText progressText={'Secondary...'}>Secondary</Button>
+        <Button {...args} tertiary isProgressText progressText={'Tertiary...'}>Tertiary</Button>
+        <Button {...args} danger isProgressText progressText={'Danger...'}>Danger</Button>
+        <Button {...args} success isProgressText progressText={'Success...'}>Success</Button>
+        <Button {...args} isProgressText>Default</Button>
+    </div>
+);
+export const ProgressTextButtons = ProgressTextButtonsTemplate.bind({});
