@@ -3,7 +3,7 @@ import {ComponentMeta, ComponentStory} from "@storybook/react";
 import exp from "constants";
 
 export default {
-    title: 'UI/Clickable/Button',
+    title: 'UI/Button',
     component: Button,
     argTypes: {},
 
@@ -28,6 +28,8 @@ const TypesTemplate: ComponentStory<typeof Button> = args => (
         <Button {...args} primary>Contained</Button>
         <Button {...args} primary outline>Outline</Button>
         <Button {...args} primary>Default</Button>
+        <Button {...args} primary icon={'academy'}>Icon</Button>
+        <Button {...args} primary iconButton icon={'academy'}>Default</Button>
     </div>
 );
 export const Types = TypesTemplate.bind({});
@@ -73,6 +75,23 @@ const TextButtonsTemplate: ComponentStory<typeof Button> = args => (
 );
 export const TextButtons = TextButtonsTemplate.bind({});
 
+const IconButtonsTemplate: ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary icon={'academy'}>Primary Icon</Button>
+        <Button {...args} secondary icon={'academy'}>Secondary Icon</Button>
+        <Button {...args} tertiary icon={'academy'}>Tertiary Icon</Button>
+    </div>
+);
+export const IconButtons = IconButtonsTemplate.bind({});
+
+const OnlyIconButtonsTemplate: ComponentStory<typeof Button> = args => (
+    <div>
+        <Button {...args} primary iconButton icon={'academy'}/>
+        <Button {...args} secondary iconButton icon={'academy'}/>
+        <Button {...args} tertiary iconButton icon={'academy'}/>
+    </div>
+);
+export const OnlyIconButtons = OnlyIconButtonsTemplate.bind({});
 const TransparentButtonsTemplate: ComponentStory<typeof Button> = args => (
     <div>
         <Button {...args} primary transparent>Primary</Button>

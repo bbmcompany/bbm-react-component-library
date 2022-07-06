@@ -1,4 +1,5 @@
 import './button.scss'
+
 interface ButtonProps {
     size?: 'small' | 'medium' | 'large';
     primary?: boolean,
@@ -8,6 +9,7 @@ interface ButtonProps {
     text?: boolean
     danger?: boolean,
     success?: boolean,
+    iconButton?: boolean,
     outline?: boolean,
     transparent?: boolean,
     disabled?: boolean;
@@ -31,6 +33,7 @@ export const Button = ({
                            target = '_self',
                            display = ' ',
                            icon = ' ',
+                           iconButton = false,
                            children = label,
                            progressText = 'Saving...',
                            maxWidth = 0,
@@ -43,6 +46,9 @@ export const Button = ({
         isProgress = 'bbm-rcl-button--progress';
         children = progressText;
     }
+    if(iconButton && icon == ' ') {
+        icon = 'academy';
+    }
 
     for (const [key, value] of Object.entries(props)) {
         if (value) {
@@ -50,7 +56,6 @@ export const Button = ({
         }
     }
 
-console.log(icon)
     return (
         <button
             style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
@@ -60,11 +65,17 @@ console.log(icon)
             className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses].join(' ')}
         >
             {icon == ' ' ? <>
-                {children}
-            </> : <>
-                    <img src={"./add.svg"} alt={"anan"}/>
-                {children}
-            </>}
+                <div className={"text"}>
+                    {children}
+                </div>
+            </> : <div className={'icon-container'}>
+                <div className={'icon'}>
+                    <div className={`icon--${icon}`}></div>
+                </div>
+                <div className={iconButton ? 'secret-text' : 'text' }>
+                    {children}
+                </div>
+            </div>}
         </button>
     )
 }
