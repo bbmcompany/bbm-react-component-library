@@ -143,31 +143,11 @@ $theme-colors: (
 
   .icon-container {
     display: flex;
+    align-items: center;
     gap: .7em;
 
     .secret-text {
       display: none;
-    }
-
-    .icon {
-      display: block;
-      height: 1em;
-      min-width: 1em;
-      min-height: 1em;
-
-      .icon {
-        &--academy {
-          @include createIcon('academy');
-        }
-
-        &--account {
-          @include createIcon('account');
-        }
-
-        &--left-arrow {
-          @include createIcon('left-arrow');
-        }
-      }
     }
   }
 

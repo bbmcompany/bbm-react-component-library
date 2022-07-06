@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (icon - 105) : icon component started.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/add_note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/add_photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/add_product.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/arrow_down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
-      <workItem from="1656852591671" duration="66589000" />
+      <workItem from="1656852591671" duration="72216000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -121,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657103668087</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="rcl (icon - 105) : icon component started.">
+      <created>1657104010215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657104010215</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +170,7 @@
     <MESSAGE value="rcl (button - 104) : buttons templated added. - contained, types, variants" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
     <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
+    <MESSAGE value="rcl (icon - 105) : icon component started." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (icon - 105) : icon component started." />
   </component>
 </project>

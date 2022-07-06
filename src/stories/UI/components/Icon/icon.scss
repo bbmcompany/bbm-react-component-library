@@ -1,0 +1,81 @@
+@mixin createIcon($icon) {
+  background: url('../../assets/' + $icon + '.svg') no-repeat center;
+  background-size: cover;
+}
+
+.bbm-rcl-icon {
+  display: block;
+  padding: 2px;
+
+  &--small {
+    width: 1em;
+    height: 1em;
+  }
+
+  &--medium {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  &--large {
+    width: 1.4em;
+    height: 1.4em;
+  }
+
+  &--x-large {
+    width: 1.6em;
+    height: 1.6em;
+  }
+
+  &--2x-large {
+    width: 1.8em;
+    height: 1.8em;
+  }
+
+  &--3x-large {
+    width: 2.0em;
+    height: 2.0em;
+  }
+
+  &--academy {
+    @include createIcon('academy');
+  }
+
+  &--add_note {
+    @include createIcon('add_note');
+  }
+
+  &--add_photo {
+    @include createIcon('add_photo');
+  }
+
+  &--add_product {
+    @include createIcon('add_product');
+  }
+
+  &--alert {
+    @include createIcon('alert');
+  }
+
+  &--archive {
+    @include createIcon('archive');
+  }
+
+  &--arrow-right {
+    @include createIcon('arrow-right');
+  }
+
+  &--arrow-up {
+    @include createIcon('arrow-up');
+  }
+
+  &--arrow_down {
+    @include createIcon('arrow_down');
+  }
+
+  &--left-arrow {
+    @include createIcon('left-arrow');
+  }
+
+
+}

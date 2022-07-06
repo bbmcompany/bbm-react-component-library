@@ -1,4 +1,5 @@
 import './button.scss'
+import {Icon} from "../Icon/Icon";
 
 interface ButtonProps {
     size?: 'small' | 'medium' | 'large';
@@ -20,6 +21,7 @@ interface ButtonProps {
     target?: string;
     display?: string;
     maxWidth?: number;
+    withIcon?: boolean;
     icon?: string;
 }
 
@@ -34,6 +36,7 @@ export const Button = ({
                            display = ' ',
                            icon = ' ',
                            iconButton = false,
+                           withIcon = false,
                            children = label,
                            progressText = 'Saving...',
                            maxWidth = 0,
@@ -46,9 +49,14 @@ export const Button = ({
         isProgress = 'bbm-rcl-button--progress';
         children = progressText;
     }
-    if(iconButton && icon == ' ') {
+    if (iconButton && icon == ' ') {
         icon = 'academy';
     }
+
+    if(withIcon && icon == ' ') {
+        icon = 'academy';
+    }
+
 
     for (const [key, value] of Object.entries(props)) {
         if (value) {
@@ -69,10 +77,8 @@ export const Button = ({
                     {children}
                 </div>
             </> : <div className={'icon-container'}>
-                <div className={'icon'}>
-                    <div className={`icon--${icon}`}></div>
-                </div>
-                <div className={iconButton ? 'secret-text' : 'text' }>
+                <Icon icon={icon}></Icon>
+                <div className={iconButton ? 'secret-text' : 'text'}>
                     {children}
                 </div>
             </div>}
