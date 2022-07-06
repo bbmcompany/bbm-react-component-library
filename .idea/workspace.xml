@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (button - 104) : buttons templated added. - progress, progress text, outlined">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/academy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/account.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/left-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/Clickable/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/code-brackets.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/comments.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/direction.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/flow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/plugin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/repo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/assets/stackalt.svg" afterDir="false" />
-    </list>
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
-      <workItem from="1656852591671" duration="66363000" />
+      <workItem from="1656852591671" duration="66589000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -131,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657046625352</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button">
+      <created>1657103668087</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657103668087</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +146,7 @@
     <MESSAGE value="rcl (button - 103) : primary,secondary,danger,success button added with options" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - contained, types, variants" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
+    <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
   </component>
 </project>
