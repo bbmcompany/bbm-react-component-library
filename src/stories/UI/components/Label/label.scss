@@ -1,0 +1,89 @@
+.bbm-rcl-label {
+  display: flex;
+  margin: 5px;
+  font-weight: 650;
+  font-size: 15px;
+
+  font-kerning: none;
+  border-radius: .125rem;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+
+  &--small {
+    padding: 2px 4px;
+    font-size: 10px;
+  }
+
+  &--medium {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  &--large {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  &--x-large {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  &--2x-large {
+    padding: 6px 12px;
+    font-size: 18px;
+  }
+
+  &--3x-large {
+    padding: 7px 14px;
+    font-size: 20px;
+  }
+
+  &--in-progress {
+    color: #f27a1a;
+    background-color: #fef2e8;
+  }
+
+  &--approved {
+    color: #0bc15c;
+    background-color: #e7f9ef;
+  }
+
+  &--warning {
+    color: #FFB600;
+    background-color: #fff8e6;
+  }
+
+  &--denied {
+    color: #ff5043;
+    background-color: #ffeeec;
+  }
+
+  &--offer {
+    color: #5794ff;
+    background-color: #eef4ff;
+  }
+
+  &--winner {
+    color: #8c4eff;
+    background-color: #f4edff;
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: .7em;
+
+    .secret-text {
+      display: none;
+    }
+
+    .icon {
+      display: block;
+      height: 1em;
+      min-width: 1em;
+      min-height: 1em;
+
+    }
+  }
+}

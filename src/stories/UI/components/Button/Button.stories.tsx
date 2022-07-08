@@ -1,15 +1,33 @@
 import {Button} from "./Button";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-import exp from "constants";
 
 export default {
-    title: 'UI/Button',
+    title: 'COMPONENTS/Button',
     component: Button,
-    argTypes: {},
+    argTypes: {
+
+        size: {control : {type: 'select',
+                options: {
+                    'Small' : 'small',
+                    'Medium': 'medium',
+                    'Large' : 'large',
+                    'X Large': 'x-large',
+                    '2X Large' : '2x-large',
+                    '3X Large' : '3x-large',
+                }}},
+        icon: {
+            control: {
+                type: 'select',
+                options: ['academy', 'add_note', 'add_photo', 'add_product', 'alert', 'archive', 'arrow-right', 'left-arrow', 'arrow-up', 'arrow_down',
+                    'attach', 'award', 'back', 'back_fill', 'change', 'close'
+                ]
+            }
+        }
+    },
 
 } as ComponentMeta<typeof Button>;
 
-const VariantTemplate: ComponentStory<typeof Button> = args => (
+const VariantsTemplate: ComponentStory<typeof Button> = args => (
     <div>
         <Button {...args} primary>Primary</Button>
         <Button {...args} secondary>Secondary</Button>
@@ -21,14 +39,14 @@ const VariantTemplate: ComponentStory<typeof Button> = args => (
     </div>
 
 );
-export const Variants = VariantTemplate.bind({});
+export const Variants = VariantsTemplate.bind({});
 
 const TypesTemplate: ComponentStory<typeof Button> = args => (
     <div>
         <Button {...args} primary>Contained</Button>
         <Button {...args} primary outline>Outline</Button>
         <Button {...args} primary>Default</Button>
-        <Button {...args} primary withIcon>Icon</Button>
+        <Button {...args} primary icon={'academy'}>Icon</Button>
         <Button {...args} primary iconButton>Default</Button>
     </div>
 );
@@ -77,9 +95,9 @@ export const TextButtons = TextButtonsTemplate.bind({});
 
 const IconButtonsTemplate: ComponentStory<typeof Button> = args => (
     <div>
-        <Button {...args}  primary withIcon>Primary Icon</Button>
-        <Button {...args} secondary withIcon>Secondary Icon</Button>
-        <Button {...args} tertiary withIcon>Tertiary Icon</Button>
+        <Button {...args}  primary icon={'academy'}>Primary Icon</Button>
+        <Button {...args} secondary icon={'attach'}>Secondary Icon</Button>
+        <Button {...args} tertiary icon={'account'}>Tertiary Icon</Button>
     </div>
 );
 export const IconButtons = IconButtonsTemplate.bind({});

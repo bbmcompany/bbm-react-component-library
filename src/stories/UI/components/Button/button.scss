@@ -128,6 +128,7 @@ $theme-colors: (
   }
 
   &--large {
+    font-size: 17px;
     padding: 11px 29px;
   }
 
@@ -148,6 +149,14 @@ $theme-colors: (
 
     .secret-text {
       display: none;
+    }
+
+    .icon {
+      display: block;
+      height: 1em;
+      min-width: 1em;
+      min-height: 1em;
+
     }
   }
 

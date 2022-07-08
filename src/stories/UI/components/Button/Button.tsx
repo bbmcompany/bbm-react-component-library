@@ -2,7 +2,7 @@ import './button.scss'
 import {Icon} from "../Icon/Icon";
 
 interface ButtonProps {
-    size?: 'small' | 'medium' | 'large';
+    size?: string;
     primary?: boolean,
     children?: string,
     secondary?: boolean,
@@ -21,7 +21,6 @@ interface ButtonProps {
     target?: string;
     display?: string;
     maxWidth?: number;
-    withIcon?: boolean;
     icon?: string;
 }
 
@@ -36,7 +35,6 @@ export const Button = ({
                            display = ' ',
                            icon = ' ',
                            iconButton = false,
-                           withIcon = false,
                            children = label,
                            progressText = 'Saving...',
                            maxWidth = 0,
@@ -52,11 +50,6 @@ export const Button = ({
     if (iconButton && icon == ' ') {
         icon = 'academy';
     }
-
-    if(withIcon && icon == ' ') {
-        icon = 'academy';
-    }
-
 
     for (const [key, value] of Object.entries(props)) {
         if (value) {

@@ -1,4 +1,5 @@
 @mixin createIcon($icon) {
+  fill: white !important;
   background: url('../../assets/' + $icon + '.svg') no-repeat center;
   background-size: cover;
 }
@@ -41,6 +42,10 @@
     @include createIcon('academy');
   }
 
+  &--account {
+    @include createIcon('account');
+  }
+
   &--add_note {
     @include createIcon('add_note');
   }
@@ -75,6 +80,30 @@
 
   &--left-arrow {
     @include createIcon('left-arrow');
+  }
+
+  &--attach {
+    @include createIcon('attach');
+  }
+
+  &--award {
+    @include createIcon('award');
+  }
+
+  &--back {
+    @include createIcon('back');
+  }
+
+  &--back_fill {
+    @include createIcon('back_fill');
+  }
+
+  &--change {
+    @include createIcon('change');
+  }
+
+  --close {
+    @include createIcon('close');
   }
 
 

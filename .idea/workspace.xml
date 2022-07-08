@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (icon - 105) : icon component started.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/add_note.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/add_photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/add_product.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/archive.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/arrow-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/arrow_down.svg" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (icon - 105) : icon size added.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/attach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/award.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/back_fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/change.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
@@ -25,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
-      <workItem from="1656852591671" duration="72216000" />
+      <workItem from="1656852591671" duration="88875000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -144,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657104010215</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="rcl (icon - 105) : icon size added.">
+      <created>1657109495376</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657109495376</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +187,7 @@
     <MESSAGE value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
     <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
     <MESSAGE value="rcl (icon - 105) : icon component started." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (icon - 105) : icon component started." />
+    <MESSAGE value="rcl (icon - 105) : icon size added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (icon - 105) : icon size added." />
   </component>
 </project>
