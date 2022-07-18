@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (icon - 105) : icon size added.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (badge - 101) badge component started and base-size added">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge-stories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1658047909346" duration="3396000" />
+      <workItem from="1658047909346" duration="11371000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -158,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657109495376</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rcl (badge - 101) badge component started and base-size added">
+      <created>1658079280357</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658079280357</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +195,7 @@
     <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
     <MESSAGE value="rcl (icon - 105) : icon component started." />
     <MESSAGE value="rcl (icon - 105) : icon size added." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (icon - 105) : icon size added." />
+    <MESSAGE value="rcl (badge - 101) badge component started and base-size added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (badge - 101) badge component started and base-size added" />
   </component>
 </project>
