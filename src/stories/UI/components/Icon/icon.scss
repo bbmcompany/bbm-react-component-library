@@ -103,8 +103,15 @@
     @include createIcon('change');
   }
 
-  --close {
+  &--close {
     @include createIcon('close');
+  }
+
+  &--exclamation {
+    @include createIcon('exclamation');
+  }
+  &--question {
+    @include createIcon('question');
   }
 
 

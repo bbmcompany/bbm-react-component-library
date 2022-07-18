@@ -1,3 +1,4 @@
+import {Icon} from '../Icon/Icon';
 import './badge.scss'
 
 interface BadgeProps {
@@ -9,25 +10,46 @@ interface BadgeProps {
     danger?: boolean;
     success?: boolean;
     textColorIsBlack?: boolean;
+    icon?: string;
     float?: string;
-    overlap?:boolean;
+    overlap?: boolean;
+    dot?: boolean;
 }
 
 export const Badge = ({
                           children = '+1',
                           size = 'small',
-                          float = ' ',
+                          float = 'base',
+                          icon = ' ',
+                          dot = false,
                           ...props
                       }: BadgeProps) => {
-    console.log(props)
     let variantClasses = ' ';
+
+    if(icon !== ' ') {
+        dot = false;
+        variantClasses += 'bbm-rcl-badge--icon';
+    }
+    if (dot) {
+        variantClasses += 'bbm-rcl-badge--dot'
+    }
     for (const [key, value] of Object.entries(props)) {
         if (value) {
             variantClasses += ` bbm-rcl-badge--${key}`;
         }
     }
     return (
-        <span
-            className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>{children}</span>
+        <>
+            {icon == ' ' ?
+                <span
+                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>{dot ? null : children}</span>
+                :
+                <span
+                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>
+                    <Icon icon={icon} size={'small'}/>
+                </span>
+            }
+        </>
+
     )
 }

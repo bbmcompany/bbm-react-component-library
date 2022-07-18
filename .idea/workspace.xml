@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (badge - 101) badge component started and base-size added">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge-stories.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/exclamation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon-stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label-stories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1658047909346" duration="11371000" />
+      <workItem from="1658047909346" duration="16756000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -167,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658079280357</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added.">
+      <created>1658135267266</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658135267266</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +209,7 @@
     <MESSAGE value="rcl (icon - 105) : icon component started." />
     <MESSAGE value="rcl (icon - 105) : icon size added." />
     <MESSAGE value="rcl (badge - 101) badge component started and base-size added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (badge - 101) badge component started and base-size added" />
+    <MESSAGE value="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added." />
   </component>
 </project>

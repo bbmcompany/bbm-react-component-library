@@ -1,6 +1,6 @@
 import {Label} from "./Label";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-
+import './label-stories.scss';
 export default {
     title: 'COMPONENTS/Label',
     component: Label,
@@ -45,13 +45,14 @@ export default {
 } as ComponentMeta<typeof Label>;
 
 const LabelVariantsTemplate: ComponentStory<typeof Label> = args => (
-    <div style={{display: 'flex'}}>
+    <div className={'label'}>
         <Label{...args} options={'in-progress'}>In Progress</Label>
         <Label{...args} options={'approved'}>Approved</Label>
         <Label{...args} options={'warning'}>Warning</Label>
         <Label{...args} options={'denied'}>Denied</Label>
         <Label{...args} options={'offer'}>Offer</Label>
         <Label{...args} options={'winner'}>Winner</Label>
+        <Label{...args}>Default</Label>
     </div>
 );
 export const Variants = LabelVariantsTemplate.bind({});
@@ -70,7 +71,7 @@ const LabelWithSizesTemplate: ComponentStory<typeof Label> = args => (
 export const LabelWithSizes = LabelWithSizesTemplate.bind({});
 
 const LabelWithIconTemplate: ComponentStory<typeof Label> = args => (
-    <div style={{display: 'flex'}}>
+    <div className={'label'}>
         <Label{...args} options={'in-progress'} icon={'academy'}>In Progress</Label>
         <Label{...args} options={'approved'} icon={'archive'}>Approved</Label>
         <Label{...args} options={'warning'} icon={'alert'}>Warning</Label>
@@ -80,7 +81,7 @@ const LabelWithIconTemplate: ComponentStory<typeof Label> = args => (
 export const LabelWithIcon = LabelWithIconTemplate.bind({});
 
 const LabelIconTemplate: ComponentStory<typeof Label> = args => (
-    <div style={{display: 'flex'}}>
+    <div className={'label'}>
         <Label{...args} options={'in-progress'} iconLabel icon={'academy'}>In Progress</Label>
         <Label{...args} options={'approved'} iconLabel icon={'archive'}>Approved</Label>
         <Label{...args} options={'warning'} iconLabel icon={'alert'}>Warning</Label>

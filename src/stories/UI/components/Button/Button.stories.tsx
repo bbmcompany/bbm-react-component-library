@@ -6,20 +6,24 @@ export default {
     component: Button,
     argTypes: {
 
-        size: {control : {type: 'select',
+        size: {
+            control: {
+                type: 'select',
                 options: {
-                    'Small' : 'small',
+                    'Small': 'small',
                     'Medium': 'medium',
-                    'Large' : 'large',
+                    'Large': 'large',
                     'X Large': 'x-large',
-                    '2X Large' : '2x-large',
-                    '3X Large' : '3x-large',
-                }}},
+                    '2X Large': '2x-large',
+                    '3X Large': '3x-large',
+                }
+            }
+        },
         icon: {
             control: {
                 type: 'select',
                 options: ['academy', 'add_note', 'add_photo', 'add_product', 'alert', 'archive', 'arrow-right', 'left-arrow', 'arrow-up', 'arrow_down',
-                    'attach', 'award', 'back', 'back_fill', 'change', 'close'
+                    'attach', 'award', 'back', 'back_fill', 'change', 'close', 'question', 'exclamation'
                 ]
             }
         }
@@ -95,7 +99,7 @@ export const TextButtons = TextButtonsTemplate.bind({});
 
 const IconButtonsTemplate: ComponentStory<typeof Button> = args => (
     <div>
-        <Button {...args}  primary icon={'academy'}>Primary Icon</Button>
+        <Button {...args} primary icon={'academy'}>Primary Icon</Button>
         <Button {...args} secondary icon={'attach'}>Secondary Icon</Button>
         <Button {...args} tertiary icon={'account'}>Tertiary Icon</Button>
     </div>

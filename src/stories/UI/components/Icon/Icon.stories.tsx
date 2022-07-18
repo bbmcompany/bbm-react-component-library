@@ -1,6 +1,6 @@
 import {Icon} from "./Icon";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-
+import './icon-stories.scss'
 
 export default {
     title: 'COMPONENTS/Icon',
@@ -10,7 +10,7 @@ export default {
             control: {
                 type: 'select',
                 options: ['academy', 'add_note', 'add_photo', 'add_product', 'alert', 'archive', 'arrow-right', 'left-arrow', 'arrow-up', 'arrow_down',
-                    'attach', 'award', 'back', 'back_fill', 'change', 'close'
+                    'attach', 'award', 'back', 'back_fill', 'change', 'close', 'question', 'exclamation'
                 ]
             }
         }
@@ -25,7 +25,7 @@ const SingleIconTemplate: ComponentStory<typeof Icon> = args => (
 export const SingleIcon = SingleIconTemplate.bind({});
 
 const IconSizeTemplate: ComponentStory<typeof Icon> = args => (
-    <div style={{display: 'flex'}}>
+    <div className={'icon'}>
         <Icon  {...args} icon={args.icon} size={'small'}/>
         <Icon  {...args} icon={args.icon} size={'medium'}/>
         <Icon  {...args} icon={args.icon} size={'large'}/>
@@ -37,7 +37,7 @@ const IconSizeTemplate: ComponentStory<typeof Icon> = args => (
 export const IconSize = IconSizeTemplate.bind({});
 
 const IconListTemplate: ComponentStory<typeof Icon> = args => (
-    <div style={{display: 'flex'}}>
+    <div className={'icon'}>
         <Icon  {...args} icon={'academy'} size={'x-large'}/>
         <Icon  {...args} icon={'account'} size={'x-large'}/>
         <Icon  {...args} icon={'add_note'} size={'x-large'}/>
@@ -55,6 +55,8 @@ const IconListTemplate: ComponentStory<typeof Icon> = args => (
         <Icon  {...args} icon={'back_fill'} size={'x-large'}/>
         <Icon  {...args} icon={'change'} size={'x-large'}/>
         <Icon  {...args} icon={'close'} size={'x-large'}/>
+        <Icon  {...args} icon={'question'} size={'x-large'}/>
+        <Icon  {...args} icon={'exclamation'} size={'x-large'}/>
     </div>
 )
 export const IconList = IconListTemplate.bind({});

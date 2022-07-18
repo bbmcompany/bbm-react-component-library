@@ -1,32 +1,44 @@
 import {Badge} from "./Badge";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-import { Icon } from "../Icon/Icon";
+import {Icon} from "../Icon/Icon";
 import './badge-stories.scss'
-export default  {
+
+export default {
     title: 'COMPONENTS/Badge',
     component: Badge,
     argTypes: {
-        size: {control : {type: 'select',
-                options: {
-                    'Small' : 'small',
-                    'Medium': 'medium',
-                    'Large' : 'large',
-                    'X Large': 'x-large',
-                    '2X Large' : '2x-large',
-                    '3X Large' : '3x-large',
-                }}},
-        float : {
+        size: {
             control: {
                 type: 'select',
                 options: {
-                    'Top Left' : 'top-left',
-                    'Top Right' : 'top-right',
-                    'Bottom Left' : 'bottom-left',
-                    'Bottom Right' : 'bottom-right',
+                    'Small': 'small',
+                    'Medium': 'medium',
+                    'Large': 'large',
+                    'X Large': 'x-large',
+                    '2X Large': '2x-large',
+                    '3X Large': '3x-large',
                 }
             }
+        },
+        float: {
+            control: {
+                type: 'select',
+                options: {
+                    'Top Left': 'top-left',
+                    'Top Right': 'top-right',
+                    'Bottom Left': 'bottom-left',
+                    'Bottom Right': 'bottom-right',
+                }
+            }
+        },
+        icon: {
+            control: {
+                type: 'select',
+                options: ['academy', 'add_note', 'add_photo', 'add_product', 'alert', 'archive', 'arrow-right', 'left-arrow', 'arrow-up', 'arrow_down',
+                    'attach', 'award', 'back', 'back_fill', 'change', 'close','question', 'exclamation'
+                ]
+            }
         }
-
     }
 } as ComponentMeta<typeof Badge>;
 
@@ -80,3 +92,13 @@ const FloatTemplate: ComponentStory<typeof Badge> = args => (
 
 );
 export const Float = FloatTemplate.bind({});
+
+const IconBadgeTemplate : ComponentStory<typeof Badge> = args => (
+    <div>
+        <Badge {...args} icon={'academy'} success></Badge>
+        <Badge {...args} icon={'question'} danger></Badge>
+        <Badge {...args} icon={'exclamation'} secondary></Badge>
+        <Badge {...args} icon={'award'}></Badge>
+    </div>
+);
+export const IconBadge = IconBadgeTemplate.bind({});
