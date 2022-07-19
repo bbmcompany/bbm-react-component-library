@@ -1,10 +1,10 @@
-import {Icon} from "./Icon";
+import {C3Icon} from "./Icon";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
 import './icon-stories.scss'
 
 export default {
-    title: 'COMPONENTS/Icon',
-    component: Icon,
+    title: 'COMPONENTS/C3Icon',
+    component: C3Icon,
     argTypes: {
         icon: {
             control: {
@@ -15,48 +15,48 @@ export default {
             }
         }
     },
-} as ComponentMeta<typeof Icon>;
+} as ComponentMeta<typeof C3Icon>;
 
-const SingleIconTemplate: ComponentStory<typeof Icon> = args => (
+const SingleIconTemplate: ComponentStory<typeof C3Icon> = args => (
     <div>
-        <Icon  {...args} icon={args.icon}/>
+        <C3Icon  {...args} icon={args.icon}/>
     </div>
 );
 export const SingleIcon = SingleIconTemplate.bind({});
 
-const IconSizeTemplate: ComponentStory<typeof Icon> = args => (
+const IconSizeTemplate: ComponentStory<typeof C3Icon> = args => (
     <div className={'icon'}>
-        <Icon  {...args} icon={args.icon} size={'small'}/>
-        <Icon  {...args} icon={args.icon} size={'medium'}/>
-        <Icon  {...args} icon={args.icon} size={'large'}/>
-        <Icon  {...args} icon={args.icon} size={'x-large'}/>
-        <Icon  {...args} icon={args.icon} size={'2x-large'}/>
+        <C3Icon  {...args} icon={args.icon} size={'small'}/>
+        <C3Icon  {...args} icon={args.icon} size={'medium'}/>
+        <C3Icon  {...args} icon={args.icon} size={'large'}/>
+        <C3Icon  {...args} icon={args.icon} size={'x-large'}/>
+        <C3Icon  {...args} icon={args.icon} size={'2x-large'}/>
 
     </div>
 )
 export const IconSize = IconSizeTemplate.bind({});
 
-const IconListTemplate: ComponentStory<typeof Icon> = args => (
+const IconListTemplate: ComponentStory<typeof C3Icon> = args => (
     <div className={'icon'}>
-        <Icon  {...args} icon={'academy'} size={'x-large'}/>
-        <Icon  {...args} icon={'account'} size={'x-large'}/>
-        <Icon  {...args} icon={'add_note'} size={'x-large'}/>
-        <Icon  {...args} icon={'add_photo'} size={'x-large'}/>
-        <Icon  {...args} icon={'add_product'} size={'x-large'}/>
-        <Icon  {...args} icon={'alert'} size={'x-large'}/>
-        <Icon  {...args} icon={'archive'} size={'x-large'}/>
-        <Icon  {...args} icon={'arrow-right'} size={'x-large'}/>
-        <Icon  {...args} icon={'left-arrow'} size={'x-large'}/>
-        <Icon  {...args} icon={'arrow-up'} size={'x-large'}/>
-        <Icon  {...args} icon={'arrow_down'} size={'x-large'}/>
-        <Icon  {...args} icon={'attach'} size={'x-large'}/>
-        <Icon  {...args} icon={'award'} size={'x-large'}/>
-        <Icon  {...args} icon={'back'} size={'x-large'}/>
-        <Icon  {...args} icon={'back_fill'} size={'x-large'}/>
-        <Icon  {...args} icon={'change'} size={'x-large'}/>
-        <Icon  {...args} icon={'close'} size={'x-large'}/>
-        <Icon  {...args} icon={'question'} size={'x-large'}/>
-        <Icon  {...args} icon={'exclamation'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'academy'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'account'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'add_note'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'add_photo'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'add_product'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'alert'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'archive'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'arrow-right'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'left-arrow'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'arrow-up'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'arrow_down'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'attach'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'award'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'back'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'back_fill'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'change'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'close'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'question'} size={'x-large'}/>
+        <C3Icon  {...args} icon={'exclamation'} size={'x-large'}/>
     </div>
 )
 export const IconList = IconListTemplate.bind({});

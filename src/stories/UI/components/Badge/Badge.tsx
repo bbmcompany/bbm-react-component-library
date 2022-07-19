@@ -1,7 +1,7 @@
-import {Icon} from '../Icon/Icon';
+import {C3Icon} from '../Icon/Icon';
 import './badge.scss'
 
-interface BadgeProps {
+interface C3BadgeProps {
     children?: string;
     size?: string;
     primary?: boolean;
@@ -16,14 +16,14 @@ interface BadgeProps {
     dot?: boolean;
 }
 
-export const Badge = ({
+export const C3Badge = ({
                           children = '+1',
                           size = 'small',
                           float = 'base',
                           icon = ' ',
                           dot = false,
                           ...props
-                      }: BadgeProps) => {
+                      }: C3BadgeProps) => {
     let variantClasses = ' ';
 
     if(icon !== ' ') {
@@ -46,7 +46,7 @@ export const Badge = ({
                 :
                 <span
                     className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>
-                    <Icon icon={icon} size={'small'}/>
+                    <C3Icon icon={icon} size={'small'}/>
                 </span>
             }
         </>

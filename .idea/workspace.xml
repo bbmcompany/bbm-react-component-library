@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/exclamation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/assets/question.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label-stories.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (icon - 105) : icon size added.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +37,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BQyQn5LiTqlIKevv3RccS9zUL2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/assets" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\component-library\bbm-component-library\src\stories\assets" />
@@ -80,7 +73,6 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1658047909346" duration="16756000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -166,21 +158,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657109495376</updated>
     </task>
-    <task id="LOCAL-00013" summary="rcl (badge - 101) badge component started and base-size added">
-      <created>1658079280357</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1658079280357</updated>
-    </task>
-    <task id="LOCAL-00014" summary="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added.">
-      <created>1658135267266</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1658135267266</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,8 +186,6 @@
     <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
     <MESSAGE value="rcl (icon - 105) : icon component started." />
     <MESSAGE value="rcl (icon - 105) : icon size added." />
-    <MESSAGE value="rcl (badge - 101) badge component started and base-size added" />
-    <MESSAGE value="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (badge - 102) badge position and size fixed.  Primary, secondary, tertiary options added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (icon - 105) : icon size added." />
   </component>
 </project>

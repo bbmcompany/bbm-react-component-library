@@ -1,7 +1,7 @@
 import './button.scss'
-import {Icon} from "../Icon/Icon";
+import {C3Icon} from "../Icon/Icon";
 
-interface ButtonProps {
+interface C3ButtonProps {
     size?: string;
     primary?: boolean,
     children?: string,
@@ -25,7 +25,7 @@ interface ButtonProps {
 }
 
 
-export const Button = ({
+export const C3Button = ({
                            disabled = false,
                            progress = false,
                            isProgressText = false,
@@ -39,7 +39,7 @@ export const Button = ({
                            progressText = 'Saving...',
                            maxWidth = 0,
                            ...props
-                       }: ButtonProps) => {
+                       }: C3ButtonProps) => {
     const isDisabled = disabled ? 'bbm-rcl-button--disabled' : ' ';
     let isProgress = progress ? 'bbm-rcl-button--progress' : ' ';
     let variantClasses = '';
@@ -70,7 +70,7 @@ export const Button = ({
                     {children}
                 </div>
             </> : <div className={'icon-container'}>
-                <Icon icon={icon}></Icon>
+                <C3Icon icon={icon}></C3Icon>
                 <div className={iconButton ? 'secret-text' : 'text'}>
                     {children}
                 </div>

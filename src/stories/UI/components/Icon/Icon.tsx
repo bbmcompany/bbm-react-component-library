@@ -1,17 +1,17 @@
 import './icon.scss'
 
-interface IconProps {
+interface C3IconProps {
 
     size?: 'small' | 'medium' | 'large' | 'x-large' | '2x-large' | '3x-large';
     icon?: string;
     width?: number;
 };
 
-export const Icon = ({
+export const C3Icon = ({
                          size = 'medium',
                          icon = 'academy',
                          width = 0,
-                     }: IconProps) => {
+                     }: C3IconProps) => {
     return (
         <div
 

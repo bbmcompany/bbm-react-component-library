@@ -1,11 +1,11 @@
-import {Badge} from "./Badge";
+import {C3Badge} from "./Badge";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-import {Icon} from "../Icon/Icon";
+import {C3Icon} from "../Icon/Icon";
 import './badge-stories.scss'
 
 export default {
-    title: 'COMPONENTS/Badge',
-    component: Badge,
+    title: 'COMPONENTS/C3Badge',
+    component: C3Badge,
     argTypes: {
         size: {
             control: {
@@ -40,65 +40,65 @@ export default {
             }
         }
     }
-} as ComponentMeta<typeof Badge>;
+} as ComponentMeta<typeof C3Badge>;
 
-const VariantsTemplate: ComponentStory<typeof Badge> = args => (
+const VariantsTemplate: ComponentStory<typeof C3Badge> = args => (
     <div className={'variants'}>
-        <Badge {...args} primary>1</Badge>
-        <Badge {...args} secondary>2</Badge>
-        <Badge {...args} tertiary>3</Badge>
-        <Badge {...args} success>4</Badge>
-        <Badge {...args} danger>5</Badge>
-        <Badge {...args}>6</Badge>
+        <C3Badge {...args} primary>1</C3Badge>
+        <C3Badge {...args} secondary>2</C3Badge>
+        <C3Badge {...args} tertiary>3</C3Badge>
+        <C3Badge {...args} success>4</C3Badge>
+        <C3Badge {...args} danger>5</C3Badge>
+        <C3Badge {...args}>6</C3Badge>
     </div>
 );
 export const Variants = VariantsTemplate.bind({});
 
-const FloatTemplate: ComponentStory<typeof Badge> = args => (
+const FloatTemplate: ComponentStory<typeof C3Badge> = args => (
     <div className={'float-container'}>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'top-left'}>1</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'top-left'}>1</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'top-left'} overlap>1</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'top-left'} overlap>1</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'top-right'}>2</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'top-right'}>2</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'top-right'} overlap>2</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'top-right'} overlap>2</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'bottom-left'}>3</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'bottom-left'}>3</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'bottom-left'} overlap>3</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'bottom-left'} overlap>3</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'bottom-right'}>4</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'bottom-right'}>4</C3Badge>
         </div>
         <div className={'float'}>
-            <Icon size={'medium'}></Icon>
-            <Badge {...args} float={'bottom-right'} overlap>4</Badge>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} float={'bottom-right'} overlap>4</C3Badge>
         </div>
     </div>
 
 );
 export const Float = FloatTemplate.bind({});
 
-const IconBadgeTemplate : ComponentStory<typeof Badge> = args => (
+const IconBadgeTemplate : ComponentStory<typeof C3Badge> = args => (
     <div>
-        <Badge {...args} icon={'academy'} success></Badge>
-        <Badge {...args} icon={'question'} danger></Badge>
-        <Badge {...args} icon={'exclamation'} secondary></Badge>
-        <Badge {...args} icon={'award'}></Badge>
+        <C3Badge {...args} icon={'academy'} success></C3Badge>
+        <C3Badge {...args} icon={'question'} danger></C3Badge>
+        <C3Badge {...args} icon={'exclamation'} secondary></C3Badge>
+        <C3Badge {...args} icon={'award'}></C3Badge>
     </div>
 );
 export const IconBadge = IconBadgeTemplate.bind({});

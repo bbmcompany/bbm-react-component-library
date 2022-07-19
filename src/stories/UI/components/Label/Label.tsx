@@ -1,7 +1,7 @@
 import './label.scss'
-import {Icon} from "../Icon/Icon";
+import {C3Icon} from "../Icon/Icon";
 
-interface LabelProps {
+interface C3LabelProps {
     size?: string;
     children?: string;
     color?: string;
@@ -11,7 +11,7 @@ interface LabelProps {
     iconLabel?: boolean;
 }
 
-export const Label = ({
+export const C3Label = ({
                           size = 'medium',
                           children = ' ',
                           color = ' ',
@@ -20,7 +20,7 @@ export const Label = ({
                           icon = ' ',
                           iconLabel = false,
                           ...props
-                      }: LabelProps) => {
+                      }: C3LabelProps) => {
     if (iconLabel && icon == ' ') {
         icon = 'academy';
     }
@@ -36,7 +36,7 @@ export const Label = ({
             {children}
         </div>
     </> : <div className={'icon-container'}>
-        <Icon icon={icon}></Icon>
+        <C3Icon icon={icon}></C3Icon>
         <div className={iconLabel ? 'secret-text' : 'text'}>
             {children}
         </div>
