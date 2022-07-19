@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (input) : input component started. Label position and type added">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (input - 102) : input bug fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658234960886</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="rcl (input - 102) : input bug fixed">
+      <created>1658251217774</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658251217774</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +192,7 @@
     <MESSAGE value="rcl (icon - 105) : icon component started." />
     <MESSAGE value="rcl (icon - 105) : icon size added." />
     <MESSAGE value="rcl (input) : input component started. Label position and type added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (input) : input component started. Label position and type added" />
+    <MESSAGE value="rcl (input - 102) : input bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (input - 102) : input bug fixed" />
   </component>
 </project>

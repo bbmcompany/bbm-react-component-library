@@ -1,5 +1,5 @@
 import './input.scss'
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 
 interface C3InputProps {
     type?: string;
@@ -27,7 +27,7 @@ export const C3Input = ({
     const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValue(event.target.value);
     }
-    if(value.length > 0) {
+    if (value.length > 0) {
         inputHasValue += '-has-value';
     }
 
@@ -37,7 +37,7 @@ export const C3Input = ({
 
     console.log(value)
     return (
-        <div className={'bbm-rcl-input-container'}>
+        <div  className={'bbm-rcl-input-container'}>
             <div className={[controlClass, inputHasValue].join(' ')}>
                 <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
                 <input
