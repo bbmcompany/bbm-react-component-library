@@ -1,4 +1,5 @@
 import './input.scss'
+import React, { useState } from 'react';
 
 interface C3InputProps {
     type?: string;
@@ -20,24 +21,35 @@ export const C3Input = ({
                             type = 'text',
                             ...props
                         }: C3InputProps) => {
+    const [value, setValue] = useState('');
     let controlClass = 'bbm-rcl-input';
+    let inputHasValue = 'bbm-rcl-input';
+    const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setValue(event.target.value);
+    }
+    if(value.length > 0) {
+        inputHasValue += '-has-value';
+    }
 
-    if(labelFixed || label == ' ') {
+    if (labelFixed || label == ' ') {
         controlClass += '-label-fixed';
     }
 
+    console.log(value)
     return (
         <div className={'bbm-rcl-input-container'}>
-                <div className={controlClass}>
-                    <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
-                    <input
-                        type={type}
-                        minLength={minLenght}
-                        maxLength={maxLenght}
-                        placeholder={placeHolder}
-                        required={required}
-                    />
-                </div>
+            <div className={[controlClass, inputHasValue].join(' ')}>
+                <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
+                <input
+                    value={value}
+                    onChange={inputHandler}
+                    type={type}
+                    minLength={minLenght}
+                    maxLength={maxLenght}
+                    placeholder={placeHolder}
+                    required={required}
+                />
+            </div>
         </div>
     );
 
