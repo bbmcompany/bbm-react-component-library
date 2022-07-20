@@ -1,0 +1,49 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $border-color-300;
+  border-radius: 4px;
+  padding: 37px 40px 40px;
+  width: 325px;
+  height: 330px;
+  background-color: $color-white;
+
+
+  .form {
+    padding: 0;
+
+    &--title {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 500;
+    }
+    &--input {
+     padding-top: 35px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .bbm-rcl-input-container {
+        width: 100%;
+        .bbm-rcl-input {
+          height: 50px;
+          label {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    &--submit {
+      padding-top: 40px;
+      height: 44px;
+      button {
+        height: 100%;
+        width: 100%;
+        font-size: 16px;
+      }
+    }
+  }
+}

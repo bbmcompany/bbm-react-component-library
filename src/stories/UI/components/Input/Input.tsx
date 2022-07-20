@@ -9,6 +9,7 @@ interface C3InputProps {
     placeHolder?: string;
     required?: boolean;
     labelFixed?: boolean;
+    id?: string;
 }
 
 export const C3Input = ({
@@ -19,28 +20,33 @@ export const C3Input = ({
                             required = false,
                             labelFixed = false,
                             type = 'text',
+                            id = 'input',
                             ...props
                         }: C3InputProps) => {
-    const [value, setValue] = useState('');
+
     let controlClass = 'bbm-rcl-input';
-    let inputHasValue = 'bbm-rcl-input';
+    let inputHasValue = ' ';
+    const [value, setValue] = useState('');
+
     const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValue(event.target.value);
     }
     if (value.length > 0) {
-        inputHasValue += '-has-value';
+        inputHasValue += 'bbm-rcl-input-has-value';
     }
 
-    if (labelFixed || label == ' ') {
+    if (labelFixed || label == ' ' || (type == 'date' || type == 'datetime-local'
+        || type == 'file' || type == 'month' || type == 'week' || type == 'range' || type == 'time')) {
         controlClass += '-label-fixed';
     }
 
-    console.log(value)
     return (
-        <div  className={'bbm-rcl-input-container'}>
+        <div className={'bbm-rcl-input-container'}>
             <div className={[controlClass, inputHasValue].join(' ')}>
                 <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
                 <input
+                    id={id}
+                    name={label.toLowerCase()}
                     value={value}
                     onChange={inputHandler}
                     type={type}
@@ -52,7 +58,6 @@ export const C3Input = ({
             </div>
         </div>
     );
-
 
 }
 

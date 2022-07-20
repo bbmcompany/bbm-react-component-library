@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (input - 102) : input bug fixed">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (input - 103) :  with fixed label, without label and label options added">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/login-form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/forms" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -45,6 +49,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Pagination" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\LoginForm" />
       <recent name="C:\component-library\bbm-component-library\src\stories\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -163,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658251217774</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="rcl (input - 103) :  with fixed label, without label and label options added">
+      <created>1658260472693</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658260472693</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +208,7 @@
     <MESSAGE value="rcl (icon - 105) : icon size added." />
     <MESSAGE value="rcl (input) : input component started. Label position and type added" />
     <MESSAGE value="rcl (input - 102) : input bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (input - 102) : input bug fixed" />
+    <MESSAGE value="rcl (input - 103) :  with fixed label, without label and label options added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (input - 103) :  with fixed label, without label and label options added" />
   </component>
 </project>

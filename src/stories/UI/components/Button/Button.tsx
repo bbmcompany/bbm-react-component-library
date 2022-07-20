@@ -22,24 +22,28 @@ interface C3ButtonProps {
     display?: string;
     maxWidth?: number;
     icon?: string;
+    type?: "button" | "submit" | "reset" | undefined;
+    onClick?: () => void;
 }
 
 
 export const C3Button = ({
-                           disabled = false,
-                           progress = false,
-                           isProgressText = false,
-                           size = 'medium',
-                           label = 'Button',
-                           target = '_self',
-                           display = ' ',
-                           icon = ' ',
-                           iconButton = false,
-                           children = label,
-                           progressText = 'Saving...',
-                           maxWidth = 0,
-                           ...props
-                       }: C3ButtonProps) => {
+                             disabled = false,
+                             progress = false,
+                             isProgressText = false,
+                             size = 'medium',
+                             label = 'Button',
+                             target = '_self',
+                             display = ' ',
+                             icon = ' ',
+                             iconButton = false,
+                             onClick = undefined,
+                             children = label,
+                             progressText = 'Saving...',
+                             maxWidth = 0,
+                             type = undefined,
+                             ...props
+                         }: C3ButtonProps) => {
     const isDisabled = disabled ? 'bbm-rcl-button--disabled' : ' ';
     let isProgress = progress ? 'bbm-rcl-button--progress' : ' ';
     let variantClasses = '';
@@ -59,9 +63,10 @@ export const C3Button = ({
 
     return (
         <button
+            type={type}
+            onClick={onClick}
             style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
             aria-disabled={disabled}
-            type={'button'}
             formTarget={target}
             className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses].join(' ')}
         >
