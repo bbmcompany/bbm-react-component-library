@@ -4,9 +4,9 @@
 @mixin base-input {
   outline: none;
   box-sizing: border-box;
-  font-weight: 400;
-  font-size: 13px;
-  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'RubikVariable', sans-serif;
   margin: 0;
   width: 100%;
   height: 100%;
@@ -19,6 +19,7 @@
 
 .bbm-rcl-input-container {
   width: 200px;
+  height: auto;
 
 
   .bbm-rcl-input {
@@ -34,11 +35,12 @@
       }
 
       &:not(:focus)::placeholder {
+        transition: opacity 230ms ease-in;
         opacity: 0;
       }
 
       &:focus::placeholder {
-        transition: opacity 200ms ease-in;
+        transition: opacity 300ms ease-in;
         opacity: 1;
       }
     }
@@ -46,30 +48,31 @@
 
     label {
       position: absolute;
-      font-weight: 400;
-      font-size: 13px;
+      font-weight: 500;
+      font-size: 15px;
       font-family: 'Rubik', sans-serif;
       color: $text-color-400;
       left: 5%;
       align-items: center;
       padding: 0 3px;
       cursor: text;
-      transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+
     }
 
     &:focus-within label {
-      font-weight: 400;
       font-size: 13px;
+      color: $text-color-400;
       font-family: 'Rubik', sans-serif;
       padding: 0 3px;
       left: 5%;
       top: -25%;
-      transition: top 200ms ease-in, font-size 200ms ease-in;
       background-color: $color-white;
     }
   }
 
   .bbm-rcl-input-label-fixed {
+    width: 100%;
+    height: 100%;
     input {
       @include base-input;
 

@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (input - 103) :  with fixed label, without label and label options added">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/login-form.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (Form -inputForm 101) :  input form component started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/login-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/login-form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658260472693</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="rcl (Form -inputForm 101) :  input form component started">
+      <created>1658321143843</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321143843</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +213,7 @@
     <MESSAGE value="rcl (input) : input component started. Label position and type added" />
     <MESSAGE value="rcl (input - 102) : input bug fixed" />
     <MESSAGE value="rcl (input - 103) :  with fixed label, without label and label options added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (input - 103) :  with fixed label, without label and label options added" />
+    <MESSAGE value="rcl (Form -inputForm 101) :  input form component started" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (Form -inputForm 101) :  input form component started" />
   </component>
 </project>

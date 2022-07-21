@@ -46,7 +46,7 @@ export const C3Input = ({
                 <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
                 <input
                     id={id}
-                    name={label.toLowerCase()}
+                    name={label}
                     value={value}
                     onChange={inputHandler}
                     type={type}
