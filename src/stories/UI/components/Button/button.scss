@@ -36,7 +36,6 @@ $theme-colors: (
 
 @mixin base-size {
   padding: 6px 12px;
-  margin: 5px;
 }
 
 
@@ -130,6 +129,16 @@ $theme-colors: (
   &--large {
     font-size: 17px;
     padding: 11px 29px;
+  }
+
+  &--2x-large {
+    font-size: 17px;
+    padding: 13px 31px;
+  }
+
+  &--3x-large {
+    font-size: 17px;
+    padding: 15px 33px;
   }
 
   &--disabled {

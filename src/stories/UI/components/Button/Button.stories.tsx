@@ -1,6 +1,6 @@
 import {C3Button} from "./Button";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-
+import './button-stories.scss';
 export default {
     title: 'COMPONENTS/C3Button',
     component: C3Button,
@@ -32,7 +32,7 @@ export default {
 } as ComponentMeta<typeof C3Button>;
 
 const VariantsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary>Primary</C3Button>
         <C3Button {...args} secondary>Secondary</C3Button>
         <C3Button {...args} tertiary>Tertiary</C3Button>
@@ -46,7 +46,7 @@ const VariantsTemplate: ComponentStory<typeof C3Button> = args => (
 export const Variants = VariantsTemplate.bind({});
 
 const TypesTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary>Contained</C3Button>
         <C3Button {...args} primary outline>Outline</C3Button>
         <C3Button {...args} primary>Default</C3Button>
@@ -57,7 +57,7 @@ const TypesTemplate: ComponentStory<typeof C3Button> = args => (
 export const Types = TypesTemplate.bind({});
 
 const ButtonSizeTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button-size'}>
         <C3Button {...args} primary size={'small'}>Small</C3Button>
         <C3Button {...args} primary size={'medium'}>Medium</C3Button>
         <C3Button {...args} primary size={'large'}>Large</C3Button>
@@ -67,7 +67,7 @@ const ButtonSizeTemplate: ComponentStory<typeof C3Button> = args => (
 export const ButtonSize = ButtonSizeTemplate.bind({});
 
 const ContainedButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary>Primary</C3Button>
         <C3Button {...args} secondary>Secondary</C3Button>
         <C3Button {...args} tertiary>Tertiary</C3Button>
@@ -79,7 +79,7 @@ const ContainedButtonsTemplate: ComponentStory<typeof C3Button> = args => (
 export const ContainedButtons = ContainedButtonsTemplate.bind({});
 
 const OutlinedButtonTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary outline>Primary</C3Button>
         <C3Button {...args} secondary outline>Secondary</C3Button>
         <C3Button {...args} tertiary outline>Tertiary</C3Button>
@@ -91,14 +91,14 @@ const OutlinedButtonTemplate: ComponentStory<typeof C3Button> = args => (
 export const OutlinedButtons = OutlinedButtonTemplate.bind({});
 
 const TextButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} text>Text C3Button</C3Button>
     </div>
 );
 export const TextButtons = TextButtonsTemplate.bind({});
 
 const IconButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary icon={'academy'}>Primary Icon</C3Button>
         <C3Button {...args} secondary icon={'attach'}>Secondary Icon</C3Button>
         <C3Button {...args} tertiary icon={'account'}>Tertiary Icon</C3Button>
@@ -107,7 +107,7 @@ const IconButtonsTemplate: ComponentStory<typeof C3Button> = args => (
 export const IconButtons = IconButtonsTemplate.bind({});
 
 const OnlyIconButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary iconButton/>
         <C3Button {...args} secondary iconButton/>
         <C3Button {...args} tertiary iconButton/>
@@ -115,7 +115,7 @@ const OnlyIconButtonsTemplate: ComponentStory<typeof C3Button> = args => (
 );
 export const OnlyIconButtons = OnlyIconButtonsTemplate.bind({});
 const TransparentButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary transparent>Primary</C3Button>
         <C3Button {...args} secondary transparent>Secondary</C3Button>
         <C3Button {...args} tertiary transparent>Tertiary</C3Button>
@@ -127,7 +127,7 @@ const TransparentButtonsTemplate: ComponentStory<typeof C3Button> = args => (
 export const TransparentButtons = TransparentButtonsTemplate.bind({});
 
 const ProgressButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary progress>Primary</C3Button>
         <C3Button {...args} secondary progress>Secondary</C3Button>
         <C3Button {...args} tertiary progress>Tertiary</C3Button>
@@ -139,7 +139,7 @@ const ProgressButtonsTemplate: ComponentStory<typeof C3Button> = args => (
 export const ProgressButtons = ProgressButtonsTemplate.bind({});
 
 const ProgressTextButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary isProgressText progressText={'Primary...'}>Primary</C3Button>
         <C3Button {...args} secondary isProgressText progressText={'Secondary...'}>Secondary</C3Button>
         <C3Button {...args} tertiary isProgressText progressText={'Tertiary...'}>Tertiary</C3Button>
@@ -151,7 +151,7 @@ const ProgressTextButtonsTemplate: ComponentStory<typeof C3Button> = args => (
 export const ProgressTextButtons = ProgressTextButtonsTemplate.bind({});
 
 const DisabledButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary disabled>Primary</C3Button>
         <C3Button {...args} secondary disabled>Secondary</C3Button>
         <C3Button {...args} tertiary disabled>Tertiary</C3Button>
@@ -174,7 +174,7 @@ const DisplayButtonTemplate: ComponentStory<typeof C3Button> = args => (
 export const DisplayButton = DisplayButtonTemplate.bind({});
 
 const MaxWidthButtonsTemplate: ComponentStory<typeof C3Button> = args => (
-    <div>
+    <div className={'button'}>
         <C3Button {...args} primary>A very long sentence</C3Button>
         <C3Button {...args} primary maxWidth={120}>A very long sentence</C3Button>
         <C3Button {...args} primary maxWidth={100}>A very long sentence</C3Button>

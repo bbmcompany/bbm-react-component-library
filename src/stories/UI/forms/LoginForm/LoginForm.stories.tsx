@@ -11,7 +11,6 @@ export default {
                 'User Name': ['Username', 'Enter your username', 'user-name', 'text'],
                 'Password': ['Password', 'Enter your password', 'password', 'password'],
                 'Email': ['Email', 'Enter your email', 'email', 'email'],
-                'sda': ['Email', 'Enter your email', 'email', 'email'],
             }
         },
         inputArea2: {
@@ -20,7 +19,6 @@ export default {
                 'User Name': ['Username', 'Enter your username', 'user-name', 'text'],
                 'Password': ['Password', 'Enter your password', 'password', 'password'],
                 'Email': ['Email', 'Enter your email', 'email', 'email'],
-                'sda': ['Email', 'Enter your email', 'email', 'email'],
             }
         },
         inputArea3: {
