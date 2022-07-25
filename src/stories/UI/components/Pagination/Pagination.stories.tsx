@@ -22,6 +22,8 @@ const PaginationVariantsTemplate: ComponentStory<typeof C3Pagination> = args => 
     <div className={'pagination'}>
         <C3Pagination {...args} count={7} nextPageFunction={nextPageFunction} previousPageFunction={previousPageFunction}
                       selectedPageFunction={selectedPageFunction}/>
+        <C3Pagination {...args} count={7} rounded outlined/>
+        <C3Pagination {...args} count={7} outlined/>
     </div>
 );
 export const Variants = PaginationVariantsTemplate.bind({});

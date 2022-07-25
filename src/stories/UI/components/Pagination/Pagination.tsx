@@ -6,6 +6,7 @@ interface C3PaginationProps {
     count?: number;
     listSize?: number;
     rounded?: boolean;
+    outlined?: boolean;
     nextPageFunction?: () => any;
     previousPageFunction?: () => any;
     selectedPageFunction?: () => any;
@@ -23,6 +24,7 @@ export const C3Pagination = ({
                                  selectedPageFunction = function () {
                                  },
                                  rounded = false,
+                                 outlined = false,
                                  ...props
 
 
@@ -31,8 +33,7 @@ export const C3Pagination = ({
     let shownList = paginationList;
     let pageNumber = 0;
     let roundedClass = rounded ? 'bbm-rcl-pagination--rounded' : ' ';
-    console.log(roundedClass)
-
+    let outlinedClass = outlined ? 'bbm-rcl-pagination--outline' : ' ';
     if (count < 1) {
         count = 1;
         return null;
@@ -81,7 +82,7 @@ export const C3Pagination = ({
                     return (
                         <li key={index} className={'pagination--page-list'}>
                             <C3Button
-                                className={roundedClass}
+                                className={[roundedClass,outlinedClass].join('')}
                                 text
                                 type={'button'}
                                 onClick={() => selectedPage(index + 1)}
