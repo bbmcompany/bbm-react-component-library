@@ -38,6 +38,7 @@ export const C3Badge = ({
             variantClasses += ` bbm-rcl-badge--${key}`;
         }
     }
+
     return (
         <>
             {icon == ' ' ?
@@ -50,6 +51,5 @@ export const C3Badge = ({
                 </span>
             }
         </>
-
     )
 }

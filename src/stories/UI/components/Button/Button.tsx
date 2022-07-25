@@ -23,7 +23,8 @@ interface C3ButtonProps {
     maxWidth?: number;
     icon?: string;
     type?: "button" | "submit" | "reset" | undefined;
-    onClick?: () => void;
+    // @ts-ignore
+    onClick?: IntrinsicAttributes & C3ButtonProps
 }
 
 
