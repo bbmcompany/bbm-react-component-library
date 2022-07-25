@@ -1,60 +1,73 @@
-import { any } from "prop-types";
+import {any} from "prop-types";
 import {C3Button} from "../Button/Button";
 import './pagination.scss'
 
 interface C3PaginationProps {
     count?: number;
     listSize?: number;
-    // @ts-ignore
-    nextPageFunction?: IntrinsicAttributes & C3PaginationProps
+    rounded?: boolean;
+    nextPageFunction?: () => any;
+    previousPageFunction?: () => any;
+    selectedPageFunction?: () => any;
 
 }
 
 export const C3Pagination = ({
 
                                  count = 0,
-                                 listSize=count,
-                                 nextPageFunction = any,
+                                 listSize = count,
+                                 nextPageFunction = function () {
+                                 },
+                                 previousPageFunction = function () {
+                                 },
+                                 selectedPageFunction = function () {
+                                 },
+                                 rounded = false,
                                  ...props
 
 
                              }: C3PaginationProps) => {
-    let paginationList = Array.from({length:count}, (_i,i) => i + 1);
+    let paginationList = Array.from({length: count}, (_i, i) => i + 1);
     let shownList = paginationList;
     let pageNumber = 0;
+    let roundedClass = rounded ? 'bbm-rcl-pagination--rounded' : ' ';
+    console.log(roundedClass)
 
     if (count < 1) {
         count = 1;
         return null;
     }
 
-    if(listSize < count && listSize > 0) {
-            shownList = paginationList.slice(0,listSize);
+    if (listSize < count && listSize > 0) {
+        shownList = paginationList.slice(0, listSize);
     }
-    if(listSize > count) {
+    if (listSize > count) {
         listSize = count;
     }
 
     const selectedPage = (currentNumber: number) => {
         pageNumber = currentNumber;
         console.log(pageNumber)
+        selectedPageFunction();
     }
 
     const nextPage = () => {
-       if(pageNumber < count) {
-           pageNumber++;
-       }
+        if (pageNumber < count) {
+            pageNumber++;
+        }
+        nextPageFunction();
         console.log(pageNumber)
     }
 
     const previousPage = () => {
-        if(pageNumber > 1) {
+        if (pageNumber > 1) {
             pageNumber--;
         }
+        previousPageFunction();
         console.log(pageNumber)
     }
     return (
-        <nav className={'pagination'}>
+        <nav className={'bbm-rcl-pagination'}>
             <ul>
                 <li className={'arrow left-arrow'}>
                     <C3Button
@@ -66,8 +79,9 @@ export const C3Pagination = ({
                 </li>
                 {shownList.map((pagination, index) => {
                     return (
-                        <li key={index} className={ 'pagination--page-list'}>
+                        <li key={index} className={'pagination--page-list'}>
                             <C3Button
+                                className={roundedClass}
                                 text
                                 type={'button'}
                                 onClick={() => selectedPage(index + 1)}
@@ -79,6 +93,7 @@ export const C3Pagination = ({
                 })}
                 <li className={'arrow right-arrow'}>
                     <C3Button
+
                         text
                         iconButton
                         icon={'arrow-right'}

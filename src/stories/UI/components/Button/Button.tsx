@@ -22,6 +22,7 @@ interface C3ButtonProps {
     display?: string;
     maxWidth?: number;
     icon?: string;
+    className?: string;
     type?: "button" | "submit" | "reset" | undefined;
     // @ts-ignore
     onClick?: IntrinsicAttributes & C3ButtonProps
@@ -43,6 +44,7 @@ export const C3Button = ({
                              progressText = 'Saving...',
                              maxWidth = 0,
                              type = undefined,
+                             className = ' ',
                              ...props
                          }: C3ButtonProps) => {
     const isDisabled = disabled ? 'bbm-rcl-button--disabled' : ' ';
@@ -55,7 +57,6 @@ export const C3Button = ({
     if (iconButton && icon == ' ') {
         icon = 'academy';
     }
-
     for (const [key, value] of Object.entries(props)) {
         if (value) {
             variantClasses += ` bbm-rcl-button--${key}`;
@@ -69,7 +70,7 @@ export const C3Button = ({
             style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
             aria-disabled={disabled}
             formTarget={target}
-            className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses].join(' ')}
+            className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses, className].join(' ')}
         >
             {icon == ' ' ? <>
                 <div className={"text"}>

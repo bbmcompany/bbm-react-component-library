@@ -1,7 +1,7 @@
 @use 'sass:map';
 @import "../../styles/color/color-pallette";
 
-.pagination {
+.bbm-rcl-pagination {
   display: block;
 
   ul {
@@ -9,23 +9,28 @@
     list-style: none;
     align-items: center;
 
-  .pagination--page-list {
-    button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      margin: 2px;
-      padding: 3px;
-      width: 25px;
-      height: 25px;
-      border: 1px solid rgba(0, 0, 0, 0.01);
-      border-radius: 50%;
-      background-color: rgb(235, 235, 255, 0.1);
-      &:focus{
-        background-color: rgba(125, 125, 131, 0.5);
+    .pagination--page-list {
+      button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+        padding: 3px;
+        width: 25px;
+        height: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.01);
+
+      &[class*='--rounded'] {
+        border-radius: 20%;
+      }
+        border-radius: 50%;
+        background-color: rgb(235, 235, 255, 0.1);
+
+        &:focus {
+          background-color: rgba(125, 125, 131, 0.5);
+        }
       }
     }
-  }
 
     .arrow {
       button {
@@ -35,11 +40,6 @@
         margin: 2px;
         padding: 0;
       }
-
     }
-
-
-
   }
-
 }

@@ -12,15 +12,15 @@ interface C3LabelProps {
 }
 
 export const C3Label = ({
-                          size = 'medium',
-                          children = ' ',
-                          color = ' ',
-                          options = ' ',
-                          backgroundColor = ' ',
-                          icon = ' ',
-                          iconLabel = false,
-                          ...props
-                      }: C3LabelProps) => {
+                            size = 'medium',
+                            children = ' ',
+                            color = ' ',
+                            options = ' ',
+                            backgroundColor = ' ',
+                            icon = ' ',
+                            iconLabel = false,
+                            ...props
+                        }: C3LabelProps) => {
     if (iconLabel && icon == ' ') {
         icon = 'academy';
     }
