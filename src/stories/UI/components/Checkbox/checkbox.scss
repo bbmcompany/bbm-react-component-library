@@ -1,0 +1,43 @@
+.bbm-rcl-checkbox {
+
+  &--small {
+    width: 10px;
+    height: 10px;
+  }
+  &--medium {
+    width: 13px;
+    height: 13px;
+  }
+  &--large {
+    width: 16px;
+    height: 16px;
+  }
+  &--x-large {
+    width: 19px;
+    height: 19px;
+  }
+  &--2x-large {
+    width: 22px;
+    height: 22px;
+  }
+  &--3x-large {
+    width: 25px;
+    height: 25px;
+  }
+
+  &--primary {
+    filter: hue-rotate(30deg);
+  }
+  &--secondary {
+    filter:hue-rotate(60deg);
+  }
+  &--tertiary {
+    filter: hue-rotate(90deg);
+  }
+  &--danger {
+    filter: hue-rotate(150deg);
+  }
+  &--success {
+    filter: hue-rotate(240deg);
+  }
+}

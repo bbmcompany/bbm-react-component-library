@@ -3,9 +3,11 @@
 
 .bbm-rcl-avatar {
 
-  .bbm-rcl-avatar-group {
+  .avatar {
+    border-radius: 50%;
 
   }
+
   &--rounded {
     border-radius: 10%;
   }
