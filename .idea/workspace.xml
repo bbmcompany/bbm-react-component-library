@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (avatar - 101) : avatar component started">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/checkbox-stoires.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/checkbox.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (checkbox -101) : checkbox component started">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/login-form-stories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658837246821</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="rcl (checkbox -101) : checkbox component started">
+      <created>1658845357516</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658845357516</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +235,7 @@
     <MESSAGE value="rcl (Form -loginForm 101) :  display and input options added" />
     <MESSAGE value="rcl (avatar - 101) : avatar component is started" />
     <MESSAGE value="rcl (avatar - 101) : avatar component started" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (avatar - 101) : avatar component started" />
+    <MESSAGE value="rcl (checkbox -101) : checkbox component started" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (checkbox -101) : checkbox component started" />
   </component>
 </project>

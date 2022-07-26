@@ -7,9 +7,10 @@ interface C3LoginFormProps {
     buttonText?: string,
     forgotPassword?: boolean,
     title?: string,
-    // @ts-ignore
-    input: object,
-
+    formData?: object,
+    inputArea1?: any,
+    inputArea2?: any,
+    inputArea3?: any,
 };
 
 export const C3LoginForm = ({
@@ -17,42 +18,42 @@ export const C3LoginForm = ({
                                 title = 'Login',
                                 buttonText = 'Login',
                                 forgotPassword = true,
+                                formData = {},
                                 ...props
 
                             }: C3LoginFormProps) => {
-    let formData = {};
-    let prop = props;
-    const handleSubmit = () => {
-
+    const handleSubmit = (e: any) => {
+        e.preventDefault();
         [...Object.values(props).map((prop, index) => {
-            const key = prop[2];
+            let value: string = (document.getElementById(prop[0][2]) as HTMLInputElement).value;
             // @ts-ignore
-            const value = document.getElementById(prop[3]).value;
+            formData[prop[0][2]] = value;
         })]
+        return formData;
     }
     return (
         <div className={'form-container'}>
-            <form onSubmit={handleSubmit} className={'form'}>
+            <form onSubmit={() => handleSubmit(e)} className={'form'}>
                 <div className={'form--title'}>{title}</div>
                 <div className={'form--input'}>
                     {
-                        Object.values(prop).length > 0 ?
+                        Object.values(props).length > 0 ?
                             <>
                                 {
                                     [...Object.values(props).map((inputArea, index) => {
-                                        return <div className={'input-area'}>
+                                        return <div key={index} className={'input-area'}>
                                             {
                                                 [...inputArea].map((input, index) => {
                                                     return (fixedLabel) ? <C3Input
                                                             labelFixed
-                                                            id={input[3]}
+                                                            id={input[2]}
                                                             label={input[0]}
                                                             placeHolder={input[1]}
                                                             type={input[3]}
                                                             key={index}
                                                         /> :
                                                         <C3Input
-                                                            id={input[3]}
+                                                            id={input[2]}
                                                             label={input[0]}
                                                             placeHolder={input[1]}
                                                             type={input[3]}
@@ -81,4 +82,8 @@ export const C3LoginForm = ({
         </div>
 
     );
+}
+
+function e(e: any): void {
+    throw new Error("Function not implemented.");
 }
