@@ -1,4 +1,5 @@
 import {any} from "prop-types";
+import React from "react";
 import {C3Button} from "../Button/Button";
 import './pagination.scss'
 
@@ -7,6 +8,8 @@ interface C3PaginationProps {
     listSize?: number;
     rounded?: boolean;
     outlined?: boolean;
+    disabled?: boolean;
+    size?: string;
     nextPageFunction?: () => any;
     previousPageFunction?: () => any;
     selectedPageFunction?: () => any;
@@ -14,9 +17,9 @@ interface C3PaginationProps {
 }
 
 export const C3Pagination = ({
-
                                  count = 0,
                                  listSize = count,
+                                 size = 'small',
                                  nextPageFunction = function () {
                                  },
                                  previousPageFunction = function () {
@@ -25,15 +28,25 @@ export const C3Pagination = ({
                                  },
                                  rounded = false,
                                  outlined = false,
+                                 disabled = false,
                                  ...props
 
 
                              }: C3PaginationProps) => {
+
     let paginationList = Array.from({length: count}, (_i, i) => i + 1);
     let shownList = paginationList;
+    const [focusClass, setFocusClass] = React.useState(Array.from({length: shownList.length}, (_i, i) => ''));
     let pageNumber = 0;
-    let roundedClass = rounded ? 'bbm-rcl-pagination--rounded' : ' ';
-    let outlinedClass = outlined ? 'bbm-rcl-pagination--outline' : ' ';
+    const roundedClass = rounded ? 'bbm-rcl-pagination--rounded' : ' ';
+    const outlinedClass = outlined ? 'bbm-rcl-pagination--outline' : ' ';
+    let variantClasses = '';
+    for (const [key, value] of Object.entries(props)) {
+        if (value) {
+            variantClasses += ` bbm-rcl-pagination--${key}`;
+        }
+    }
+
     if (count < 1) {
         count = 1;
         return null;
@@ -48,7 +61,6 @@ export const C3Pagination = ({
 
     const selectedPage = (currentNumber: number) => {
         pageNumber = currentNumber;
-        console.log(pageNumber)
         selectedPageFunction();
     }
 
@@ -57,7 +69,6 @@ export const C3Pagination = ({
             pageNumber++;
         }
         nextPageFunction();
-        console.log(pageNumber)
     }
 
     const previousPage = () => {
@@ -65,13 +76,13 @@ export const C3Pagination = ({
             pageNumber--;
         }
         previousPageFunction();
-        console.log(pageNumber)
     }
     return (
         <nav className={'bbm-rcl-pagination'}>
             <ul>
                 <li className={'arrow left-arrow'}>
                     <C3Button
+                        size={size}
                         text
                         iconButton
                         icon={'left-arrow'}
@@ -79,22 +90,35 @@ export const C3Pagination = ({
                     />
                 </li>
                 {shownList.map((pagination, index) => {
-                    return (
-                        <li key={index} className={'pagination--page-list'}>
+                    return <> {disabled ?
+                        <li key={index} className={['pagination--page-list',].join(' ')}>
                             <C3Button
-                                className={[roundedClass,outlinedClass].join('')}
+                                size={size}
+                                disabled
+                                className={[roundedClass, outlinedClass, 'bbm-rcl-button--disabled'].join('')}
+                                text
+                                type={'button'}
+                            >
+                                {pagination.toString()}
+                            </C3Button>
+                        </li>
+                        : <li key={index} className={['pagination--page-list', variantClasses].join(' ')}>
+                            <C3Button
+                                size={size}
+                                className={[roundedClass, outlinedClass].join('')}
                                 text
                                 type={'button'}
                                 onClick={() => selectedPage(index + 1)}
                             >
                                 {pagination.toString()}
                             </C3Button>
-                        </li>
-                    )
+                        </li>}
+                    </>
+
                 })}
                 <li className={'arrow right-arrow'}>
                     <C3Button
-
+                        size={size}
                         text
                         iconButton
                         icon={'arrow-right'}

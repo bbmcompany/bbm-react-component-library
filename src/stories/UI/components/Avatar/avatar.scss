@@ -1,0 +1,87 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+.bbm-rcl-avatar {
+
+  .bbm-rcl-avatar-group {
+
+  }
+  &--rounded {
+    border-radius: 10%;
+  }
+
+  &--square {
+    border-radius: 0;
+  }
+
+  &--circular {
+    border-radius: 50%;
+  }
+
+
+  &--small {
+    font-size: 13px;
+
+    width: 30px;
+    height: 30px;
+  }
+
+  &--medium {
+    font-size: 17px;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  &--large {
+    font-size: 120%;
+
+    width: 50px;
+    height: 50px;
+  }
+
+  &--x-large {
+    font-size: 27px;
+
+    width: 60px;
+    height: 60px;
+  }
+
+  &--2x-large {
+    font-size: 29px;
+
+    width: 65px;
+    height: 65px;
+  }
+
+  &--3x-large {
+    font-size: 33px;
+
+    width: 75px;
+    height: 75px;
+  }
+
+  &--letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background-color: $mid-grey-100;
+  }
+
+  &--textColorIsWhite {
+    color: $color-white;
+  }
+
+  &--primary {
+    background-color: $orange-400;
+  }
+
+  &--secondary {
+    background-color: $blue-400;
+  }
+
+  &--tertiary {
+    background-color: $mid-grey-200;
+  }
+}

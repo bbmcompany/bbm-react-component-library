@@ -4,7 +4,21 @@ import {C3Pagination} from "./Pagination";
 export default {
     title: 'COMPONENTS/C3Pagination',
     component: C3Pagination,
-    argTypes: {}
+    argTypes: {
+        size: {
+            control: {
+                type: 'select',
+                options: {
+                    'Small': 'small',
+                    'Medium': 'medium',
+                    'Large': 'large',
+                    'X Large': 'x-large',
+                    '2X Large': '2x-large',
+                    '3X Large': '3x-large',
+                }
+            }
+        },
+    }
 
 } as ComponentMeta<typeof C3Pagination>
 
@@ -20,6 +34,7 @@ const selectedPageFunction = () => {
 const PaginationVariantsTemplate: ComponentStory<typeof C3Pagination> = args => (
 
     <div className={'pagination'}>
+        <C3Pagination {...args}/>
         <C3Pagination {...args} count={7} nextPageFunction={nextPageFunction} previousPageFunction={previousPageFunction}
                       selectedPageFunction={selectedPageFunction}/>
         <C3Pagination {...args} count={7} rounded outlined/>
