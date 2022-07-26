@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (checkbox -101) : checkbox component started">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/login-form-stories.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (login-form - 104) : login form template, label variants and title options added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658845357516</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="rcl (login-form - 104) : login form template, label variants and title options added.">
+      <created>1658851086898</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658851086898</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +241,7 @@
     <MESSAGE value="rcl (avatar - 101) : avatar component is started" />
     <MESSAGE value="rcl (avatar - 101) : avatar component started" />
     <MESSAGE value="rcl (checkbox -101) : checkbox component started" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (checkbox -101) : checkbox component started" />
+    <MESSAGE value="rcl (login-form - 104) : login form template, label variants and title options added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (login-form - 104) : login form template, label variants and title options added." />
   </component>
 </project>

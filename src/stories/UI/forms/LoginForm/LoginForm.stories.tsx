@@ -196,3 +196,68 @@ const TitleOptionsTemplate: ComponentStory<typeof C3LoginForm> = args => (
     </div>
 );
 export const TitleOptions = TitleOptionsTemplate.bind({});
+
+const displayTemplateTemplate : ComponentStory<typeof C3LoginForm> = args => (
+    <div className={'login-form'}>
+        <C3LoginForm
+            {...args}
+            formData={{}}
+            inputArea1={[
+                [
+                    'Username',
+                    'Enter your username',
+                    'user-name',
+                    'text'
+                ]
+            ]}
+            inputArea2={[
+                [
+                    'Password',
+                    'Enter your password',
+                    'password',
+                    'password'
+                ]
+            ]}/>
+        <C3LoginForm
+            inputArea1={[
+                [
+                    'Username',
+                    'Enter your username',
+                    'user-name',
+                    'text'
+                ],
+                [
+                    'Password',
+                    'Enter your password',
+                    'password',
+                    'password'
+                ]
+            ]}
+        />
+        <C3LoginForm
+            inputArea1={[
+                [
+                    'Username',
+                    'Enter your username',
+                    'user-name',
+                    'text'
+                ],
+                [
+                    'Password',
+                    'Enter your password',
+                    'password',
+                    'password'
+                ]
+            ]}
+            inputArea2={[
+                [
+                    'Email',
+                    'Enter your email',
+                    'email',
+                    'email'
+                ]
+            ]}
+        />
+    </div>
+);
+export const DisplayOptions = displayTemplateTemplate.bind({});
