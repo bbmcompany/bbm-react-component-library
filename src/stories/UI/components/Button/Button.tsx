@@ -23,9 +23,11 @@ interface C3ButtonProps {
     maxWidth?: number;
     icon?: string;
     className?: string;
+    action?: boolean;
     type?: "button" | "submit" | "reset" | undefined;
     // @ts-ignore
     onClick?: IntrinsicAttributes & C3ButtonProps
+    variant?: string;
 }
 
 
@@ -45,6 +47,7 @@ export const C3Button = ({
                              maxWidth = 0,
                              type = undefined,
                              className = ' ',
+                             variant = ' ',
                              ...props
                          }: C3ButtonProps) => {
     const isDisabled = disabled ? 'bbm-rcl-button--disabled' : ' ';
@@ -62,6 +65,9 @@ export const C3Button = ({
             variantClasses += ` bbm-rcl-button--${key}`;
         }
     }
+    if (variant != ' ') {
+        variantClasses += ` bbm-rcl-button--${variant}`;
+    }
 
     return (
         <button
@@ -77,7 +83,7 @@ export const C3Button = ({
                     {children}
                 </div>
             </> : <div className={'icon-container'}>
-                <C3Icon icon={icon}></C3Icon>
+                <C3Icon icon={icon} size={size}></C3Icon>
                 <div className={iconButton ? 'secret-text' : 'text'}>
                     {children}
                 </div>

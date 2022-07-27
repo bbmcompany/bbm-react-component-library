@@ -2,13 +2,13 @@ import './icon.scss'
 
 interface C3IconProps {
 
-    size?: 'small' | 'medium' | 'large' | 'x-large' | '2x-large' | '3x-large';
+    size?: string;
     icon?: string;
     width?: number;
 };
 
 export const C3Icon = ({
-                         size = 'medium',
+                         size = 'small',
                          icon = 'academy',
                          width = 0,
                      }: C3IconProps) => {

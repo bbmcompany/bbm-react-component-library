@@ -13,7 +13,20 @@ export default {
                     'attach', 'award', 'back', 'back_fill', 'change', 'close', 'question', 'exclamation'
                 ]
             }
-        }
+        },
+        size: {
+            control: {
+                type: 'select',
+                options: {
+                    'Small': 'small',
+                    'Medium': 'medium',
+                    'Large': 'large',
+                    'X Large': 'x-large',
+                    '2X Large': '2x-large',
+                    '3X Large': '3x-large',
+                }
+            }
+        },
     },
 } as ComponentMeta<typeof C3Icon>;
 

@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (login-form - 104) : login form template, label variants and title options added.">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (login-form - 104.1) : login form template, label variants and title options added.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Radio/Radio.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Radio/Radio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Radio/radio-stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Radio/radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +47,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/components/Avatar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/components/Radio2" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Radio2" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Avatar" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\assets" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Pagination" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI" />
       <recent name="C:\component-library\bbm-component-library" />
       <recent name="C:\component-library\bbm-component-library\public" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\Clickable\Button" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -205,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658851086898</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="rcl (login-form - 104.1) : login form template, label variants and title options added.">
+      <created>1658852222183</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658852222183</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +260,7 @@
     <MESSAGE value="rcl (avatar - 101) : avatar component started" />
     <MESSAGE value="rcl (checkbox -101) : checkbox component started" />
     <MESSAGE value="rcl (login-form - 104) : login form template, label variants and title options added." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (login-form - 104) : login form template, label variants and title options added." />
+    <MESSAGE value="rcl (login-form - 104.1) : login form template, label variants and title options added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (login-form - 104.1) : login form template, label variants and title options added." />
   </component>
 </project>

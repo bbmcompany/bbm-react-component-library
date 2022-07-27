@@ -33,7 +33,7 @@ export const C3LoginForm = ({
     }
     return (
         <div className={'form-container'}>
-            <form onSubmit={() => handleSubmit(e)} className={'form'}>
+            <form onSubmit={(e) => handleSubmit(e)} className={'form'}>
                 <div className={'form--title'}>{title}</div>
                 <div className={'form--input'}>
                     {
@@ -84,6 +84,4 @@ export const C3LoginForm = ({
     );
 }
 
-function e(e: any): void {
-    throw new Error("Function not implemented.");
-}
+

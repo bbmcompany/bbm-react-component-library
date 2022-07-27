@@ -31,7 +31,6 @@ $theme-colors: (
   white-space: nowrap;
 
 
-
 }
 
 @mixin base-size {
@@ -131,6 +130,11 @@ $theme-colors: (
     padding: 11px 22px;
   }
 
+  &--x-large {
+    font-size: 17px;
+    padding: 12px 24px;
+  }
+
   &--2x-large {
     font-size: 17px;
     padding: 13px 26px;
@@ -151,10 +155,17 @@ $theme-colors: (
     cursor: progress;
   }
 
+  &--action {
+    padding: 6px;
+    border-radius: 100%;
+  }
+
   .icon-container {
     display: flex;
     align-items: center;
     gap: .7em;
+    width: 100%;
+    height: 100%;
 
     .secret-text {
       display: none;
@@ -162,7 +173,6 @@ $theme-colors: (
 
     .icon {
       display: block;
-      height: 1em;
       min-width: 1em;
       min-height: 1em;
 

@@ -1,0 +1,114 @@
+.bbm-rcl-tooltip {
+
+  &--with-icon {
+    width: fit-content;
+
+    button {
+      &:hover {
+        border-color: transparent !important;
+      }
+    }
+
+    &[class*='--left'] {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4px;
+    }
+
+    &--text {
+      padding-top: 2%;
+      cursor: pointer;
+      text-align: inherit;
+      color: white;
+      position: relative;
+      font-family: 'RubikVariable', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+
+
+      border-radius: 4px;
+      background-color: #333333;
+
+      display: none;
+
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-color: #333333 transparent;
+
+
+      }
+
+
+      &[class*='--small'] {
+        font-size: 12px;
+        padding: 4px 8px;
+
+        &[class*='--left'] {
+          &:before {
+            border-color: transparent #333333;
+            border-width: 6px 6px 6px 0;
+            top: 4px;
+            left: -6px;
+          }
+        }
+
+        &:before {
+          border-width: 0 7px 7px;
+          top: -5px;
+          left: 12px;
+        }
+      }
+
+      &[class*='--medium'] {
+        font-size: 14px;
+        padding: 7px 14px;
+
+        &[class*='--left'] {
+          &:before {
+            border-color: transparent #333333;
+            border-width: 8px 8px 8px 0;
+            top: 6px;
+            left: -8px;
+          }
+        }
+
+        &:before {
+          border-width: 0 7px 7px;
+          top: -20%;
+          left: 20px;
+        }
+      }
+
+      &[class*='--large'] {
+        font-size: 17px;
+        padding: 8px 20px;
+
+        &[class*='--left'] {
+          &:before {
+            border-color: transparent #333333;
+            border-width: 10px 10px 10px 0;
+            top: 20%;
+            left: -10px;
+          }
+        }
+
+        &:before {
+          border-width: 0 7px 7px;
+          top: -5px;
+          left: 30px;
+        }
+      }
+    }
+
+    &:hover span {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.bbm-rcl-radio {
+  &--group {
+    position: relative;
+    display: flex;
+    align-items: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'RubikVariable', sans-serif;
+  }
+
+  &--small {
+    font-size: 15px;
+    width: 11px;
+    height: 11px;
+  }
+  &--medium {
+    font-size: 17px;
+    width: 17px;
+    height: 17px;
+  }
+  &--large {
+    font-size: 19px;
+    width: 20px;
+    height: 20px;
+  }
+
+  &--start {
+  }
+
+  &--end {
+    flex-direction: row-reverse;
+  }
+  &--top {
+    align-items: center;
+    flex-direction: column;
+  }
+  &--bottom {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
