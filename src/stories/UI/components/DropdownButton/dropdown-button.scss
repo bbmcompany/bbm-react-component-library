@@ -1,0 +1,55 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+.bbm-rcl-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+
+  button {
+
+    &[class*='--right'] {
+      .icon-container {
+        flex-direction: row-reverse;
+      }
+    }
+
+    &[class*='--left'] {
+      .icon-container {
+        flex-direction: row;
+      }
+    }
+
+  }
+
+  &--list {
+    display: none;
+    border: 1.2px solid $mid-grey-800;
+    border-radius: 4px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10%;
+    padding: 10% 8%;
+    row-gap: 10px;
+
+    a {
+      font-weight: 500;
+      font-size: 15.5px;
+      font-family: 'Rubik', sans-serif;
+      text-decoration: none;
+      color: $grey-500;
+
+      &:hover {
+        color: $orange-400;
+      }
+    }
+  }
+
+  &:hover {
+    .bbm-rcl-dropdown--list {
+      display: flex;
+      text-align: center;
+    }
+  }
+}

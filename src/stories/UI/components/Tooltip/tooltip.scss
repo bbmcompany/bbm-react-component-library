@@ -16,6 +16,14 @@
       gap: 4px;
     }
 
+    &[class*='--bottom'] {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+
+
     &--text {
       padding-top: 2%;
       cursor: pointer;
