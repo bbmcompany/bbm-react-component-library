@@ -1,10 +1,9 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
-import {C3DropdownButton} from "./DropddownButton";
-import './dropdown-button-stories.scss'
-
+import {C3ClickableDropdownButton} from "./ClickableDropdownButton";
+import './clickable-dropdown-button-stories.scss'
 export default {
-    title: 'COMPONENTS/C3DropdownButton',
-    component: C3DropdownButton,
+    title: 'COMPONENTS/C3ClickableDropdownButton',
+    component: C3ClickableDropdownButton,
     argTypes: {
         iconPosition: {
             control: {
@@ -26,75 +25,72 @@ export default {
             }
         },
     }
-} as ComponentMeta<typeof C3DropdownButton>;
+} as ComponentMeta<typeof C3ClickableDropdownButton>;
 
-const VariantsTemplate: ComponentStory<typeof C3DropdownButton> = args => (
-    <div className={'dropdown'}>
-        <C3DropdownButton {...args} primary>
+const VariantsTemplate: ComponentStory<typeof C3ClickableDropdownButton> = args => (
+    <div className={'clickable-dropdown'}>
+        <C3ClickableDropdownButton {...args} primary>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} secondary>
+            <a href="#">SPORT & OUTDOOR</a>
+            <a href="#">SHOES & BAGS</a>
+            <a href="#">HOME & FURNITURE</a>
+            <a href="#">DRAWING COUPON</a>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} tertiary>
+            <a href="#">SPORT & OUTDOOR</a>
+            <a href="#">SHOES & BAGS</a>
+            <a href="#">HOME & FURNITURE</a>
+            <a href="#">DRAWING COUPON</a>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} danger>
+            <a href="#">SPORT & OUTDOOR</a>
+            <a href="#">SHOES & BAGS</a>
+            <a href="#">HOME & FURNITURE</a>
+            <a href="#">DRAWING COUPON</a>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} success>
+            <a href="#">SPORT & OUTDOOR</a>
+            <a href="#">SHOES & BAGS</a>
+            <a href="#">HOME & FURNITURE</a>
+            <a href="#">DRAWING COUPON</a>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} text>
+            <a href="#">SPORT & OUTDOOR</a>
+            <a href="#">SHOES & BAGS</a>
+            <a href="#">HOME & FURNITURE</a>
+            <a href="#">DRAWING COUPON</a>
+        </C3ClickableDropdownButton>
 
-        <C3DropdownButton {...args} secondary>
-            <a href="#">SPORT & OUTDOOR</a>
-            <a href="#">SHOES & BAGS</a>
-            <a href="#">HOME & FURNITURE</a>
-            <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
-
-        <C3DropdownButton {...args} tertiary>
-            <a href="#">SPORT & OUTDOOR</a>
-            <a href="#">SHOES & BAGS</a>
-            <a href="#">HOME & FURNITURE</a>
-            <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
-        <C3DropdownButton {...args} danger>
-            <a href="#">SPORT & OUTDOOR</a>
-            <a href="#">SHOES & BAGS</a>
-            <a href="#">HOME & FURNITURE</a>
-            <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
-
-        <C3DropdownButton {...args} success>
-            <a href="#">SPORT & OUTDOOR</a>
-            <a href="#">SHOES & BAGS</a>
-            <a href="#">HOME & FURNITURE</a>
-            <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
-
-        <C3DropdownButton {...args} text>
-            <a href="#">SPORT & OUTDOOR</a>
-            <a href="#">SHOES & BAGS</a>
-            <a href="#">HOME & FURNITURE</a>
-            <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
 
     </div>
 );
 export const Variants = VariantsTemplate.bind({});
 
-const SizeTemplate: ComponentStory<typeof C3DropdownButton> = args => (
+const SizeTemplate: ComponentStory<typeof C3ClickableDropdownButton> = args => (
     <div className={'dropdown'}>
-        <C3DropdownButton {...args} tertiary size={'small'}>
+        <C3ClickableDropdownButton {...args} tertiary size={'small'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
-        <C3DropdownButton {...args} tertiary size={'medium'}>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} tertiary size={'medium'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
-        <C3DropdownButton {...args} tertiary size={'large'}>
+        </C3ClickableDropdownButton>
+        <C3ClickableDropdownButton {...args} tertiary size={'large'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
-        </C3DropdownButton>
+        </C3ClickableDropdownButton>
     </div>
 );
 export const DropdownSize = SizeTemplate.bind({});

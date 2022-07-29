@@ -17,7 +17,6 @@ interface C3ButtonProps {
     progress?: boolean;
     isProgressText?: boolean;
     progressText?: string;
-    label?: string;
     target?: string;
     display?: string;
     maxWidth?: number;
@@ -36,13 +35,12 @@ export const C3Button = ({
                              progress = false,
                              isProgressText = false,
                              size = 'medium',
-                             label = 'Button',
                              target = '_self',
                              display = ' ',
                              icon = ' ',
                              iconButton = false,
                              onClick = undefined,
-                             children = label,
+                             children = ' ',
                              progressText = 'Saving...',
                              maxWidth = 0,
                              type = undefined,
