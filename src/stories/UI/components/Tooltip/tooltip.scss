@@ -4,6 +4,7 @@
     width: fit-content;
 
     button {
+      padding: 1px;
       &:hover {
         border-color: transparent !important;
       }
@@ -15,14 +16,6 @@
       align-items: center;
       gap: 4px;
     }
-
-    &[class*='--bottom'] {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 4px;
-    }
-
 
     &--text {
       padding-top: 2%;

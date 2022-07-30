@@ -1,0 +1,124 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+.bbm-rcl-switch {
+  display: inline-block;
+  position: relative;
+
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  &[class*='--extra-small'] {
+    width: 30px;
+    height: 15px;
+  }
+
+  &[class*='--small'] {
+    width: 40px;
+    height: 20px;
+  }
+
+  &[class*='--medium'] {
+    width: 50px;
+    height: 25px;
+  }
+
+  &[class*='--large'] {
+    width: 60px;
+    height: 30px;
+  }
+
+
+  &[class*='--primary'] {
+    input:checked + .slider {
+      background-color: $orange-400;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px $orange-400;
+    }
+  }
+
+  &[class*='--secondary'] {
+    input:checked + .slider {
+      background-color: $blue-400;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px $blue-400;
+    }
+  }
+
+  &[class*='--tertiary'] {
+    input:checked + .slider {
+      background-color:$mid-grey-200;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px $mid-grey-200;
+    }
+  }
+
+  &[class*='--danger'] {
+    input:checked + .slider {
+      background-color:$red-400;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px $red-400;
+    }
+  }
+
+  &[class*='--success'] {
+    input:checked + .slider {
+      background-color:$green-400;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px $green-400;
+    }
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+    &:before {
+      position: absolute;
+      border-radius: 50%;
+      content: ' ';
+      height: 65%;
+      width: 35%;
+      left: 10%;
+      bottom: 17%;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+  }
+
+  input:checked + .slider {
+    background-color: $blue-500;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px $blue-500;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(130%);
+    -ms-transform: translateX(130%);
+    transform: translateX(130%);
+  }
+}

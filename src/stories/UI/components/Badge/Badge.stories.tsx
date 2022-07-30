@@ -88,6 +88,10 @@ const FloatTemplate: ComponentStory<typeof C3Badge> = args => (
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'bottom-right'} overlap>4</C3Badge>
         </div>
+        <div className={'float'}>
+            <C3Icon size={'medium'}></C3Icon>
+            <C3Badge {...args} overlap>4</C3Badge>
+        </div>
     </div>
 
 );
@@ -99,6 +103,7 @@ const IconBadgeTemplate : ComponentStory<typeof C3Badge> = args => (
         <C3Badge {...args} icon={'question'} danger></C3Badge>
         <C3Badge {...args} icon={'exclamation'} secondary></C3Badge>
         <C3Badge {...args} icon={'award'}></C3Badge>
+        <C3Badge {...args}></C3Badge>
     </div>
 );
 export const IconBadge = IconBadgeTemplate.bind({});
