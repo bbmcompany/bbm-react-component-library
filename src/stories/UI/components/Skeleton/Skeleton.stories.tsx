@@ -22,7 +22,7 @@ const VariantsTemplate: ComponentStory<typeof C3Skeleton> = args => (
             <C3Skeleton {...args} height={40} width={40} borderRadius={100}></C3Skeleton>
             <C3Skeleton {...args} height={20} width={100}></C3Skeleton>
             <C3Skeleton {...args} height={40} width={150}></C3Skeleton>
-            <C3Skeleton {...args} height={40} width={200}></C3Skeleton>
+            <C3Skeleton {...args} height={60} width={200}></C3Skeleton>
         </div>
         <div className={'skeleton-template-custom'}>
 

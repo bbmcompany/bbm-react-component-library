@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (skeleton) : skeleton component started.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/skleton-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (skeleton) : skeleton component variants added.">
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -248,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659430379352</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="rcl (skeleton) : skeleton component variants added.">
+      <created>1659436432518</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659436432518</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +271,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (beginning-101)" />
     <MESSAGE value="rcl (beginning-102) : storybook added" />
     <MESSAGE value="rcl (button - 101) : primary,secondary button added with small,medium,large options" />
     <MESSAGE value="rcl (button - 102) : primary,secondary,danger,success button added with options" />
@@ -291,6 +295,7 @@
     <MESSAGE value="rcl (clickable dropdown 101) : clickable dropdown component started." />
     <MESSAGE value="rcl (switch &amp; spinner 101) : switch and spinner component started." />
     <MESSAGE value="rcl (skeleton) : skeleton component started." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (skeleton) : skeleton component started." />
+    <MESSAGE value="rcl (skeleton) : skeleton component variants added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (skeleton) : skeleton component variants added." />
   </component>
 </project>
