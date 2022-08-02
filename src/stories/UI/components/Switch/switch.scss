@@ -1,5 +1,6 @@
 @use 'sass:map';
 @import "../../styles/color/color-pallette";
+
 .bbm-rcl-switch {
   display: inline-block;
   position: relative;
@@ -36,49 +37,29 @@
     input:checked + .slider {
       background-color: $orange-400;
     }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $orange-400;
-    }
   }
 
   &[class*='--secondary'] {
     input:checked + .slider {
       background-color: $blue-400;
     }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $blue-400;
-    }
   }
 
   &[class*='--tertiary'] {
     input:checked + .slider {
-      background-color:$mid-grey-200;
-    }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $mid-grey-200;
+      background-color: $mid-grey-200;
     }
   }
 
   &[class*='--danger'] {
     input:checked + .slider {
-      background-color:$red-400;
-    }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $red-400;
+      background-color: $red-400;
     }
   }
 
   &[class*='--success'] {
     input:checked + .slider {
-      background-color:$green-400;
-    }
-
-    input:focus + .slider {
-      box-shadow: 0 0 1px $green-400;
+      background-color: $green-400;
     }
   }
 
@@ -98,7 +79,7 @@
       position: absolute;
       border-radius: 50%;
       content: ' ';
-      height: 65%;
+      height: 70%;
       width: 35%;
       left: 10%;
       bottom: 17%;
@@ -113,7 +94,7 @@
   }
 
   input:focus + .slider {
-    box-shadow: 0 0 1px $blue-500;
+    box-shadow: 0 0 1px transparent;
   }
 
   input:checked + .slider:before {

@@ -20,6 +20,10 @@ export const C3Tooltip = ({
                               ...props
                           }: C3TooltipProps) => {
 
+    if (text == ' ') {
+        text = 'C3PO Default';
+    }
+
     return (
         <div className={'bbm-rcl-tooltip'}>
             {transparent ?
