@@ -15,7 +15,7 @@ interface C3ClickableDropdownButtonProps {
 export const C3ClickableDropdownButton = ({
                                               children = undefined,
                                               iconPosition = 'right',
-                                              size = 'medium',
+                                              size = 'small',
                                               label = 'Clickable Dropdown',
                                               ...props
 

@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (clickable dropdown 101) : clickable dropdown component started.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/spinner-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/spinner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Switch/switch.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (pagination - 102.1) pagination options added rounded and square">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/components/Radio2" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Radio2" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Avatar" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\assets" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Pagination" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\LoginForm" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI" />
       <recent name="C:\component-library\bbm-component-library" />
       <recent name="C:\component-library\bbm-component-library\public" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\Clickable\Button" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -195,56 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658406240402</updated>
     </task>
-    <task id="LOCAL-00018" summary="rcl (avatar - 101) : avatar component started">
-      <created>1658837246821</created>
+    <task id="LOCAL-00018" summary="rcl (pagination - 102) pagination options added rounded and square">
+      <created>1658773474402</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1658837246821</updated>
+      <updated>1658773474402</updated>
     </task>
-    <task id="LOCAL-00019" summary="rcl (checkbox -101) : checkbox component started">
-      <created>1658845357516</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1658845357516</updated>
-    </task>
-    <task id="LOCAL-00020" summary="rcl (login-form - 104) : login form template, label variants and title options added.">
-      <created>1658851086898</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1658851086898</updated>
-    </task>
-    <task id="LOCAL-00021" summary="rcl (login-form - 104.1) : login form template, label variants and title options added.">
-      <created>1658852222183</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1658852222183</updated>
-    </task>
-    <task id="LOCAL-00022" summary="rcl (tooltip - 101) : tooltip component started.">
-      <created>1658948918304</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1658948918304</updated>
-    </task>
-    <task id="LOCAL-00023" summary="rcl (dropdown 101) : dropdown component started.">
-      <created>1659008259798</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1659008259798</updated>
-    </task>
-    <task id="LOCAL-00024" summary="rcl (clickable dropdown 101) : clickable dropdown component started.">
-      <created>1659095882894</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1659095882894</updated>
-    </task>
-    <option name="localTasksCounter" value="25" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,14 +227,7 @@
     <MESSAGE value="rcl (input - 103) :  with fixed label, without label and label options added" />
     <MESSAGE value="rcl (Form -inputForm 101) :  input form component started" />
     <MESSAGE value="rcl (Form -loginForm 101) :  display and input options added" />
-    <MESSAGE value="rcl (avatar - 101) : avatar component is started" />
-    <MESSAGE value="rcl (avatar - 101) : avatar component started" />
-    <MESSAGE value="rcl (checkbox -101) : checkbox component started" />
-    <MESSAGE value="rcl (login-form - 104) : login form template, label variants and title options added." />
-    <MESSAGE value="rcl (login-form - 104.1) : login form template, label variants and title options added." />
-    <MESSAGE value="rcl (tooltip - 101) : tooltip component started." />
-    <MESSAGE value="rcl (dropdown 101) : dropdown component started." />
-    <MESSAGE value="rcl (clickable dropdown 101) : clickable dropdown component started." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (clickable dropdown 101) : clickable dropdown component started." />
+    <MESSAGE value="rcl (pagination - 102) pagination options added rounded and square" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (pagination - 102) pagination options added rounded and square" />
   </component>
 </project>
