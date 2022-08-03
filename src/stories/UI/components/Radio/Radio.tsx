@@ -6,6 +6,7 @@ interface C3RadioProps {
     inputValue?: string;
     size?: string;
     labelPlacement?: string;
+    className?: string;
 }
 
 export const C3Radio = ({
@@ -13,6 +14,7 @@ export const C3Radio = ({
                             inputValue = 'default',
                             size = 'medium',
                             labelPlacement = 'start',
+                            className = ' ',
                             ...props
                         }: C3RadioProps) => {
 
@@ -22,7 +24,7 @@ export const C3Radio = ({
 
     }
     return (
-        <div className={'bbm-rcl-radio'}>
+        <div className={['bbm-rcl-radio', className].join(' ')}>
             {
                 children == ' ' ?
                     <input
@@ -30,7 +32,8 @@ export const C3Radio = ({
                         onChange={(event) => inputHandler(event)}
                         type={'radio'} value={inputValue}/>
                     :
-                    <div className={[`bbm-rcl-radio--${size}`, 'bbm-rcl-radio--group', `bbm-rcl-radio--${labelPlacement}`].join(' ')}>
+                    <div
+                        className={[`bbm-rcl-radio--${size}`, 'bbm-rcl-radio--group', `bbm-rcl-radio--${labelPlacement}`].join(' ')}>
                         <label>{children}</label>
                         <input
                             onChange={(event) => inputHandler(event)}

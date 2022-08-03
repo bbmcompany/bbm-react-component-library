@@ -6,19 +6,21 @@ interface C3DropdownButtonProps {
     label?: string,
     size?: string,
     iconPosition?: string,
-    primary?:boolean,
-    secondary?:boolean,
-    tertiary?:boolean,
-    danger?:boolean,
-    success?:boolean,
-    text?:boolean,
+    primary?: boolean,
+    secondary?: boolean,
+    tertiary?: boolean,
+    danger?: boolean,
+    success?: boolean,
+    text?: boolean,
+    className?: string,
 }
 
 export const C3DropdownButton = ({
                                      children = undefined,
                                      iconPosition = 'right',
-                                     size = 'small',
+                                     size = 'medium',
                                      label = 'Dropdown Menu',
+                                     className = ' ',
                                      ...props
                                  }: C3DropdownButtonProps) => {
 
@@ -31,8 +33,9 @@ export const C3DropdownButton = ({
         }
     }
     return (
-        <div className={'bbm-rcl-dropdown'}>
-            <C3Button className={[`bbm-rcl-dropdown--button --${iconPosition}`,variantClasses].join(' ')} icon={'arrow_down'}
+        <div className={['bbm-rcl-dropdown', className].join(' ')}>
+            <C3Button className={[`bbm-rcl-dropdown--button --${iconPosition}`, variantClasses].join(' ')}
+                      icon={'arrow_down'}
                       size={size}>{label}</C3Button>
             <div className={`bbm-rcl-dropdown--list --${listVariants}`}>
                 {children}

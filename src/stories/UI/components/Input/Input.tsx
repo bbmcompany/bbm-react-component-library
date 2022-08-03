@@ -10,6 +10,7 @@ interface C3InputProps {
     required?: boolean;
     labelFixed?: boolean;
     id?: string;
+    className?: string;
 }
 
 export const C3Input = ({
@@ -21,6 +22,7 @@ export const C3Input = ({
                             labelFixed = false,
                             type = 'text',
                             id = 'input',
+                            className = ' ',
                             ...props
                         }: C3InputProps) => {
 
@@ -41,7 +43,7 @@ export const C3Input = ({
     }
 
     return (
-        <div className={'bbm-rcl-input-container'}>
+        <div className={['bbm-rcl-input-container', className].join(' ')}>
             <div className={[controlClass, inputHasValue].join(' ')}>
                 <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
                 <input

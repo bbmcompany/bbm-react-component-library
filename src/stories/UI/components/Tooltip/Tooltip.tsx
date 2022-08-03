@@ -8,6 +8,7 @@ interface C3TooltipProps {
     size?: string;
     variant?: string;
     display?: string;
+    className?: string,
 }
 
 export const C3Tooltip = ({
@@ -17,6 +18,7 @@ export const C3Tooltip = ({
                               text = 'C3PO Default',
                               variant = 'primary',
                               display = ' ',
+                              className = ' ',
                               ...props
                           }: C3TooltipProps) => {
 
@@ -25,7 +27,7 @@ export const C3Tooltip = ({
     }
 
     return (
-        <div className={'bbm-rcl-tooltip'}>
+        <div className={['bbm-rcl-tooltip', className].join(' ')}>
             {transparent ?
                 <div className={`bbm-rcl-tooltip--with-icon --${display}`}>
                     <C3Button primary iconButton transparent icon={icon} size={size}/>

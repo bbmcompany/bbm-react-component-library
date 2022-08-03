@@ -7,11 +7,13 @@ interface C3SwitchProps {
     tertiary?: boolean,
     danger?: boolean,
     success?: boolean,
+    className?: string,
 
 }
 
 export const C3Switch = ({
                              size = 'medium',
+                             className = ' ',
                              ...props
                          }: C3SwitchProps) => {
     let variantClasses = ' ';
@@ -21,7 +23,7 @@ export const C3Switch = ({
         }
     }
     return (
-        <label className={['bbm-rcl-switch', `--${size}`, variantClasses].join(' ')}>
+        <label className={['bbm-rcl-switch', `--${size}`, variantClasses, className].join(' ')}>
             <input type={'checkbox'}/>
             <span className={'slider'}/>
         </label>

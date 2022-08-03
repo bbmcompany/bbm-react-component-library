@@ -29,37 +29,37 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3ClickableDropdownButton> = args => (
     <div className={'clickable-dropdown'}>
-        <C3ClickableDropdownButton {...args} primary>
+        <C3ClickableDropdownButton {...args} primary className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} secondary>
+        <C3ClickableDropdownButton {...args} secondary className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} tertiary>
+        <C3ClickableDropdownButton {...args} tertiary className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} danger>
+        <C3ClickableDropdownButton {...args} danger className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} success>
+        <C3ClickableDropdownButton {...args} success className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} text>
+        <C3ClickableDropdownButton {...args} text className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
@@ -73,19 +73,19 @@ export const Variants = VariantsTemplate.bind({});
 
 const SizeTemplate: ComponentStory<typeof C3ClickableDropdownButton> = args => (
     <div className={'dropdown'}>
-        <C3ClickableDropdownButton {...args} tertiary size={'small'}>
+        <C3ClickableDropdownButton {...args} tertiary size={'small'} className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} tertiary size={'medium'}>
+        <C3ClickableDropdownButton {...args} tertiary size={'medium'} className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3ClickableDropdownButton>
-        <C3ClickableDropdownButton {...args} tertiary size={'large'}>
+        <C3ClickableDropdownButton {...args} tertiary size={'large'} className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
             <a href="#">HOME & FURNITURE</a>

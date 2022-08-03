@@ -44,53 +44,49 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Badge> = args => (
     <div className={'variants'}>
-        <C3Badge {...args} primary>1</C3Badge>
-        <C3Badge {...args} secondary>2</C3Badge>
-        <C3Badge {...args} tertiary>3</C3Badge>
-        <C3Badge {...args} success>4</C3Badge>
-        <C3Badge {...args} danger>5</C3Badge>
-        <C3Badge {...args}>6</C3Badge>
+        <C3Badge {...args} primary className={'b-m-5'}>1</C3Badge>
+        <C3Badge {...args} secondary className={'b-m-5'}>2</C3Badge>
+        <C3Badge {...args} tertiary className={'b-m-5'}>3</C3Badge>
+        <C3Badge {...args} success className={'b-m-5'}>4</C3Badge>
+        <C3Badge {...args} danger className={'b-m-5'}>5</C3Badge>
+        <C3Badge {...args} className={'b-m-5'}>6</C3Badge>
     </div>
 );
 export const Variants = VariantsTemplate.bind({});
 
 const FloatTemplate: ComponentStory<typeof C3Badge> = args => (
     <div className={'float-container'}>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'top-left'}>1</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'top-left'} overlap>1</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'top-right'}>2</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'top-right'} overlap>2</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'bottom-left'}>3</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'bottom-left'} overlap>3</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'bottom-right'}>4</C3Badge>
         </div>
-        <div className={'float'}>
+        <div className={'float b-m-5'}>
             <C3Icon size={'medium'}></C3Icon>
             <C3Badge {...args} float={'bottom-right'} overlap>4</C3Badge>
-        </div>
-        <div className={'float'}>
-            <C3Icon size={'medium'}></C3Icon>
-            <C3Badge {...args} overlap>4</C3Badge>
         </div>
     </div>
 
@@ -99,11 +95,11 @@ export const Float = FloatTemplate.bind({});
 
 const IconBadgeTemplate : ComponentStory<typeof C3Badge> = args => (
     <div>
-        <C3Badge {...args} icon={'academy'} success></C3Badge>
-        <C3Badge {...args} icon={'question'} danger></C3Badge>
-        <C3Badge {...args} icon={'exclamation'} secondary></C3Badge>
-        <C3Badge {...args} icon={'award'}></C3Badge>
-        <C3Badge {...args}></C3Badge>
+        <C3Badge {...args} icon={'academy'} success className={'b-m-5'}></C3Badge>
+        <C3Badge {...args} icon={'question'} danger className={'b-m-5'}></C3Badge>
+        <C3Badge {...args} icon={'exclamation'} secondary className={'b-m-5'}></C3Badge>
+        <C3Badge {...args} icon={'award'} className={'b-m-5'}></C3Badge>
+        <C3Badge {...args} className={'b-m-5'}></C3Badge>
     </div>
 );
 export const IconBadge = IconBadgeTemplate.bind({});

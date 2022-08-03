@@ -7,16 +7,14 @@
 .bbm-rcl-icon {
   width: fit-content;
   display: block;
-  padding: 2px;
-
   &--small {
-    width: 1em;
-    height: 1em;
+    width: 0.8em;
+    height: 0.8em;
   }
 
   &--medium {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1em;
+    height: 1em;
   }
 
   &--large {

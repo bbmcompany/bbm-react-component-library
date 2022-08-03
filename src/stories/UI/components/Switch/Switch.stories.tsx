@@ -21,7 +21,7 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Switch> = args => (
     <div>
-        <C3Switch {...args}/>
+        <C3Switch {...args} className={'b-m-15'}/>
     </div>
 );
 export const Variants = VariantsTemplate.bind({});

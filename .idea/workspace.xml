@@ -5,7 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (skeleton) : skeleton component variants added.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropwdownButton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropwdownButton.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropdownButton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropdownButton.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/label-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/label.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Radio/Radio.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Radio/Radio.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Radio/Radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Radio/Radio.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Spinner/spinner-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/spinner-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659436432518</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="rcl (skeleton) : skeleton component variants added.">
+      <created>1659436517778</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659436517778</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

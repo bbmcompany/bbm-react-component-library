@@ -13,6 +13,7 @@ interface C3AvatarProps {
     tertiary?: boolean;
     textColorIsWhite?: boolean;
     children?: string;
+    className?: string;
 }
 
 export const C3Avatar = ({
@@ -21,6 +22,7 @@ export const C3Avatar = ({
                              alt = 'undefined',
                              backgroundColor = ' ',
                              children = ' ',
+                             className = ' ',
                              ...props
                          }:
                              C3AvatarProps
@@ -38,7 +40,7 @@ export const C3Avatar = ({
     }
     return (
 
-        <div className={'bbm-rcl-avatar'}>
+        <div className={['bbm-rcl-avatar', className].join(' ')}>
             {children == ' ' ?
                 <img alt={alt} src={src}
                      className={[variantClasses, ` bbm-rcl-avatar--${size}`].join('')}/>

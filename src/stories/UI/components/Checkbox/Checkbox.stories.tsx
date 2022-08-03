@@ -23,32 +23,32 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Checkbox> = args => (
     <div className={'checkbox'}>
-        <C3Checkbox {...args} defaultChecked primary/>
-        <C3Checkbox {...args} defaultChecked secondary/>
-        <C3Checkbox {...args} defaultChecked tertiary/>
-        <C3Checkbox {...args} defaultChecked danger/>
-        <C3Checkbox {...args} defaultChecked success/>
+        <C3Checkbox {...args} defaultChecked primary className={'b-m-5'}/>
+        <C3Checkbox {...args} defaultChecked secondary className={'b-m-5'}/>
+        <C3Checkbox {...args} defaultChecked tertiary className={'b-m-5'}/>
+        <C3Checkbox {...args} defaultChecked danger className={'b-m-5'}/>
+        <C3Checkbox {...args} defaultChecked success className={'b-m-5'}/>
     </div>
 )
 export const Variants = VariantsTemplate.bind({});
 
 const CheckboxTypesTemplate : ComponentStory<typeof C3Checkbox> = args => (
     <div className={'checkbox'}>
-        <C3Checkbox {...args} />
-        <C3Checkbox {...args} disabled/>
-        <C3Checkbox {...args} defaultChecked/>
+        <C3Checkbox {...args}  className={'b-m-5'}/>
+        <C3Checkbox {...args} disabled className={'b-m-5'}/>
+        <C3Checkbox {...args} defaultChecked className={'b-m-5'}/>
     </div>
 );
 export const Types = CheckboxTypesTemplate.bind({});
 
 const CheckboxSizesTemplate: ComponentStory<typeof C3Checkbox> = args => (
     <div className={'checkbox'}>
-        <C3Checkbox {...args} size={'small'}/>
-        <C3Checkbox {...args} size={'medium'}/>
-        <C3Checkbox {...args} size={'large'}/>
-        <C3Checkbox {...args} size={'x-large'}/>
-        <C3Checkbox {...args} size={'2x-large'}/>
-        <C3Checkbox {...args} size={'3x-large'}/>
+        <C3Checkbox {...args} size={'small'} className={'b-m-5'}/>
+        <C3Checkbox {...args} size={'medium'} className={'b-m-5'}/>
+        <C3Checkbox {...args} size={'large'} className={'b-m-5'}/>
+        <C3Checkbox {...args} size={'x-large'} className={'b-m-5'}/>
+        <C3Checkbox {...args} size={'2x-large'} className={'b-m-5'}/>
+        <C3Checkbox {...args} size={'3x-large'} className={'b-m-5'}/>
     </div>
 );
 export const CheckboxSize = CheckboxSizesTemplate.bind({});

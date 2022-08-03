@@ -14,19 +14,21 @@ interface C3BadgeProps {
     float?: string;
     overlap?: boolean;
     dot?: boolean;
+    className?: string;
 }
 
 export const C3Badge = ({
-                          children = '+1',
-                          size = 'small',
-                          float = 'base',
-                          icon = ' ',
-                          dot = false,
-                          ...props
-                      }: C3BadgeProps) => {
+                            children = '+1',
+                            size = 'small',
+                            float = 'base',
+                            icon = ' ',
+                            dot = false,
+                            className = ' ',
+                            ...props
+                        }: C3BadgeProps) => {
     let variantClasses = ' ';
 
-    if(icon !== ' ') {
+    if (icon !== ' ') {
         dot = false;
         variantClasses += 'bbm-rcl-badge--icon';
     }
@@ -43,10 +45,10 @@ export const C3Badge = ({
         <>
             {icon == ' ' ?
                 <span
-                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>{dot ? null : children}</span>
+                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>{dot ? null : children}</span>
                 :
                 <span
-                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>
+                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
                     <C3Icon icon={icon} size={'small'}/>
                 </span>
             }

@@ -9,6 +9,7 @@ interface C3LabelProps {
     backgroundColor?: string;
     icon?: string;
     iconLabel?: boolean;
+    className?: string;
 }
 
 export const C3Label = ({
@@ -18,6 +19,7 @@ export const C3Label = ({
                             options = ' ',
                             backgroundColor = ' ',
                             icon = ' ',
+                            className = ' ',
                             iconLabel = false,
                             ...props
                         }: C3LabelProps) => {
@@ -26,7 +28,7 @@ export const C3Label = ({
     }
 
     return (
-        <div className={'bbm-rcl-label'}>
+        <div className={['bbm-rcl-label', className].join(' ')}>
              <span
                  className={[`bbm-rcl-label--${options}`, `bbm-rcl-label--${size}`].join(' ')}
                  style={{color: color, backgroundColor: backgroundColor}}
