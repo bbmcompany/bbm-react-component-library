@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions) dimensions (padding) scss added">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-sizing.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions) dimensions (height &amp; width) scss added">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/sizing-stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/sizing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-padding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-sizing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659597875697</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="rcl (dimensions) dimensions (height &amp; width) scss added">
+      <created>1659600526957</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659600526957</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +304,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (button - 102) : primary,secondary,danger,success button added with options" />
     <MESSAGE value="rcl (button - 103) : primary,secondary,danger,success button added with options" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - contained, types, variants" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
@@ -322,6 +328,7 @@
     <MESSAGE value="rcl (skeleton) : skeleton component variants added." />
     <MESSAGE value="rcl (dimensions) dimensions (margin) scss added and classname variable added to all components" />
     <MESSAGE value="rcl (dimensions) dimensions (padding) scss added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions) dimensions (padding) scss added" />
+    <MESSAGE value="rcl (dimensions) dimensions (height &amp; width) scss added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions) dimensions (height &amp; width) scss added" />
   </component>
 </project>
