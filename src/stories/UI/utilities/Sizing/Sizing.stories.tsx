@@ -46,14 +46,14 @@ export const WidthAndHeight = WidthHeightTemplate.bind({});
 
 const MaxWidthTemplate: ComponentStory<typeof C3Sizing> = args => (
     <div className={'max-width-template'}>
-        <C3Sizing {...args} className={'b-mxw-10'}>Max Width 10% Vivamus sit amet magna lorem.</C3Sizing>
-        <C3Sizing {...args} className={'b-mxw-25'}>Max Width 25% Cras placerat placerat enim nec ullamcorper.</C3Sizing>
-        <C3Sizing {...args} className={'b-mxw-50'}>Max Width 50% Lorem ipsum dolor sit amet, consectetur adipiscing
+        <C3Sizing {...args} className={'b-mxw-10'}>Max Width 10% : Vivamus sit amet magna lorem.</C3Sizing>
+        <C3Sizing {...args} className={'b-mxw-25'}>Max Width 25% : Cras placerat placerat enim nec ullamcorper.</C3Sizing>
+        <C3Sizing {...args} className={'b-mxw-50'}>Max Width 50% : Lorem ipsum dolor sit amet, consectetur adipiscing
             elit. Curabitur magna augue, molestie vitae est sed, suscipit ultricies massa.</C3Sizing>
-        <C3Sizing {...args} className={'b-mxw-75'}>Max Width 75% Sed gravida leo quam, vel dictum elit commodo
+        <C3Sizing {...args} className={'b-mxw-75'}>Max Width 75% : Sed gravida leo quam, vel dictum elit commodo
             sed. Vivamus a dui et lacus porta faucibus. Ut nibh arcu, cursus vitae luctus a, egestas sit amet
             felis.</C3Sizing>
-        <C3Sizing {...args} className={'b-mxw-100'}>Max Width 100% Pellentesque habitant morbi tristique senectus et
+        <C3Sizing {...args} className={'b-mxw-100'}>Max Width 100% : Pellentesque habitant morbi tristique senectus et
             netus et malesuada. Etiam eu vulputate orci. Aenean ultrices vulputate arcu, in accumsan ipsum ultrices
             venenatis.</C3Sizing>
     </div>

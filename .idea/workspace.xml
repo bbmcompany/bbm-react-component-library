@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions) dimensions (height &amp; width) scss added">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/sizing-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/sizing.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Spacing/Spacing.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Spacing/Spacing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Spacing/spacing-stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Spacing/spacing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/dimensions/b-sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing/Sizing.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing/Sizing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/sizing-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing/sizing-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing/sizing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +55,11 @@
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Pagination" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\utilities\Sizing" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI" />
       <recent name="C:\component-library\bbm-component-library" />
-      <recent name="C:\component-library\bbm-component-library\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -286,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659600526957</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added.">
+      <created>1659624320158</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1659624320158</updated>
+    </task>
+    <task id="LOCAL-00033" summary="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added.">
+      <created>1659624328667</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1659624328667</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +321,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (button - 103) : primary,secondary,danger,success button added with options" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - contained, types, variants" />
     <MESSAGE value="rcl (button - 104) : buttons templated added. - progress, progress text, outlined" />
     <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
@@ -329,6 +345,7 @@
     <MESSAGE value="rcl (dimensions) dimensions (margin) scss added and classname variable added to all components" />
     <MESSAGE value="rcl (dimensions) dimensions (padding) scss added" />
     <MESSAGE value="rcl (dimensions) dimensions (height &amp; width) scss added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions) dimensions (height &amp; width) scss added" />
+    <MESSAGE value="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added." />
   </component>
 </project>
