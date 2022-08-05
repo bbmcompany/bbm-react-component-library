@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added.">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/border/border.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/border/border.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/Border/Border.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Border/Border.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/Border/border-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Border/border-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing/sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Sizing/sizing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659644420041</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added.">
+      <created>1659646435180</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659646435180</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +338,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button" />
     <MESSAGE value="rcl (icon - 105) : icon component started." />
     <MESSAGE value="rcl (icon - 105) : icon size added." />
     <MESSAGE value="rcl (input) : input component started. Label position and type added" />
@@ -355,6 +362,7 @@
     <MESSAGE value="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (spacing) to utilities.&#10;margin, margin-top, margin-bottom margin-left, margin-right, margin-x, margin-y properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
+    <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added." />
   </component>
 </project>

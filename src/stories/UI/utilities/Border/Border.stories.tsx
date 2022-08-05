@@ -98,4 +98,39 @@ const BorderTopRightTemplate: ComponentStory<typeof C3Border> = args => (
 );
 export const BorderTopRight = BorderTopRightTemplate.bind({});
 
+const BorderBottomLeftTemplate: ComponentStory<typeof C3Border> = args => (
+    <div className={'border-bottom-left'}>
+        <C3Border {...args} className={'b-border-bl-0 b-ml-10'}>Border Bottom Left 0</C3Border>
+        <C3Border {...args} className={'b-border-bl-1'}>Border Bottom Left 1</C3Border>
+        <C3Border {...args} className={'b-border-bl-2'}>Border Bottom Left 2</C3Border>
+        <C3Border {...args} className={'b-border-bl-3'}>Border Bottom Left 3</C3Border>
+        <C3Border {...args} className={'b-border-bl-4 b-mr-10'}>Border Bottom Left 4</C3Border>
+        <C3Border {...args} className={'b-border-bl-5 b-ml-10'}>Border Bottom Left 5</C3Border>
+        <C3Border {...args} className={'b-border-bl-10 b-ml-10'}>Border Bottom Left 10</C3Border>
+        <C3Border {...args} className={'b-border-bl-20'}>Border Bottom Left 20</C3Border>
+        <C3Border {...args} className={'b-border-bl-25'}>Border Bottom Left 25</C3Border>
+        <C3Border {...args} className={'b-border-bl-50 b-mr-10'}>Border Bottom Left 50</C3Border>
+        <C3Border {...args} className={'b-border-bl-75 b-ml-10'}>Border Bottom Left 75</C3Border>
+        <C3Border {...args} className={'b-border-bl-100 b-mr-10'}>Border Bottom Left 100</C3Border>
+    </div>
+);
+export const BorderBottomLeft = BorderBottomLeftTemplate.bind({});
+
+const BorderBottomRightTemplate: ComponentStory<typeof C3Border> = args => (
+    <div className={'border-bottom-right'}>
+        <C3Border {...args} className={'b-border-br-0 b-ml-10'}>Border Bottom Right 0</C3Border>
+        <C3Border {...args} className={'b-border-br-1'}>Border Bottom Right 1</C3Border>
+        <C3Border {...args} className={'b-border-br-2'}>Border Bottom Right 2</C3Border>
+        <C3Border {...args} className={'b-border-br-3'}>Border Bottom Right 3</C3Border>
+        <C3Border {...args} className={'b-border-br-4 b-mr-10'}>Border Bottom Right 4</C3Border>
+        <C3Border {...args} className={'b-border-br-5 b-ml-10'}>Border Bottom Right 5</C3Border>
+        <C3Border {...args} className={'b-border-br-10 b-ml-10'}>Border Bottom Right 10</C3Border>
+        <C3Border {...args} className={'b-border-br-20'}>Border Bottom Right 20</C3Border>
+        <C3Border {...args} className={'b-border-br-25'}>Border Bottom Right 25</C3Border>
+        <C3Border {...args} className={'b-border-br-50 b-mr-10'}>Border Bottom Right 50</C3Border>
+        <C3Border {...args} className={'b-border-br-75 b-ml-10'}>Border Bottom Right 75</C3Border>
+        <C3Border {...args} className={'b-border-br-100 b-mr-10'}>Border Bottom Right 100</C3Border>
+    </div>
+);
+export const BorderBottomRight = BorderBottomRightTemplate.bind({});
 
