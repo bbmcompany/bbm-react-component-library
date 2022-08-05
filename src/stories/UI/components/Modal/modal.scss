@@ -22,15 +22,19 @@
       background-color: $color-white;
       min-width: 45%;
       min-height: 20%;
-
       font-weight: 500;
       letter-spacing: normal;
       font-family:'RubikVariable', sans-serif;
       line-height: normal;
 
-      .title {
-        font-size: 24px;
-        color:$grey-500;
+      .title-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+          font-size: 24px;
+          color:$grey-500;
+        }
       }
 
       .content {
@@ -38,7 +42,6 @@
         color:$text-color-400;
         font-size: 15px;
       }
-
       .close-button {
         width: fit-content;
       }
