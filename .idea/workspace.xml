@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-top-left and -right,  border-bottom-left and -right properties have been added.">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (dimensions - 103)  adding dimension system (border) to components.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/label.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/skeleton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/skeleton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/border/border.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/border/border.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/forms/LoginForm/LoginForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +39,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/components/Radio2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/components/deneme" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\deneme" />
+      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Modal2" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Radio2" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Avatar" />
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\assets" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\forms" />
-      <recent name="C:\component-library\bbm-component-library\src\stories\UI\components\Pagination" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\utilities\Sizing" />
@@ -339,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659682818203</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="rcl (dimensions - 103)  adding dimension system (border) to components.">
+      <created>1659684850040</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1659684850040</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (icon - 105) : icon size added." />
     <MESSAGE value="rcl (input) : input component started. Label position and type added" />
     <MESSAGE value="rcl (input - 102) : input bug fixed" />
     <MESSAGE value="rcl (input - 103) :  with fixed label, without label and label options added" />
@@ -382,6 +377,7 @@
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-top-left and -right,  border-bottom-left and -right properties have been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-top-left and -right,  border-bottom-left and -right properties have been added." />
+    <MESSAGE value="rcl (dimensions - 103)  adding dimension system (border) to components." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (dimensions - 103)  adding dimension system (border) to components." />
   </component>
 </project>

@@ -23,7 +23,7 @@ export const C3LoginForm = ({
 
                             }: C3LoginFormProps) => {
     const handleSubmit = (e: any) => {
-        e.preventDefault();
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         [...Object.values(props).map((prop, index) => {
             let value: string = (document.getElementById(prop[0][2]) as HTMLInputElement).value;
             // @ts-ignore
@@ -76,7 +76,7 @@ export const C3LoginForm = ({
                 </div> : <></>}
 
                 <div className={'form--submit'}>
-                    <C3Button type={'submit'} onClick={handleSubmit} label={buttonText} primary/>
+                    <C3Button type={'submit'} onClick={handleSubmit} primary>{buttonText}</C3Button>
                 </div>
             </form>
         </div>
