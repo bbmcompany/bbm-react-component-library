@@ -47,6 +47,7 @@ export const C3Input = ({
             <div className={[controlClass, inputHasValue].join(' ')}>
                 <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
                 <input
+                    className={[className, 'b-border-4'].join(' ')}
                     id={id}
                     name={label}
                     value={value}

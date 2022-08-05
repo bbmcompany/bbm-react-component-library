@@ -28,9 +28,9 @@ export const C3Label = ({
     }
 
     return (
-        <div className={['bbm-rcl-label', className].join(' ')}>
+        <div className={['bbm-rcl-label', 'b-border-5', className].join(' ')}>
              <span
-                 className={[`bbm-rcl-label--${options}`, `bbm-rcl-label--${size}`].join(' ')}
+                 className={[`bbm-rcl-label--${options}`, `bbm-rcl-label--${size}`,'b-border-1'].join(' ')}
                  style={{color: color, backgroundColor: backgroundColor}}
              >
     {icon == ' ' ? <>

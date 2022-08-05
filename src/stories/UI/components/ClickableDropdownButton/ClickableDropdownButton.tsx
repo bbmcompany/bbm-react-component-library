@@ -38,7 +38,7 @@ export const C3ClickableDropdownButton = ({
                       icon={'arrow_down'}
                       size={size}>{label}
             </C3Button>
-            <div className={`bbm-rcl-clickable-dropdown--list --${listVariants}`}>
+            <div className={[`bbm-rcl-clickable-dropdown--list --${listVariants}`, 'b-border-4'].join(' ')}>
                 {children}
             </div>
         </div>

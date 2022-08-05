@@ -74,7 +74,7 @@ export const C3Button = ({
             style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
             aria-disabled={disabled}
             formTarget={target}
-            className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses, className].join(' ')}
+            className={['bbm-rcl-button', 'b-border-4', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses, className].join(' ')}
         >
             {icon == ' ' ? <>
                 <div className={"text"}>

@@ -45,10 +45,10 @@ export const C3Badge = ({
         <>
             {icon == ' ' ?
                 <span
-                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>{dot ? null : children}</span>
+                    className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>{dot ? null : children}</span>
                 :
                 <span
-                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
+                    className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
                     <C3Icon icon={icon} size={'small'}/>
                 </span>
             }
