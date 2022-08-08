@@ -44,7 +44,7 @@ export const Variants = VariantsTemplate.bind({});
 
 const TypesTemplate: ComponentStory<typeof C3Button> = args => (
     <div className={'button'}>
-        <C3Button {...args} primary className={'b-m-5'}>Contained</C3Button>
+        <C3Button {...args} primary className={'b-m-5'} >Contained</C3Button>
         <C3Button {...args} primary outline className={'b-m-5'}>Outline</C3Button>
         <C3Button {...args} primary className={'b-m-5'}>Default</C3Button>
         <C3Button {...args} primary icon={'academy'} className={'b-m-5'}>Icon</C3Button>

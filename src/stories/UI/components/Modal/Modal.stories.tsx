@@ -13,21 +13,11 @@ const func = () => {
 
 const VariantsTemplate: ComponentStory<typeof C3Modal> = args => (
     <div className={'modal'}>
-        <div className={'modal-variants b-m-10'}>
-            <C3Modal {...args} modalButtonFunction={() => func()}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Donec ipsum mauris, dapibus non sapien in, tristique tristique lorem.</p>
-                <p>In hac habitasse platea dictumst.</p>
-            </C3Modal>
-        </div>
-
-        <div className={'modal-variants b-m-10'}>
-            <C3Modal {...args} modalButtonFunction={() => func()} modalButtonText={'Close'}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Donec ipsum mauris, dapibus non sapien in, tristique tristique lorem.</p>
-                <p>In hac habitasse platea dictumst.</p>
-            </C3Modal>
-        </div>
+        <C3Modal {...args} modalButtonFunction={() => func()} className={'b-mx-5'}>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Donec ipsum mauris, dapibus nondas sapien in, tristique tristique lorem.</p>
+            <p>In hac habitasse platea dictumst.</p>
+        </C3Modal>
     </div>
 );
 export const Variants = VariantsTemplate.bind({})

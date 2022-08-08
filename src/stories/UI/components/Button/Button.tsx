@@ -21,6 +21,7 @@ interface C3ButtonProps {
     display?: string;
     maxWidth?: number;
     icon?: string;
+    id?: string;
     className?: string;
     action?: boolean;
     type?: "button" | "submit" | "reset" | undefined;
@@ -45,6 +46,7 @@ export const C3Button = ({
                              maxWidth = 0,
                              type = undefined,
                              className = ' ',
+                             id = ' ',
                              variant = ' ',
                              ...props
                          }: C3ButtonProps) => {
@@ -69,6 +71,7 @@ export const C3Button = ({
 
     return (
         <button
+            id={id}
             type={type}
             onClick={onClick}
             style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
