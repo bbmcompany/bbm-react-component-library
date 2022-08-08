@@ -46,3 +46,25 @@ const VariantsTemplate: ComponentStory<typeof C3Tabs> = args => (
     </div>
 );
 export const Variants = VariantsTemplate.bind({});
+
+const AbsoluteOnlyIconTemplate: ComponentStory<typeof C3Tabs> = args => (
+    <div className={'tabs'}>
+        <C3Tabs {...args} className={'b-position-absolute'}>
+            <C3Button icon={'add_photo'} iconButton>Button</C3Button>
+            <C3Button icon={'academy'} iconButton>Tabs</C3Button>
+            <C3Button>Only Icon</C3Button>
+        </C3Tabs>
+    </div>
+);
+export const AbsoluteOnlyIcon = AbsoluteOnlyIconTemplate.bind({});
+
+const AbsoluteWithIconTemplate: ComponentStory<typeof C3Tabs> = args => (
+    <div className={'tabs'}>
+        <C3Tabs {...args} className={'b-position-absolute'}>
+            <C3Button icon={'add_photo'}>Button</C3Button>
+            <C3Button icon={'academy'}>Tabs</C3Button>
+            <C3Button>With Icon</C3Button>
+        </C3Tabs>
+    </div>
+);
+export const AbsoluteWithIcon = AbsoluteWithIconTemplate.bind({});
