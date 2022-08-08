@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (modal -102)  modal component function added.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/Tabs.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/Tabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/tabs-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/styles/display/display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/styles/position/position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Display/Display.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Display/display-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Display/display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Display/display.tsx" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (arrayTabs) array tabs component started.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/tabs-stories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/tabs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/Tabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/Tabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/tabs-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659702857402</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="rcl (arrayTabs) array tabs component started.">
+      <created>1659961218144</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1659961218144</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +385,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (input - 103) :  with fixed label, without label and label options added" />
     <MESSAGE value="rcl (Form -inputForm 101) :  input form component started" />
     <MESSAGE value="rcl (Form -loginForm 101) :  display and input options added" />
     <MESSAGE value="rcl (avatar - 101) : avatar component is started" />
@@ -412,6 +409,7 @@
     <MESSAGE value="rcl (dimensions - 103)  adding dimension system (border) to components." />
     <MESSAGE value="rcl (modal -101)  modal component started." />
     <MESSAGE value="rcl (modal -102)  modal component function added." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (modal -102)  modal component function added." />
+    <MESSAGE value="rcl (arrayTabs) array tabs component started." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (arrayTabs) array tabs component started." />
   </component>
 </project>

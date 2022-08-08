@@ -1,0 +1,113 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+.bbm-rcl-tabs {
+  &--button-group {
+    display: flex;
+    flex-direction: row;
+    background-color: $color-white;
+
+    button {
+      justify-content: center;
+      font-size: 17.5px;
+      font-weight: 500;
+      letter-spacing: normal;
+      color: $text-color-400;
+      font-kerning: none;
+      font-family: 'Rubik', sans-serif;
+      line-height: 1;
+      background-color: $transparent;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid $mid-grey-500;
+
+      &:focus-within {
+        color: $grey-500;
+        border-bottom: 1px solid $grey-500;
+      }
+
+      &:hover {
+        color: $mid-grey-100;
+      }
+
+      .icon-container {
+        justify-content: center;
+      }
+    }
+  }
+
+  &--seperator {
+    margin-top: 10px;
+    height: 17px;
+    border-right: 1.5px solid $border-color-400;
+  }
+
+  &--primary {
+    button {
+      &:focus-within {
+        color: $orange-400;
+        border-bottom: 1px solid $orange-400;
+      }
+      &:hover {
+        color: $orange-400;
+      }
+    }
+  }
+
+  &--secondary {
+    button {
+      &:focus-within {
+        color: $blue-300;
+        border-bottom: 1px solid $blue-300;
+      }
+      &:hover {
+        color: $blue-300;
+      }
+    }
+  }
+
+  &--tertiary {
+    button {
+      &:focus-within {
+        color: $mid-grey-200;
+        border-bottom: 1px solid $mid-grey-200;
+      }
+      &:hover {
+        color: $mid-grey-200;
+      }
+    }
+  }
+
+  &--success {
+    button {
+      &:focus-within {
+        color: $green-400;
+        border-bottom: 1px solid $green-400;
+      }
+      &:hover {
+        color: $green-400;
+      }
+    }
+  }
+
+  &--danger {
+    button {
+      &:focus-within {
+        color: $red-400;
+        border-bottom: 1px solid $red-400;
+      }
+      &:hover {
+        color: $red-400;
+      }
+    }
+  }
+
+  .fluid {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      width: 100%;
+    }
+  }
+}

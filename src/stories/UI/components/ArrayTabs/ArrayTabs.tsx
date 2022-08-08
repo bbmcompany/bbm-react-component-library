@@ -1,6 +1,6 @@
 import {C3Button} from '../Button/Button'
 import { C3Icon } from '../Icon/Icon';
-import './tabs.scss'
+import './array-tabs.scss'
 
 interface C3ArrayTabsProps {
     tabs: object,
@@ -12,14 +12,12 @@ interface C3ArrayTabsProps {
     danger?: boolean,
     fluid?: boolean,
     seperator?: boolean,
-    icon?: string,
 }
 
 export const C3ArrayTabs = ({
                                 tabs = {},
                                 fluid = false,
                                 seperator = false,
-                                icon = ' ',
                                 className = ' ',
                                 ...props
                             }: C3ArrayTabsProps) => {
@@ -45,11 +43,6 @@ export const C3ArrayTabs = ({
                                             id={tab.toLowerCase()}
                                             transparent
                                         >{tab}</C3Button>
-                                        {icon != ' ' ?
-                                            <C3Icon icon={icon}></C3Icon>
-                                            :
-                                            <></>
-                                        }
                                         {
                                             index != Object.values(tabs).length - 1 && seperator ?
                                                 <div className={'bbm-rcl-tabs--seperator'}></div>
