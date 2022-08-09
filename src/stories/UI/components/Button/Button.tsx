@@ -8,7 +8,7 @@ interface C3ButtonProps {
     secondary?: boolean,
     tertiary?: boolean,
     orange?:boolean,
-    gray?:boolean,
+    grey?:boolean,
     text?: boolean
     error?: boolean,
     success?: boolean,

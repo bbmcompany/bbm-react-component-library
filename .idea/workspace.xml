@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 101 : avatar and button) code review and design changes made">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 102 : array-tabs) code review and design changes made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/color/color-pallette.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660042296424</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="rcl (code-review 102 : array-tabs) code review and design changes made">
+      <created>1660046600268</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1660046600268</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (avatar - 101) : avatar component started" />
     <MESSAGE value="rcl (checkbox -101) : checkbox component started" />
     <MESSAGE value="rcl (login-form - 104) : login form template, label variants and title options added." />
     <MESSAGE value="rcl (login-form - 104.1) : login form template, label variants and title options added." />
@@ -436,6 +447,7 @@
     <MESSAGE value="rcl (Tabs) tabs component started." />
     <MESSAGE value="rcl (Tabs - 102) tabs component variants added." />
     <MESSAGE value="rcl (code-review 101 : avatar and button) code review and design changes made" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (code-review 101 : avatar and button) code review and design changes made" />
+    <MESSAGE value="rcl (code-review 102 : array-tabs) code review and design changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (code-review 102 : array-tabs) code review and design changes made" />
   </component>
 </project>

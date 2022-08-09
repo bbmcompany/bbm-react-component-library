@@ -1,8 +1,10 @@
-
+.badge {
+  display: flex;
+}
 .float-container {
   display: flex;
   gap: 30px;
-  
+
   .float {
     position: relative;
   }

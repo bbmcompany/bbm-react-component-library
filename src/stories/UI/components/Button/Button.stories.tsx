@@ -37,7 +37,7 @@ const VariantsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} orange className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning className={'b-m-5'}>Warning</C3Button>
@@ -103,7 +103,7 @@ const ContainedButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} orange className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning className={'b-m-5'}>Warning</C3Button>
@@ -119,7 +119,7 @@ const OutlinedButtonTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} secondary outline className={'b-m-5'}>Secondary</C3Button>
         <C3Button {...args} tertiary outline className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} orange outline className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray outline className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey outline className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error outline className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success outline className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning outline className={'b-m-5'}>Warning</C3Button>
@@ -143,7 +143,7 @@ const IconButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary icon={'attach'} className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text icon={'attach'} className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} orange icon={'attach'} className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray icon={'attach'} className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey icon={'attach'} className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error icon={'attach'} className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success icon={'attach'} className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning icon={'attach'} className={'b-m-5'}>Warning</C3Button>
@@ -160,7 +160,7 @@ const OnlyIconButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary iconButton className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text iconButton className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} orange iconButton className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray iconButton className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey iconButton className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error iconButton className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success iconButton className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning iconButton className={'b-m-5'}>Warning</C3Button>
@@ -175,7 +175,7 @@ const TransparentButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} secondary transparent className={'b-m-5'}>Secondary</C3Button>
         <C3Button {...args} tertiary transparent className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} orange transparent className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray transparent className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey transparent className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error transparent className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success transparent className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning transparent className={'b-m-5'}>Warning</C3Button>
@@ -192,7 +192,7 @@ const ProgressButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary progress className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text progress className={'b-m-5'}>Text</C3Button>
         <C3Button {...args} orange progress className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray progress className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey progress className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error progress className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success progress className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning progress className={'b-m-5'}>Warning</C3Button>
@@ -210,7 +210,7 @@ const ProgressTextButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary isProgressText progressText={'Tertiary...'} className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text isProgressText progressText={'Text...'} className={'b-m-5'}>Text</C3Button>
         <C3Button {...args} orange isProgressText progressText={'Orange...'} className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray isProgressText progressText={'Gray...'} className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey isProgressText progressText={'Grey...'} className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error isProgressText progressText={'error...'} className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success isProgressText progressText={'Success...'} className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning isProgressText progressText={'Warning...'} className={'b-m-5'}>Warning</C3Button>
@@ -227,7 +227,7 @@ const DisabledButtonsTemplate: ComponentStory<typeof C3Button> = args => (
         <C3Button {...args} tertiary disabled className={'b-m-5'}>Tertiary</C3Button>
         <C3Button {...args} text disabled className={'b-m-5'}>Text</C3Button>
         <C3Button {...args} orange disabled className={'b-m-5'}>Orange</C3Button>
-        <C3Button {...args} gray disabled className={'b-m-5'}>Gray</C3Button>
+        <C3Button {...args} grey disabled className={'b-m-5'}>Grey</C3Button>
         <C3Button {...args} error disabled className={'b-m-5'}>Error</C3Button>
         <C3Button {...args} success disabled className={'b-m-5'}>Success</C3Button>
         <C3Button {...args} warning disabled className={'b-m-5'}>Warning</C3Button>

@@ -28,7 +28,7 @@ const AvatarVariantsTemplate: ComponentStory<typeof C3Avatar> = args => (
         <C3Avatar {...args} secondary text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} tertiary text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} orange text className={'b-m-5'}>C3PO</C3Avatar>
-        <C3Avatar {...args} gray text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} grey text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} error text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} success text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} warning text className={'b-m-5'}>C3PO</C3Avatar>

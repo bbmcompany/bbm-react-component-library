@@ -11,7 +11,7 @@ interface C3AvatarProps {
     success?: boolean;
     info?: boolean;
     warning?: boolean;
-    gray?: boolean;
+    grey?: boolean;
     orange?: boolean;
     text: boolean;
     icon?: boolean;

@@ -86,10 +86,10 @@
     $hover-background-color: $tertiary-500);
   }
 
-  &--gray {
+  &--grey {
     @include colorGenerator($color: $white-base,
-    $background-color: $gray-500,
-    $hover-background-color: $gray-600);
+    $background-color: $grey-500,
+    $hover-background-color: $grey-600);
   }
 
   &--orange {

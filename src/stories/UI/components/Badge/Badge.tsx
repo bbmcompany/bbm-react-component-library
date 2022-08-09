@@ -7,9 +7,12 @@ interface C3BadgeProps {
     primary?: boolean;
     secondary?: boolean;
     tertiary?: boolean;
-    danger?: boolean;
-    success?: boolean;
-    textColorIsBlack?: boolean;
+    orange?:boolean;
+    grey?:boolean;
+    error?:boolean;
+    success?:boolean;
+    warning?:boolean;
+    info?:boolean;
     icon?: string;
     float?: string;
     overlap?: boolean;
@@ -19,7 +22,7 @@ interface C3BadgeProps {
 
 export const C3Badge = ({
                             children = '+1',
-                            size = 'small',
+                            size = 's',
                             float = 'base',
                             icon = ' ',
                             dot = false,
@@ -48,8 +51,8 @@ export const C3Badge = ({
                     className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>{dot ? null : children}</span>
                 :
                 <span
-                    className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
-                    <C3Icon icon={icon} size={'small'}/>
+                    className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
+                    <C3Icon icon={icon} size={size}/>
                 </span>
             }
         </>

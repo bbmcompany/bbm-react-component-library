@@ -12,7 +12,7 @@ interface C3ArrayTabsProps {
     error?: boolean,
     warning?:boolean,
     orange?:boolean,
-    gray?:boolean,
+    grey?:boolean,
     info?:boolean,
     fluid?: boolean,
     seperator?: boolean,
