@@ -10,56 +10,40 @@ export default {
             control: {
                 type: 'select',
                 options: {
-                    'Small': 'small',
-                    'Medium': 'medium',
-                    'Large': 'large',
-                    'X Large': 'x-large',
-                    '2X Large': '2x-large',
-                    '3X Large': '3x-large',
+                    'xs': 'xs',
+                    's': 's',
+                    'm': 'm',
+                    'l': 'l',
                 }
             }
         },
-        backgroundColor: {
-            control: {
-                type: 'color',
-            }
-        },
-
     }
 } as ComponentMeta<typeof C3Avatar>
 
 const AvatarVariantsTemplate: ComponentStory<typeof C3Avatar> = args => (
     <div className={'avatar'}>
-        <C3Avatar {...args} className={'b-m-5'}/>
-        <C3Avatar {...args} primary className={'b-m-5'}>C3PO</C3Avatar>
-        <C3Avatar {...args} circular className={'b-m-5'}/>
-        <C3Avatar {...args} circular secondary className={'b-m-5'}>C3PO</C3Avatar>
-        <C3Avatar {...args} rounded className={'b-m-5'}/>
-        <C3Avatar {...args} rounded tertiary className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} icon className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} primary text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} secondary text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} tertiary text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} orange text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} gray text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} error text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} success text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} warning text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} info text className={'b-m-5'}>C3PO</C3Avatar>
+        <C3Avatar {...args} text className={'b-m-5'}>DF</C3Avatar>
     </div>
 );
 export const Variants = AvatarVariantsTemplate.bind({});
 
-const AvatarTypesTemplate: ComponentStory<typeof C3Avatar> = args => (
-    <div className={'avatar'}>
-        <C3Avatar {...args} className={'b-m-5'}/>
-        <C3Avatar {...args} className={'b-m-5'}>C3PO</C3Avatar>
-        <C3Avatar {...args} circular className={'b-m-5'}/>
-        <C3Avatar {...args} circular className={'b-m-5'}>C3PO</C3Avatar>
-        <C3Avatar {...args} rounded className={'b-m-5'}/>
-        <C3Avatar {...args} rounded className={'b-m-5'}>C3PO</C3Avatar>
-    </div>
-);
-export const Types = AvatarTypesTemplate.bind({});
-
 const AvatarSizeTemplate: ComponentStory<typeof C3Avatar> = args => (
     <div className={'avatar'}>
-        <C3Avatar {...args} size={'small'} className={'b-m-5'}/>
-        <C3Avatar {...args} size={'medium'} className={'b-m-5'}/>
-        <C3Avatar {...args} size={'large'} className={'b-m-5'}/>
-        <C3Avatar {...args} size={'x-large'} className={'b-m-5'}/>
-        <C3Avatar {...args} size={'2x-large'} className={'b-m-5'}/>
-        <C3Avatar {...args} size={'3x-large'} className={'b-m-5'}/>
+        <C3Avatar {...args} size={'xs'} className={'b-m-5'}/>
+        <C3Avatar {...args} size={'s'} className={'b-m-5'}/>
+        <C3Avatar {...args} size={'m'} className={'b-m-5'}/>
+        <C3Avatar {...args} size={'l'} className={'b-m-5'}/>
     </div>
 );
 export const AvatarSize = AvatarSizeTemplate.bind({});

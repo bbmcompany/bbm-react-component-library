@@ -7,34 +7,24 @@
 .bbm-rcl-icon {
   width: fit-content;
   display: block;
-  &--small {
-    width: 0.8em;
-    height: 0.8em;
-  }
-
-  &--medium {
+  &--xs {
     width: 1em;
     height: 1em;
   }
 
-  &--large {
+  &--s {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  &--m {
     width: 1.4em;
     height: 1.4em;
   }
 
-  &--x-large {
+  &--l {
     width: 1.6em;
     height: 1.6em;
-  }
-
-  &--2x-large {
-    width: 1.8em;
-    height: 1.8em;
-  }
-
-  &--3x-large {
-    width: 2.0em;
-    height: 2.0em;
   }
 
   &--academy {

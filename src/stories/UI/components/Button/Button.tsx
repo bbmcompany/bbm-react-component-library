@@ -7,9 +7,13 @@ interface C3ButtonProps {
     children?: string,
     secondary?: boolean,
     tertiary?: boolean,
+    orange?:boolean,
+    gray?:boolean,
     text?: boolean
-    danger?: boolean,
+    error?: boolean,
     success?: boolean,
+    warning?: boolean,
+    info?: boolean,
     iconButton?: boolean,
     outline?: boolean,
     transparent?: boolean,
@@ -35,7 +39,7 @@ export const C3Button = ({
                              disabled = false,
                              progress = false,
                              isProgressText = false,
-                             size = 'medium',
+                             size = 's',
                              target = '_self',
                              display = ' ',
                              icon = ' ',
@@ -77,7 +81,7 @@ export const C3Button = ({
             style={{display: display, maxWidth: maxWidth == 0 ? "none" : maxWidth}}
             aria-disabled={disabled}
             formTarget={target}
-            className={['bbm-rcl-button', 'b-border-4', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses, className].join(' ')}
+            className={['bbm-rcl-button', `bbm-rcl-button--${size}`, isDisabled, isProgress, variantClasses, className].join(' ')}
         >
             {icon == ' ' ? <>
                 <div className={"text"}>

@@ -8,22 +8,23 @@
     background-color: $color-white;
 
     button {
+      padding: 15px;
       justify-content: center;
       font-size: 17.5px;
       font-weight: 500;
       letter-spacing: normal;
       color: $text-color-400;
       font-kerning: none;
-      font-family: 'Rubik', sans-serif;
+      font-family: 'Murecho', sans-serif;
       line-height: 1;
       background-color: $transparent;
       border-radius: 0;
       border: none;
-      border-bottom: 1px solid $mid-grey-500;
+      border-bottom: 2px solid $mid-grey-500;
 
       &:focus-within {
         color: $grey-500;
-        border-bottom: 1px solid $grey-500;
+        border-bottom: 2px solid $grey-500;
       }
 
       &:hover {
@@ -46,7 +47,7 @@
     button {
       &:focus-within {
         color: $orange-400;
-        border-bottom: 1px solid $orange-400;
+        border-bottom: 2px solid $orange-400;
       }
       &:hover {
         color: $orange-400;
@@ -58,7 +59,7 @@
     button {
       &:focus-within {
         color: $blue-300;
-        border-bottom: 1px solid $blue-300;
+        border-bottom: 2px solid $blue-300;
       }
       &:hover {
         color: $blue-300;
@@ -70,7 +71,7 @@
     button {
       &:focus-within {
         color: $mid-grey-200;
-        border-bottom: 1px solid $mid-grey-200;
+        border-bottom: 2px solid $mid-grey-200;
       }
       &:hover {
         color: $mid-grey-200;
@@ -82,7 +83,7 @@
     button {
       &:focus-within {
         color: $green-400;
-        border-bottom: 1px solid $green-400;
+        border-bottom: 2px solid $green-400;
       }
       &:hover {
         color: $green-400;
@@ -94,7 +95,7 @@
     button {
       &:focus-within {
         color: $red-400;
-        border-bottom: 1px solid $red-400;
+        border-bottom: 2px solid $red-400;
       }
       &:hover {
         color: $red-400;
