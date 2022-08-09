@@ -52,7 +52,7 @@ export const C3Badge = ({
                 :
                 <span
                     className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
-                    <C3Icon icon={icon} className={'b-p-1'} size={size}/>
+                    <C3Icon icon={icon}  size={size}/>
                 </span>
             }
         </>
