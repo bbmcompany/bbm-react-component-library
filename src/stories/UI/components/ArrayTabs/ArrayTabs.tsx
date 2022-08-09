@@ -9,7 +9,11 @@ interface C3ArrayTabsProps {
     secondary?: boolean,
     tertiary?: boolean,
     success?: boolean,
-    danger?: boolean,
+    error?: boolean,
+    warning?:boolean,
+    orange?:boolean,
+    gray?:boolean,
+    info?:boolean,
     fluid?: boolean,
     seperator?: boolean,
 }
@@ -26,14 +30,14 @@ export const C3ArrayTabs = ({
     let variantClasses = '';
     for (const [key, value] of Object.entries(props)) {
         if (value) {
-            variantClasses += ` bbm-rcl-tabs--${key}`;
+            variantClasses += ` bbm-rcl-array-tabs--${key}`;
         }
     }
     return (
-        <div className={['bbm-rcl-tabs', className].join(' ')}>
+        <div className={['bbm-rcl-array-tabs', className].join(' ')}>
             {
                 Object.values(tabs).length > 0 ?
-                    <div className={['bbm-rcl-tabs--button-group b-border-t-4', variantClasses, fluidClass].join(' ')}>
+                    <div className={['bbm-rcl-array-tabs--button-group b-border-t-4', variantClasses, fluidClass].join(' ')}>
                         {
                             [...Object.values(tabs).map((tab, index) => {
                                 return (
@@ -45,7 +49,7 @@ export const C3ArrayTabs = ({
                                         >{tab}</C3Button>
                                         {
                                             index != Object.values(tabs).length - 1 && seperator ?
-                                                <div className={'bbm-rcl-tabs--seperator'}></div>
+                                                <div className={'bbm-rcl-array-tabs--seperator'}></div>
                                                 :
                                                 <></>
                                         }

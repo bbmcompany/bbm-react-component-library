@@ -18,12 +18,10 @@ export default {
             control: {
                 type: 'select',
                 options: {
-                    'Small': 'small',
-                    'Medium': 'medium',
-                    'Large': 'large',
-                    'X Large': 'x-large',
-                    '2X Large': '2x-large',
-                    '3X Large': '3x-large',
+                    'xs': 'xs',
+                    's': 's',
+                    'm': 'm',
+                    'l': 'l',
                 }
             }
         },
@@ -39,37 +37,35 @@ export const SingleIcon = SingleIconTemplate.bind({});
 
 const IconSizeTemplate: ComponentStory<typeof C3Icon> = args => (
     <div className={'icon'}>
-        <C3Icon  {...args} icon={args.icon} size={'small'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={args.icon} size={'medium'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={args.icon} size={'large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={args.icon} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={args.icon} size={'2x-large'} className={'b-m-5'}/>
-
+        <C3Icon  {...args} icon={args.icon} size={'xs'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={args.icon} size={'s'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={args.icon} size={'m'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={args.icon} size={'l'} className={'b-m-5'}/>
     </div>
 )
 export const IconSize = IconSizeTemplate.bind({});
 
 const IconListTemplate: ComponentStory<typeof C3Icon> = args => (
     <div className={'icon'}>
-        <C3Icon  {...args} icon={'academy'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'account'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'add_note'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'add_photo'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'add_product'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'alert'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'archive'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'arrow-right'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'left-arrow'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'arrow-up'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'arrow_down'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'attach'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'award'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'back'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'back_fill'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'change'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'close'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'question'} size={'x-large'} className={'b-m-5'}/>
-        <C3Icon  {...args} icon={'exclamation'} size={'x-large'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'academy'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'account'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'add_note'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'add_photo'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'add_product'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'alert'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'archive'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'arrow-right'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'left-arrow'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'arrow-up'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'arrow_down'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'attach'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'award'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'back'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'back_fill'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'change'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'close'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'question'} size={'l'} className={'b-m-5'}/>
+        <C3Icon  {...args} icon={'exclamation'} size={'l'} className={'b-m-5'}/>
     </div>
 )
 export const IconList = IconListTemplate.bind({});

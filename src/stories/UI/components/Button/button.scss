@@ -16,9 +16,6 @@
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
-  @include colorGenerator();
-
-
 }
 
 @mixin base-size {

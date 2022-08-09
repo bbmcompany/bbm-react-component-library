@@ -8,7 +8,7 @@ interface C3IconProps {
 };
 
 export const C3Icon = ({
-                           size = 'small',
+                           size = 's',
                            icon = 'academy',
                            className = ' ',
                            width = 0,

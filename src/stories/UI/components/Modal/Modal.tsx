@@ -38,13 +38,13 @@ export const C3Modal = ({
                             className='b-m-5'
                             icon='close'
                             iconButton
+                            text
                             onClick={() => closeModal()}
                             primary
-                            transparent
                         />
                     </div>
                     <div className={'content b-my-25'}>{children}</div>
-                    <C3Button className={'close-button b-m-5'} danger size={'large'}
+                    <C3Button className={'close-button b-m-5'} warning size={'large'}
                               onClick={() => modalButtonFunction()}>{modalButtonText}</C3Button>
                 </div>
             </div>
