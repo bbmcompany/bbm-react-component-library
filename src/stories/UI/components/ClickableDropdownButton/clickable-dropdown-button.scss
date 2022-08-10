@@ -2,10 +2,8 @@
 @import "../../styles/color/color-pallette";
 
 .bbm-rcl-clickable-dropdown {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: fit-content;
+  display: inline-block;
+  position: relative;
 
   button {
 
@@ -25,49 +23,77 @@
 
   &--list {
     display: none;
+    position: absolute;
+    background-color: $white-base;
+    z-index: 1;
     border: 1.2px solid $mid-grey-800;
     width: 100%;
     flex-direction: column;
     margin-top: 5%;
     padding: 10% 8%;
     row-gap: 10px;
+    margin-left: -7%;
 
     a {
       font-weight: 500;
       font-size: 15.5px;
       font-family: 'Rubik', sans-serif;
       text-decoration: none;
-      color: $grey-500;
+      color: $grey-700;
     }
 
 
     &[class*='--primary'] {
       a:hover {
-        color: $orange-400;
+        color: $primary-400;
       }
     }
 
     &[class*='--secondary'] {
       a:hover {
-        color: $blue-400;
+        color: $secondary-500;
       }
     }
 
     &[class*='--tertiary'] {
       a:hover {
-        color: $mid-grey-200;
+        color: $tertiary-400;
       }
     }
 
     &[class*='--success'] {
       a:hover {
-        color: $green-300;
+        color: $success-300;
       }
     }
 
-    &[class*='--danger'] {
+    &[class*='--error'] {
       a:hover {
-        color: $red-400;
+        color: $error-400;
+      }
+    }
+
+    &[class*='--warning'] {
+      a:hover {
+        color: $warning-400;
+      }
+    }
+
+    &[class*='--info'] {
+      a:hover {
+        color: $info-300;
+      }
+    }
+
+    &[class*='--grey'] {
+      a:hover {
+        color: $grey-600;
+      }
+    }
+
+    &[class*='--orange'] {
+      a:hover {
+        color: $orange-400;
       }
     }
 

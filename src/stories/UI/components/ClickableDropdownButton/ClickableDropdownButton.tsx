@@ -9,7 +9,11 @@ interface C3ClickableDropdownButtonProps {
     primary?: boolean,
     secondary?: boolean,
     tertiary?: boolean,
-    danger?: boolean,
+    warning?: boolean,
+    info?:boolean,
+    error?:boolean,
+    orange?:boolean,
+    grey?:boolean,
     success?: boolean,
     text?: boolean,
     className?: string,
@@ -18,7 +22,7 @@ interface C3ClickableDropdownButtonProps {
 export const C3ClickableDropdownButton = ({
                                               children = undefined,
                                               iconPosition = 'right',
-                                              size = 'medium',
+                                              size = 's',
                                               label = 'Clickable Dropdown',
                                               className = ' ',
                                               ...props

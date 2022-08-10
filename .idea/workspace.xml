@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 103.1 : badge) code review and design changes made">
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 104 : checkbox) code review and design changes made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropdownButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropwdownButton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropwdownButton.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropddownButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropdownButton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropdownButton.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="4896000" />
+      <workItem from="1660074345950" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary="rcl (beginning-101)">
       <created>1656853455595</created>
@@ -428,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660056289969</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="rcl (code-review 104 : checkbox) code review and design changes made">
+      <created>1660120386409</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1660120386409</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (login-form - 104.1) : login form template, label variants and title options added." />
     <MESSAGE value="rcl (tooltip - 101) : tooltip component started." />
     <MESSAGE value="rcl (dropdown 101) : dropdown component started." />
     <MESSAGE value="rcl (clickable dropdown 101) : clickable dropdown component started." />
@@ -471,6 +474,7 @@
     <MESSAGE value="rcl (code-review 102 : array-tabs) code review and design changes made" />
     <MESSAGE value="rcl (code-review 103 : badge) code review and design changes made" />
     <MESSAGE value="rcl (code-review 103.1 : badge) code review and design changes made" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (code-review 103.1 : badge) code review and design changes made" />
+    <MESSAGE value="rcl (code-review 104 : checkbox) code review and design changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (code-review 104 : checkbox) code review and design changes made" />
   </component>
 </project>

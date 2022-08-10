@@ -1,5 +1,4 @@
 @mixin createIcon($icon) {
-  fill: white !important;
   background: url('../../assets/' + $icon + '.svg') no-repeat center;
   background-size: cover;
 }

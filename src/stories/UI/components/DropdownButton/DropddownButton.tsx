@@ -23,7 +23,7 @@ interface C3DropdownButtonProps {
 export const C3DropdownButton = ({
                                      children = undefined,
                                      iconPosition = 'right',
-                                     size = 'm',
+                                     size = 's',
                                      icon = true,
                                      label = 'Dropdown Menu',
                                      className = ' ',
