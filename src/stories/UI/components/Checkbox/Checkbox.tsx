@@ -6,8 +6,9 @@ interface C3CheckboxProps {
     primary?: boolean,
     secondary?: boolean,
     tertiary?: boolean,
-    danger?: boolean,
+    error?: boolean,
     success?: boolean,
+    warning?:boolean,
     size?: string;
     className?: string,
 }
@@ -15,7 +16,7 @@ interface C3CheckboxProps {
 export const C3Checkbox = ({
                                defaultChecked = false,
                                disabled = false,
-                               size = 'medium',
+                               size = 's',
                                className = ' ',
                                ...props
                            }: C3CheckboxProps) => {

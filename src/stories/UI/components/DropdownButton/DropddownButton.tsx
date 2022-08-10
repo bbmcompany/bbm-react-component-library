@@ -5,12 +5,17 @@ interface C3DropdownButtonProps {
     children?: any,
     label?: string,
     size?: string,
+    icon?: boolean,
     iconPosition?: string,
     primary?: boolean,
     secondary?: boolean,
     tertiary?: boolean,
-    danger?: boolean,
-    success?: boolean,
+    error?: boolean,
+    warning?:boolean,
+    success?:boolean,
+    info?:boolean,
+    orange?:boolean,
+    grey?:boolean,
     text?: boolean,
     className?: string,
 }
@@ -18,7 +23,8 @@ interface C3DropdownButtonProps {
 export const C3DropdownButton = ({
                                      children = undefined,
                                      iconPosition = 'right',
-                                     size = 'medium',
+                                     size = 'm',
+                                     icon = true,
                                      label = 'Dropdown Menu',
                                      className = ' ',
                                      ...props
@@ -33,13 +39,18 @@ export const C3DropdownButton = ({
         }
     }
     return (
-        <div className={['bbm-rcl-dropdown', className].join(' ')}>
-            <C3Button className={[`bbm-rcl-dropdown--button --${iconPosition}`, variantClasses].join(' ')}
-                      icon={'arrow_down'}
-                      size={size}>{label}</C3Button>
-            <div className={[`bbm-rcl-dropdown--list --${listVariants}`, 'b-border-4', className].join(' ')}>
-                {children}
+            <div className={['bbm-rcl-dropdown', className].join(' ')}>
+                {icon ? <C3Button className={[`bbm-rcl-dropdown--button --${iconPosition}`, variantClasses].join(' ')}
+                                  icon={'arrow_down'}
+                                  size={size}>{label}</C3Button>
+                    :
+                    <C3Button className={[`bbm-rcl-dropdown--button --${iconPosition}`, variantClasses, 'b-m-5'].join(' ')}
+                              size={size}>{label}</C3Button>
+                }
+
+                <div className={[`bbm-rcl-dropdown--list --${listVariants}`, 'b-border-4', className].join(' ')}>
+                    {children}
+                </div>
             </div>
-        </div>
     )
 }
