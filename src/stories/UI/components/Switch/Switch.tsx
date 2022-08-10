@@ -2,17 +2,22 @@ import './switch.scss'
 
 interface C3SwitchProps {
     size?: string,
-    primary?: boolean,
-    secondary?: boolean,
-    tertiary?: boolean,
-    danger?: boolean,
-    success?: boolean,
+    white?: boolean,
+    primary?: boolean;
+    secondary?: boolean;
+    tertiary?: boolean;
+    error?: boolean;
+    warning?: boolean;
+    success?: boolean;
+    info?: boolean;
+    orange?: boolean;
+    grey?: boolean;
     className?: string,
 
 }
 
 export const C3Switch = ({
-                             size = 'medium',
+                             size = 'm',
                              className = ' ',
                              ...props
                          }: C3SwitchProps) => {

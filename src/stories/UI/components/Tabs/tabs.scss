@@ -8,7 +8,7 @@
     background-color: $color-white;
 
     button {
-      padding: 15px;
+      padding: 20px;
       justify-content: center;
       font-size: 17.5px;
       font-weight: 500;
@@ -20,7 +20,7 @@
       background-color: $transparent;
       border-radius: 0;
       border: none;
-      border-bottom: 2px solid $mid-grey-500;
+      border-bottom: 2px solid $grey-300;
 
       &:focus-within {
         color: $grey-500;
@@ -37,20 +37,15 @@
     }
   }
 
-  &--seperator {
-    margin-top: 10px;
-    height: 17px;
-    border-right: 1.5px solid $border-color-400;
-  }
-
   &--primary {
     button {
       &:focus-within {
-        color: $orange-400;
-        border-bottom: 2px solid $orange-400;
+        color: $primary-400;
+        border-bottom: 2px solid $primary-400;
       }
+
       &:hover {
-        color: $orange-400;
+        color: $primary-400;
       }
     }
   }
@@ -58,11 +53,12 @@
   &--secondary {
     button {
       &:focus-within {
-        color: $blue-300;
-        border-bottom: 2px solid $blue-300;
+        color: $secondary-400;
+        border-bottom: 2px solid $secondary-400;
       }
+
       &:hover {
-        color: $blue-300;
+        color: $secondary-400;
       }
     }
   }
@@ -70,11 +66,62 @@
   &--tertiary {
     button {
       &:focus-within {
-        color: $mid-grey-200;
-        border-bottom: 2px solid $mid-grey-200;
+        color: $tertiary-400;
+        border-bottom: 2px solid $tertiary-400;
       }
+
       &:hover {
-        color: $mid-grey-200;
+        color: $tertiary-400;
+      }
+    }
+  }
+
+  &--error {
+    button {
+      &:focus-within {
+        color: $error-400;
+        border-bottom: 2px solid $error-400;
+      }
+
+      &:hover {
+        color: $error-400;
+      }
+    }
+  }
+  &--grey {
+    button {
+      &:focus-within {
+        color: $grey-400;
+        border-bottom: 2px solid $grey-400;
+      }
+
+      &:hover {
+        color: $grey-400;
+      }
+    }
+  }
+  &--orange {
+    button {
+      &:focus-within {
+        color: $orange-400;
+        border-bottom: 2px solid $orange-400;
+      }
+
+      &:hover {
+        color: $orange-400;
+      }
+    }
+  }
+
+  &--warning {
+    button {
+      &:focus-within {
+        color: $warning-300;
+        border-bottom: 2px solid $warning-300;
+      }
+
+      &:hover {
+        color: $warning-300;
       }
     }
   }
@@ -82,23 +129,25 @@
   &--success {
     button {
       &:focus-within {
-        color: $green-400;
-        border-bottom: 2px solid $green-400;
+        color: $success-300;
+        border-bottom: 2px solid $success-300;
       }
+
       &:hover {
-        color: $green-400;
+        color: $success-300;
       }
     }
   }
 
-  &--danger {
+  &--info {
     button {
       &:focus-within {
-        color: $red-400;
-        border-bottom: 2px solid $red-400;
+        color: $info-300;
+        border-bottom: 2px solid $info-300;
       }
+
       &:hover {
-        color: $red-400;
+        color: $info-300;
       }
     }
   }

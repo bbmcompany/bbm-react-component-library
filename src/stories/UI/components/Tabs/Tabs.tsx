@@ -3,13 +3,16 @@ import './tabs.scss'
 interface C3TabsProps {
     className?: string,
     children?: any,
-    primary?: boolean,
-    secondary?: boolean,
-    tertiary?: boolean,
-    success?: boolean,
-    danger?: boolean,
+    primary?: boolean;
+    secondary?: boolean;
+    tertiary?: boolean;
+    error?: boolean;
+    warning?: boolean;
+    success?: boolean;
+    info?: boolean;
+    orange?: boolean;
+    grey?: boolean;
     fluid?: boolean,
-    seperator?: boolean,
 }
 
 export const C3Tabs = ({

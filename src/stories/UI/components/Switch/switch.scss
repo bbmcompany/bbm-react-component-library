@@ -12,54 +12,80 @@
     height: 0;
   }
 
-  &[class*='--extra-small'] {
+  &[class*='-xs'] {
     width: 30px;
     height: 15px;
   }
 
-  &[class*='--small'] {
+  &[class*='--s'] {
     width: 40px;
     height: 20px;
   }
 
-  &[class*='--medium'] {
+  &[class*='--m'] {
     width: 50px;
     height: 25px;
   }
 
-  &[class*='--large'] {
+  &[class*='--l'] {
     width: 60px;
     height: 30px;
   }
 
+  &[class*='--white'] {
+    input:checked + .slider {
+      background-color: $white-base;
+    }
+  }
 
   &[class*='--primary'] {
     input:checked + .slider {
-      background-color: $orange-400;
+      background-color: $primary-400;
     }
   }
 
   &[class*='--secondary'] {
     input:checked + .slider {
-      background-color: $blue-400;
+      background-color: $secondary-400;
     }
   }
 
   &[class*='--tertiary'] {
     input:checked + .slider {
-      background-color: $mid-grey-200;
+      background-color: $tertiary-400;
     }
   }
 
-  &[class*='--danger'] {
+  &[class*='--error'] {
     input:checked + .slider {
-      background-color: $red-400;
+      background-color: $error-300;
     }
   }
 
+  &[class*='--warning'] {
+    input:checked + .slider {
+      background-color: $warning-300;
+    }
+  }
   &[class*='--success'] {
     input:checked + .slider {
-      background-color: $green-400;
+      background-color: $success-300;
+    }
+  }
+  &[class*='--info'] {
+    input:checked + .slider {
+      background-color: $info-300;
+    }
+  }
+
+  &[class*='--grey'] {
+    input:checked + .slider {
+      background-color: $grey-600;
+    }
+  }
+  &[class*='--orange'] {
+    input:checked + .slider {
+      background-color: $orange-600;
     }
   }
 
