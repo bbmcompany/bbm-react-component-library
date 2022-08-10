@@ -5,7 +5,7 @@
   outline: none;
   box-sizing: border-box;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
   font-family: 'RubikVariable', sans-serif;
   margin: 0;
   width: 100%;
@@ -13,7 +13,6 @@
   min-height: 30px;
   padding: 0 12px;
   border: solid 1px $border-color-400;
-  color: $text-color-400;
 }
 
 .bbm-rcl-input-container {
@@ -26,12 +25,126 @@
     align-items: center;
     position: relative;
 
+    label {
+      color: $grey-700;
+    }
+
+    input {
+      &:focus {
+        border-color: $grey-700;
+      }
+    }
+
+    &[class*='--primary'] {
+      label {
+        color: $primary-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $primary-400;
+        }
+      }
+    }
+
+    &[class*='--secondary'] {
+      label {
+        color: $secondary-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $secondary-400;
+        }
+      }
+    }
+
+    &[class*='--tertiary'] {
+      label {
+        color: $tertiary-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $tertiary-400;
+        }
+      }
+    }
+
+    &[class*='--error'] {
+      label {
+        color: $error-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $error-300;
+        }
+      }
+    }
+
+    &[class*='--success'] {
+      label {
+        color: $success-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $success-300;
+        }
+      }
+    }
+
+    &[class*='--grey'] {
+      label {
+        color: $grey-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $grey-400;
+        }
+      }
+    }
+
+    &[class*='--orange'] {
+      label {
+        color: $orange-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $orange-400;
+        }
+      }
+    }
+
+    &[class*='--warning'] {
+      label {
+        color: $warning-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $warning-300;
+        }
+      }
+    }
+
+    &[class*='--info'] {
+      label {
+        color: $info-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $info-300;
+        }
+      }
+    }
+
     input {
       @include base-input;
-
-      &:focus {
-        border-color: $orange-400;
-      }
 
       &:not(:focus)::placeholder {
         transition: opacity 230ms ease-in;
@@ -48,7 +161,7 @@
     label {
       position: absolute;
       font-weight: 500;
-      font-size: 15px;
+      font-size: 17px;
       font-family: 'Rubik', sans-serif;
       color: $text-color-400;
       left: 5%;
@@ -59,25 +172,117 @@
     }
 
     &:focus-within label {
-      font-size: 13px;
-      color: $text-color-400;
+      font-size: 14px;
       font-family: 'Rubik', sans-serif;
       padding: 0 3px;
       left: 5%;
-      top: -25%;
-      background-color: $color-white;
+      top: -30%;
+      background-color: $white-base;
     }
   }
 
   .bbm-rcl-input-label-fixed {
     width: 100%;
     height: 100%;
+
+    &[class*='--primary'] {
+      label {
+        color: $primary-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $primary-400;
+        }
+      }
+    }
+
+    &[class*='--secondary'] {
+      label {
+        color: $secondary-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $secondary-400;
+        }
+      }
+    }
+
+    &[class*='--tertiary'] {
+      label {
+        color: $tertiary-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $tertiary-400;
+        }
+      }
+    }
+
+    &[class*='--error'] {
+      label {
+        color: $error-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $error-300;
+        }
+      }
+    }
+
+    &[class*='--success'] {
+      label {
+        color: $success-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $success-300;
+        }
+      }
+    }
+
+    &[class*='--grey'] {
+      label {
+        color: $grey-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $grey-400;
+        }
+      }
+    }
+
+    &[class*='--orange'] {
+      label {
+        color: $orange-500;
+      }
+
+      input {
+        &:focus {
+          border-color: $orange-400;
+        }
+      }
+    }
+
+    &[class*='--warning'] {
+      label {
+        color: $warning-400;
+      }
+
+      input {
+        &:focus {
+          border-color: $warning-300;
+        }
+      }
+    }
+
     input {
       @include base-input;
-
-      &:focus {
-        border-color: $orange-400;
-      }
 
       &:not(:focus)::placeholder {
         opacity: 1;
