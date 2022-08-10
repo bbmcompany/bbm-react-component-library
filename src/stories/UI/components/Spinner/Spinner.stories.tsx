@@ -10,10 +10,10 @@ export default {
             control: {
                 type: 'select',
                 options: {
-                    'Extra Small': 'extra-small',
-                    'Small': 'small',
-                    'Medium': 'medium',
-                    'Large': 'large',
+                    'x': 'xs',
+                    's': 's',
+                    'm': 'm',
+                    'l': 'l',
                 }
             }
         },
@@ -23,12 +23,17 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Spinner> = args => (
     <div className={'spinner'}>
-        <C3Spinner {...args} className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} white className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} primary className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} secondary className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} tertiary className={'b-mt-5 b-ml-15'}/>
-        <C3Spinner {...args} danger className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} orange className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} grey className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} error className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} success className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} warning className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} info className={'b-mt-5 b-ml-15'}/>
+
     </div>
 
 );
@@ -36,22 +41,31 @@ export const Variants = VariantsTemplate.bind({});
 
 const DualRingVariantsTemplate: ComponentStory<typeof C3Spinner> = args => (
     <div className={'spinner'}>
-        <C3Spinner {...args} dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} white dualRing className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} primary dualRing className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} secondary dualRing className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} tertiary dualRing className={'b-mt-5 b-ml-15'}/>
-        <C3Spinner {...args} danger dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} orange dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} grey dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} error dualRing className={'b-mt-5 b-ml-15'}/>
         <C3Spinner {...args} success dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} warning dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} info dualRing className={'b-mt-5 b-ml-15'}/>
     </div>
 );
 export const DualRingVariants = DualRingVariantsTemplate.bind({});
 
 const SpinnerSizeTemplate: ComponentStory<typeof C3Spinner> = args => (
     <div className={'spinner'}>
-        <C3Spinner {...args} size={'extra-small'} className={'b-mt-5 b-ml-15'}/>
-        <C3Spinner {...args} size={'small'} className={'b-mt-5 b-ml-15'}/>
-        <C3Spinner {...args} size={'medium'} className={'b-mt-5 b-ml-15'}/>
-        <C3Spinner {...args} size={'large'} className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} primary size={'xs'} className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} secondary size={'s'} className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} tertiary size={'m'} className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} orange size={'l'} className={'b-mt-5 b-ml-15'}/>
+
+        <C3Spinner {...args} primary size={'xs'} dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} secondary size={'s'} dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} tertiary size={'m'} dualRing className={'b-mt-5 b-ml-15'}/>
+        <C3Spinner {...args} orange size={'l'} dualRing className={'b-mt-5 b-ml-15'}/>
     </div>
 );
 export const SpinnerSize = SpinnerSizeTemplate.bind({});
