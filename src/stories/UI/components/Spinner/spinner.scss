@@ -7,70 +7,115 @@
 
   &[class*='--white'] {
     &:after {
-      border-color: $color-white transparent $color-white transparent !important;
+      border-color: $white-base transparent $white-base transparent !important;
     }
 
     div {
-      border-color: $color-white transparent transparent transparent !important;
+      border-color: $white-base transparent transparent transparent !important;
     }
   }
 
 
   &[class*='--primary'] {
     &:after {
-      border-color: $orange-300 transparent $orange-300 transparent !important;
+      border-color: $primary-400 transparent $primary-400 transparent !important;
     }
 
     div {
-      border-color: $orange-300 transparent transparent transparent !important;
+      border-color: $primary-400 transparent transparent transparent !important;
     }
   }
 
   &[class*='--secondary'] {
     &:after {
-      border-color: $blue-300 transparent $blue-300 transparent !important;
+      border-color: $secondary-400 transparent $secondary-400 transparent !important;
 
     }
 
     div {
-      border-color: $blue-300 transparent transparent transparent !important;
+      border-color: $secondary-400 transparent transparent transparent !important;
     }
   }
 
   &[class*='--tertiary'] {
     &:after {
-      border-color: $mid-grey-200 transparent $mid-grey-200 transparent !important;
+      border-color: $tertiary-400 transparent $tertiary-400 transparent !important;
 
     }
 
     div {
-      border-color: $mid-grey-200 transparent transparent transparent !important;
+      border-color: $tertiary-400 transparent transparent transparent !important;
     }
   }
 
-  &[class*='--danger'] {
+  &[class*='--error'] {
     &:after {
-      border-color: $red-400 transparent $red-400 transparent !important;
+      border-color: $error-300 transparent $error-300 transparent !important;
 
     }
 
     div {
-      border-color: $red-400 transparent transparent transparent !important;
+      border-color: $error-300 transparent transparent transparent !important;
+    }
+  }
+
+  &[class*='--grey'] {
+    &:after {
+      border-color: $grey-600 transparent $grey-600 transparent !important;
+
+    }
+
+    div {
+      border-color: $grey-600 transparent transparent transparent !important;
+    }
+  }
+
+
+  &[class*='--orange'] {
+    &:after {
+      border-color: $orange-600 transparent $orange-600 transparent !important;
+
+    }
+
+    div {
+      border-color: $orange-600 transparent transparent transparent !important;
     }
   }
 
   &[class*='--success'] {
     &:after {
-      border-color: $green-300 transparent $green-300 transparent !important;
+      border-color: $success-300 transparent $success-300 transparent !important;
 
     }
 
     div {
-      border-color: $green-300 transparent transparent transparent !important;
+      border-color: $success-300 transparent transparent transparent !important;
     }
   }
 
-  &[class*='--extra-small'] {
+  &[class*='--warning'] {
+    &:after {
+      border-color: $warning-300 transparent $warning-300 transparent !important;
+
+    }
+
+    div {
+      border-color: $warning-300 transparent transparent transparent !important;
+    }
+  }
+
+  &[class*='--info'] {
+    &:after {
+      border-color: $info-300 transparent $info-300 transparent !important;
+
+    }
+
+    div {
+      border-color: $info-300 transparent transparent transparent !important;
+    }
+  }
+
+  &[class*='--xs'] {
     width: 10px;
     height: 10px;
 
@@ -83,7 +128,7 @@
     }
   }
 
-  &[class*='--small'] {
+  &[class*='--s'] {
     width: 15px;
     height: 15px;
 
@@ -97,7 +142,7 @@
     }
   }
 
-  &[class*='--medium'] {
+  &[class*='--m'] {
     width: 25px;
     height: 25px;
 
@@ -111,7 +156,7 @@
     }
   }
 
-  &[class*='--large'] {
+  &[class*='--l'] {
     width: 35px;
     height: 35px;
 

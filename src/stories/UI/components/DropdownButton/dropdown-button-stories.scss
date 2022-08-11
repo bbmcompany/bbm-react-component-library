@@ -1,4 +1,5 @@
 .dropdown {
   display: flex;
-  column-gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

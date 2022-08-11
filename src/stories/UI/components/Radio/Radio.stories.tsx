@@ -31,7 +31,7 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Radio> = args => (
     <div className={'radio'}>
-        <C3Radio{...args}>Default</C3Radio>
+        <C3Radio{...args} className={'b-m-5'}>Default</C3Radio>
     </div>
 );
 

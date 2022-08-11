@@ -1,5 +1,4 @@
 @mixin createIcon($icon) {
-  fill: white !important;
   background: url('../../assets/' + $icon + '.svg') no-repeat center;
   background-size: cover;
 }
@@ -7,36 +6,25 @@
 .bbm-rcl-icon {
   width: fit-content;
   display: block;
-  padding: 2px;
 
-  &--small {
-    width: 1em;
-    height: 1em;
+  &--xs {
+    width: 12px;
+    height: 12px;
   }
 
-  &--medium {
-    width: 1.2em;
-    height: 1.2em;
+  &--s {
+    width: 14px;
+    height: 14px;
   }
 
-  &--large {
-    width: 1.4em;
-    height: 1.4em;
+  &--m {
+    width: 16px;
+    height: 16px;
   }
 
-  &--x-large {
-    width: 1.6em;
-    height: 1.6em;
-  }
-
-  &--2x-large {
-    width: 1.8em;
-    height: 1.8em;
-  }
-
-  &--3x-large {
-    width: 2.0em;
-    height: 2.0em;
+  &--l {
+    width: 20px;
+    height: 20px;
   }
 
   &--academy {

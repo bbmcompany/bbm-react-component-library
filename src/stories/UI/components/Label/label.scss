@@ -1,78 +1,110 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+@mixin colorGenerator($color: $white-base,
+$background-color: $orange-400) {
+  &[class*='--solid'] {
+    color: $white-base;
+    background-color: $background-color;
+  }
+
+  &[class*='--outline'] {
+    border: 1px solid $background-color;
+    background-color: $transparent;
+    color: $color;
+  }
+  color: $color;
+  background-color: $background-color;
+
+}
+
 .bbm-rcl-label {
   display: flex;
-  margin: 5px;
   font-weight: 650;
   font-size: 15px;
 
   font-kerning: none;
-  border-radius: .125rem;
   font-family: 'Rubik', sans-serif;
   line-height: 1;
 
-  &--small {
+
+  .bbm-rcl-label {
+
+    @include colorGenerator();
+    &--primary {
+      @include colorGenerator($color: $primary-500, $background-color: $primary-300);
+    }
+
+    &--secondary {
+      @include colorGenerator($color: $secondary-500, $background-color: $secondary-300);
+    }
+
+    &--tertiary {
+      @include colorGenerator($color: $tertiary-500, $background-color: $tertiary-300);
+    }
+
+    &--orange {
+      @include colorGenerator($color: $orange-500, $background-color: $orange-300);
+    }
+
+    &--grey {
+      @include colorGenerator($color: $grey-500, $background-color: $grey-300);
+    }
+
+    &--error {
+      @include colorGenerator($color: $error-400, $background-color: $error-200);
+    }
+
+    &--success {
+      @include colorGenerator($color: $success-400, $background-color: $success-200);
+    }
+
+    &--warning {
+      @include colorGenerator($color: $warning-400, $background-color: $warning-200);
+    }
+    &--info {
+      @include colorGenerator($color: $info-400, $background-color: $info-200);
+    }
+  }
+
+
+  &--xs {
     padding: 2px 4px;
     font-size: 10px;
   }
 
-  &--medium {
+  &--s {
     padding: 3px 6px;
     font-size: 12px;
   }
 
-  &--large {
-    padding: 4px 8px;
+  &--m {
+    padding: 3px 8px;
     font-size: 14px;
   }
 
-  &--x-large {
-    padding: 5px 10px;
-    font-size: 16px;
+  &--l {
+    padding: 4px 10px;
+    font-size: 14px;
   }
 
-  &--2x-large {
-    padding: 6px 12px;
-    font-size: 18px;
-  }
 
-  &--3x-large {
-    padding: 7px 14px;
-    font-size: 20px;
-  }
 
-  &--in-progress {
-    color: #f27a1a;
-    background-color: #fef2e8;
-  }
-
-  &--approved {
-    color: #0bc15c;
-    background-color: #e7f9ef;
-  }
-
-  &--warning {
-    color: #FFB600;
-    background-color: #fff8e6;
-  }
-
-  &--denied {
-    color: #ff5043;
-    background-color: #ffeeec;
-  }
-
-  &--offer {
-    color: #5794ff;
-    background-color: #eef4ff;
-  }
-
-  &--winner {
-    color: #8c4eff;
-    background-color: #f4edff;
-  }
 
   .icon-container {
     display: flex;
     align-items: center;
     gap: .7em;
+
+    &[class*='--left'] {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &[class*='--right'] {
+      display: flex;
+      flex-direction: row-reverse;
+    }
 
     .secret-text {
       display: none;

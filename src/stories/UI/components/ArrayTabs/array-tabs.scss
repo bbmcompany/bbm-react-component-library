@@ -1,0 +1,164 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+.bbm-rcl-array-tabs {
+  &--button-group {
+    display: flex;
+    flex-direction: row;
+    background-color: $color-white;
+
+    button {
+      padding: 15px;
+      font-size: 17.5px;
+      font-weight: 500;
+      letter-spacing: normal;
+      color: $text-color-400;
+      font-kerning: none;
+      font-family: 'Rubik', sans-serif;
+      line-height: 1;
+      background-color: $transparent;
+      border-radius: 0;
+      border: none;
+      border-bottom: 2px solid $grey-300;
+
+      &:focus-within {
+        color: $black-base;
+        border-bottom: 2px solid $black-base;
+      }
+
+      &:hover {
+        color: $grey-600;
+      }
+    }
+  }
+
+  &--seperator {
+    margin-top: 10px;
+    height: 17px;
+    border-right: 1.5px solid $border-color-400;
+  }
+
+  &--primary {
+    button {
+      &:focus-within {
+        color: $primary-300;
+        border-bottom: 2px solid $primary-300;
+      }
+
+      &:hover {
+        color: $primary-400;
+      }
+    }
+  }
+
+  &--secondary {
+    button {
+      &:focus-within {
+        color: $secondary-400;
+        border-bottom: 2px solid $secondary-400;
+      }
+
+      &:hover {
+        color: $secondary-500;
+      }
+    }
+  }
+
+  &--tertiary {
+    button {
+      &:focus-within {
+        color: $tertiary-400;
+        border-bottom: 2px solid $tertiary-400;
+      }
+
+      &:hover {
+        color: $tertiary-300;
+      }
+    }
+  }
+
+  &--success {
+    button {
+      &:focus-within {
+        color: $success-300;
+        border-bottom: 2px solid $success-300;
+      }
+
+      &:hover {
+        color: $success-400;
+      }
+    }
+  }
+
+  &--error {
+    button {
+      &:focus-within {
+        color: $error-300;
+        border-bottom: 2px solid $error-300;
+      }
+
+      &:hover {
+        color: $error-300;
+      }
+    }
+  }
+
+  &--warning {
+    button {
+      &:focus-within {
+        color: $warning-300;
+        border-bottom: 2px solid $warning-300;
+      }
+
+      &:hover {
+        color: $warning-400;
+      }
+    }
+  }
+
+  &--info {
+    button {
+      &:focus-within {
+        color: $info-300;
+        border-bottom: 2px solid $info-300;
+      }
+
+      &:hover {
+        color: $info-300;
+      }
+    }
+  }
+
+  &--orange {
+    button {
+      &:focus-within {
+        color: $orange-500;
+        border-bottom: 2px solid $orange-500;
+      }
+
+      &:hover {
+        color: $orange-600;
+      }
+    }
+  }
+  &--grey {
+    button {
+      &:focus-within {
+        color: $grey-500;
+        border-bottom: 2px solid $grey-500;
+      }
+
+      &:hover {
+        color: $grey-600;
+      }
+    }
+  }
+  .fluid {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      width: 100%;
+    }
+  }
+}

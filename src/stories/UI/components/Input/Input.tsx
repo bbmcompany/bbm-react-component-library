@@ -9,7 +9,17 @@ interface C3InputProps {
     placeHolder?: string;
     required?: boolean;
     labelFixed?: boolean;
+    primary?: boolean;
+    secondary?:boolean;
+    tertiary?:boolean;
+    error?:boolean;
+    warning?:boolean;
+    success?:boolean;
+    info?:boolean;
+    orange?:boolean;
+    grey?:boolean;
     id?: string;
+    className?: string;
 }
 
 export const C3Input = ({
@@ -21,12 +31,20 @@ export const C3Input = ({
                             labelFixed = false,
                             type = 'text',
                             id = 'input',
+                            className = ' ',
                             ...props
                         }: C3InputProps) => {
 
     let controlClass = 'bbm-rcl-input';
     let inputHasValue = ' ';
+    let variantClasses = ' ';
     const [value, setValue] = useState('');
+
+    for (const [key, value] of Object.entries(props)) {
+        if (value) {
+            variantClasses += ` bbm-rcl-input--${key}`;
+        }
+    }
 
     const inputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValue(event.target.value);
@@ -41,10 +59,11 @@ export const C3Input = ({
     }
 
     return (
-        <div className={'bbm-rcl-input-container'}>
-            <div className={[controlClass, inputHasValue].join(' ')}>
+        <div className={['bbm-rcl-input-container', className].join(' ')}>
+            <div className={[controlClass, inputHasValue , variantClasses].join(' ')}>
                 <label className={`bbm-rcl-input-label--${label}`}>{label}</label>
                 <input
+                    className={[className, 'b-border-4'].join(' ')}
                     id={id}
                     name={label}
                     value={value}

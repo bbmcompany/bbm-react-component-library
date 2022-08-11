@@ -7,26 +7,31 @@ interface C3BadgeProps {
     primary?: boolean;
     secondary?: boolean;
     tertiary?: boolean;
-    danger?: boolean;
-    success?: boolean;
-    textColorIsBlack?: boolean;
+    orange?:boolean;
+    grey?:boolean;
+    error?:boolean;
+    success?:boolean;
+    warning?:boolean;
+    info?:boolean;
     icon?: string;
     float?: string;
     overlap?: boolean;
     dot?: boolean;
+    className?: string;
 }
 
 export const C3Badge = ({
-                          children = '+1',
-                          size = 'small',
-                          float = 'base',
-                          icon = ' ',
-                          dot = false,
-                          ...props
-                      }: C3BadgeProps) => {
+                            children = '+1',
+                            size = 's',
+                            float = 'base',
+                            icon = ' ',
+                            dot = false,
+                            className = ' ',
+                            ...props
+                        }: C3BadgeProps) => {
     let variantClasses = ' ';
 
-    if(icon !== ' ') {
+    if (icon !== ' ') {
         dot = false;
         variantClasses += 'bbm-rcl-badge--icon';
     }
@@ -43,11 +48,11 @@ export const C3Badge = ({
         <>
             {icon == ' ' ?
                 <span
-                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>{dot ? null : children}</span>
+                    className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>{dot ? null : children}</span>
                 :
                 <span
-                    className={['bbm-rcl-badge', `bbm-rcl-badge--${size}`, `bbm-rcl-badge--${float}`, variantClasses].join(' ')}>
-                    <C3Icon icon={icon} size={'small'}/>
+                    className={['bbm-rcl-badge', 'b-border-50', `bbm-rcl-badge--${float}`, variantClasses, className].join(' ')}>
+                    <C3Icon icon={icon}  size={size}/>
                 </span>
             }
         </>

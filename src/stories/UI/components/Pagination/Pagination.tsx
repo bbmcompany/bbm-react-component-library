@@ -10,6 +10,7 @@ interface C3PaginationProps {
     outlined?: boolean;
     disabled?: boolean;
     size?: string;
+    className?: string;
     nextPageFunction?: () => any;
     previousPageFunction?: () => any;
     selectedPageFunction?: () => any;
@@ -20,6 +21,7 @@ export const C3Pagination = ({
                                  count = 0,
                                  listSize = count,
                                  size = 'small',
+                                 className = ' ',
                                  nextPageFunction = function () {
                                  },
                                  previousPageFunction = function () {
@@ -78,7 +80,7 @@ export const C3Pagination = ({
         previousPageFunction();
     }
     return (
-        <nav className={'bbm-rcl-pagination'}>
+        <nav className={['bbm-rcl-pagination', className].join(' ')}>
             <ul>
                 <li className={'arrow left-arrow'}>
                     <C3Button

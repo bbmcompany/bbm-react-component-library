@@ -1,0 +1,23 @@
+.display-none {
+  display: flex;
+  gap: 10%;
+  background-color: #252939;
+  height: 300px;
+  width: 100%;
+  flex-wrap: wrap;
+  div {
+    color: #FFFFFF;
+  }
+}
+
+.display-inline {
+  display: flex;
+  gap: 10%;
+  background-color: #252939;
+  height: 300px;
+  width: 100%;
+  flex-wrap: wrap;
+  div {
+    color: #FFFFFF;
+  }
+}

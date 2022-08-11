@@ -2,88 +2,100 @@
 @import "../../styles/color/color-pallette";
 
 .bbm-rcl-avatar {
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
 
-  .avatar {
-    border-radius: 50%;
-
-  }
-
-  &--rounded {
-    border-radius: 10%;
-  }
-
-  &--square {
-    border-radius: 0;
-  }
-
-  &--circular {
+  img {
     border-radius: 50%;
   }
 
-
-  &--small {
-    font-size: 13px;
-
-    width: 30px;
-    height: 30px;
-  }
-
-  &--medium {
-    font-size: 17px;
+  &--xs {
+    font-size: 19px;
+    line-height: 24px;
 
     width: 40px;
     height: 40px;
   }
 
-  &--large {
-    font-size: 120%;
+  &--s {
+    font-size: 19px;
+    line-height: 24px;
 
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
   }
 
-  &--x-large {
-    font-size: 27px;
+  &--m {
+    font-size: 24px;
+    line-height: 32px;
 
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
   }
 
-  &--2x-large {
-    font-size: 29px;
+  &--l {
+    font-size: 24px;
+    line-height: 32px;
 
-    width: 65px;
-    height: 65px;
+    width: 64px;
+    height: 64px;
   }
 
-  &--3x-large {
-    font-size: 33px;
-
-    width: 75px;
-    height: 75px;
-  }
 
   &--letter {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
-    background-color: $mid-grey-100;
-  }
-
-  &--textColorIsWhite {
-    color: $color-white;
+    background-color: $info-100;
+    border-radius: 50%;
+    color: $info-400;
   }
 
   &--primary {
-    background-color: $orange-400;
+    color: $white-base;
+    background-color: $primary-300;
   }
 
   &--secondary {
-    background-color: $blue-400;
+    color: $white-base;
+    background-color: $secondary-500;
   }
 
   &--tertiary {
-    background-color: $mid-grey-200;
+    color: $white-base;
+    background-color: $tertiary-500;
   }
+
+  &--error {
+    color: $white-base;
+    background-color: $error-300;
+  }
+
+  &--success {
+    color: $white-base;
+    background-color: $success-200;
+  }
+
+  &--warning {
+    color: $white-base;
+    background-color: $warning-300;
+  }
+
+  &--info {
+    color: $white-base;
+    background-color: $info-200;
+  }
+
+  &--grey {
+    color: $white-base;
+    background-color: $grey-400;
+  }
+
+  &--orange {
+    color: $white-base;
+    background-color: $orange-400;
+  }
+
+
 }

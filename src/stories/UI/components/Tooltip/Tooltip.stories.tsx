@@ -49,7 +49,7 @@ export default {
 
 const UsageWithIconButtonTemplate: ComponentStory<typeof C3Tooltip> = args => (
     <div>
-        <C3Tooltip {...args}/>
+        <C3Tooltip {...args} className={'b-m-2'}/>
     </div>
 );
 export const UsageWithIconButton = UsageWithIconButtonTemplate.bind([])
