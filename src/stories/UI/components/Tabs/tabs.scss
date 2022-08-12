@@ -1,6 +1,31 @@
 @use 'sass:map';
 @import "../../styles/color/color-pallette";
+@mixin generateColor($color:$black-base) {
+  button  {
+    &:focus-within {
+      color: $color;
+      border-bottom: 2px solid $color;
+      .icon-container {
+        div {
+          div {
+            background-color: $color;
+          }
+        }
+      }
+    }
 
+    &:hover {
+      color: $color;
+      .icon-container {
+        div {
+          div {
+            background-color: $color;
+          }
+        }
+      }
+    }
+  }
+}
 .bbm-rcl-tabs {
   &--button-group {
     display: flex;
@@ -33,123 +58,47 @@
 
       .icon-container {
         justify-content: center;
+        div {
+          div {
+            background-color: $black-base;
+          }
+        }
       }
     }
   }
 
   &--primary {
-    button {
-      &:focus-within {
-        color: $primary-400;
-        border-bottom: 2px solid $primary-400;
-      }
-
-      &:hover {
-        color: $primary-400;
-      }
-    }
+    @include generateColor($color:$primary-400);
   }
 
   &--secondary {
-    button {
-      &:focus-within {
-        color: $secondary-400;
-        border-bottom: 2px solid $secondary-400;
-      }
-
-      &:hover {
-        color: $secondary-400;
-      }
-    }
+    @include generateColor($color:$secondary-400);
   }
 
   &--tertiary {
-    button {
-      &:focus-within {
-        color: $tertiary-400;
-        border-bottom: 2px solid $tertiary-400;
-      }
-
-      &:hover {
-        color: $tertiary-400;
-      }
-    }
+    @include generateColor($color:$tertiary-400);
   }
 
   &--error {
-    button {
-      &:focus-within {
-        color: $error-400;
-        border-bottom: 2px solid $error-400;
-      }
-
-      &:hover {
-        color: $error-400;
-      }
-    }
+    @include generateColor($color:$error-400);
   }
   &--grey {
-    button {
-      &:focus-within {
-        color: $grey-400;
-        border-bottom: 2px solid $grey-400;
-      }
-
-      &:hover {
-        color: $grey-400;
-      }
-    }
+    @include generateColor($color:$grey-600);
   }
   &--orange {
-    button {
-      &:focus-within {
-        color: $orange-400;
-        border-bottom: 2px solid $orange-400;
-      }
-
-      &:hover {
-        color: $orange-400;
-      }
-    }
+    @include generateColor($color:$orange-400);
   }
 
   &--warning {
-    button {
-      &:focus-within {
-        color: $warning-300;
-        border-bottom: 2px solid $warning-300;
-      }
-
-      &:hover {
-        color: $warning-300;
-      }
-    }
+    @include generateColor($color:$warning-400);
   }
 
   &--success {
-    button {
-      &:focus-within {
-        color: $success-300;
-        border-bottom: 2px solid $success-300;
-      }
-
-      &:hover {
-        color: $success-300;
-      }
-    }
+    @include generateColor($color:$success-200);
   }
 
   &--info {
-    button {
-      &:focus-within {
-        color: $info-300;
-        border-bottom: 2px solid $info-300;
-      }
-
-      &:hover {
-        color: $info-300;
-      }
-    }
+    @include generateColor($color:$info-400);
   }
 
   .fluid {

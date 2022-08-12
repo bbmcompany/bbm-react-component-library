@@ -6,6 +6,15 @@ interface C3TooltipProps {
     text?: string;
     icon?: string;
     size?: string;
+    primary?: boolean;
+    secondary?: boolean;
+    tertiary?: boolean;
+    error?: boolean;
+    warning?: boolean;
+    success?: boolean;
+    info?: boolean;
+    orange?: boolean;
+    grey?: boolean;
     variant?: string;
     display?: string;
     className?: string,
@@ -22,21 +31,30 @@ export const C3Tooltip = ({
                               ...props
                           }: C3TooltipProps) => {
 
+    let variantClasses = '';
+    for (const [key, value] of Object.entries(props)) {
+        if (value) {
+            variantClasses += ` bbm-rcl-button--${key}`;
+        }
+    }
+    console.log(variantClasses)
     if (text == ' ') {
         text = 'C3PO Default';
     }
 
     return (
-        <div className={['bbm-rcl-tooltip', className].join(' ')}>
+        <div className={['bbm-rcl-tooltip'].join(' ')}>
             {transparent ?
                 <div className={`bbm-rcl-tooltip--with-icon --${display}`}>
-                    <C3Button primary iconButton transparent icon={icon} size={size}/>
+                    <C3Button iconButton transparent icon={icon} size={size}
+                              className={[className, variantClasses].join(' ')}/>
                     <span
                         className={[`bbm-rcl-tooltip--with-icon--text --${size} --${display}`].join(' ')}>{text}</span>
                 </div>
                 :
                 <div className={`bbm-rcl-tooltip--with-icon --${display}`}>
-                    <C3Button variant={variant} primary iconButton icon={icon} size={size}/>
+                    <C3Button variant={variant} iconButton icon={icon} size={size}
+                              className={[className, variantClasses].join(' ')}/>
                     <span
                         className={[`bbm-rcl-tooltip--with-icon--text --${size} --${display}`].join(' ')}>{text}</span>
                 </div>}

@@ -24,18 +24,6 @@ export default {
                 }
             }
         },
-        variant: {
-            control: {
-                type: 'select',
-                options: {
-                    'primary': 'primary',
-                    'secondary': 'secondary',
-                    'tertiary': 'tertiary',
-                    'danger': 'danger',
-                    'success': 'success',
-                }
-            }
-        },
         display: {
             control:{
                 type: 'select',
@@ -50,7 +38,7 @@ export default {
 
 const UsageWithIconButtonTemplate: ComponentStory<typeof C3Tooltip> = args => (
     <div>
-        <C3Tooltip {...args} className={'b-m-2'}/>
+        <C3Tooltip {...args} className={'b-m-2 b-border-4'}/>
     </div>
 );
 export const UsageWithIconButton = UsageWithIconButtonTemplate.bind([])

@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 108 : tab) code review and design changes made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tabs/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/tabs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
@@ -47,13 +52,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "C:\\Users\\baris\\WebstormProjects\\bbm-react-component-library\\node_modules\\typescript\\lib"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\assets" />
@@ -79,14 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="18079000" />
-    </task>
-    <task id="LOCAL-00008" summary="rcl (button - 104) : buttons templated added. - progress, progress text, outlined">
-      <created>1657026588755</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1657026588755</updated>
+      <workItem from="1660074345950" duration="23342000" />
     </task>
     <task id="LOCAL-00009" summary="rcl (button - 104) : buttons templated added. - progress, progress text, outlined">
       <created>1657046625352</created>
@@ -424,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660136305140</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="rcl (code-review 108 : tab) code review and design changes made">
+      <created>1660136341791</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1660136341791</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

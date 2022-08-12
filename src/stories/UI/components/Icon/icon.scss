@@ -1,11 +1,54 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
 @mixin createIcon($icon) {
-  background: url('../../assets/' + $icon + '.svg') no-repeat center;
-  background-size: cover;
+  -webkit-mask: url('../../assets/' + $icon + '.svg') no-repeat center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+
+  background-color: white;
+
+  &[class*='--primary'] {
+    background-color: $primary-400;
+  }
+  &[class*='--secondary'] {
+    background-color: $secondary-400;
+  }
+  &[class*='--tertiary'] {
+    background-color: $tertiary-400;
+  }
+  &[class*='--error'] {
+    background-color: $error-400;
+  }
+  &[class*='--warning'] {
+    background-color: $warning-400;
+  }
+  &[class*='--success'] {
+    background-color: $success-400;
+  }
+  &[class*='--info'] {
+    background-color: $info-400;
+  }
+  &[class*='--orange'] {
+    background-color: $orange-400;
+  }
+  &[class*='--grey'] {
+    background-color: $grey-400;
+  }
+  &[class*='--white'] {
+    background-color: $white-base;
+  }
+  &[class*='--black'] {
+    background-color: $black-base;
+  }
+
+
 }
 
 .bbm-rcl-icon {
   width: fit-content;
   display: block;
+
 
   &--xs {
     width: 12px;
@@ -98,6 +141,7 @@
   &--exclamation {
     @include createIcon('exclamation');
   }
+
   &--question {
     @include createIcon('question');
   }
