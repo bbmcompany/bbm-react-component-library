@@ -17,9 +17,10 @@ export default {
             control: {
                 type: 'select',
                 options: {
-                    'Small': 'small',
-                    'Medium': 'medium',
-                    'Large': 'large',
+                    'xs': 'xs',
+                    's': 's',
+                    'm': 'm',
+                    'l': 'l',
                 }
             }
         },

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 108 : tab) code review and design changes made">
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/UI/assets" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "C:\\Users\\baris\\WebstormProjects\\bbm-react-component-library\\node_modules\\typescript\\lib"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\component-library\bbm-component-library\src\stories\UI\assets" />

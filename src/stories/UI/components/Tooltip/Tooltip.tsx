@@ -14,7 +14,7 @@ interface C3TooltipProps {
 export const C3Tooltip = ({
                               transparent = false,
                               icon = 'alert',
-                              size = 'small',
+                              size = 's',
                               text = 'C3PO Default',
                               variant = 'primary',
                               display = ' ',
