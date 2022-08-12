@@ -1,6 +1,6 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
 import {C3Tooltip} from "./Tooltip";
-
+import './tooltip-stories.scss'
 export default {
     title: 'COMPONENTS/C3Tooltip',
     component: C3Tooltip,
@@ -24,21 +24,24 @@ export default {
                 }
             }
         },
-        display: {
-            control:{
-                type: 'select',
-                options: {
-                    'Bubble Left': 'left',
-                    'Bubble Right': 'bottom',
-                }
-            }
-        }
     }
 } as ComponentMeta<typeof C3Tooltip>;
 
-const UsageWithIconButtonTemplate: ComponentStory<typeof C3Tooltip> = args => (
-    <div>
-        <C3Tooltip {...args} className={'b-m-2 b-border-4'}/>
+const VariantsTemplate: ComponentStory<typeof C3Tooltip> = args => (
+    <div className={'tooltip'}>
+        <C3Tooltip {...args} className={'b-border-100'}/>
+        <C3Tooltip {...args} transparent/>
+        <C3Tooltip {...args} className={'b-border-4'}/>
+        <C3Tooltip {...args} transparent/>
+        <C3Tooltip {...args}/>
+        <C3Tooltip {...args} transparent/>
     </div>
 );
-export const UsageWithIconButton = UsageWithIconButtonTemplate.bind([])
+export const Variants = VariantsTemplate.bind([])
+
+const CustomTemplate: ComponentStory<typeof C3Tooltip> = args => (
+    <div>
+        <C3Tooltip {...args} className={' b-border-4'}/>
+    </div>
+);
+export const Custom = CustomTemplate.bind([])

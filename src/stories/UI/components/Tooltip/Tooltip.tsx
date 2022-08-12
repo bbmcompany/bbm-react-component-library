@@ -1,4 +1,5 @@
 import {C3Button} from "../Button/Button"
+import {C3Icon} from "../Icon/Icon";
 import './tooltip.scss';
 
 interface C3TooltipProps {
@@ -16,7 +17,6 @@ interface C3TooltipProps {
     orange?: boolean;
     grey?: boolean;
     variant?: string;
-    display?: string;
     className?: string,
 }
 
@@ -26,18 +26,18 @@ export const C3Tooltip = ({
                               size = 's',
                               text = 'C3PO Default',
                               variant = 'primary',
-                              display = ' ',
                               className = ' ',
                               ...props
                           }: C3TooltipProps) => {
 
-    let variantClasses = '';
+    let variantButtonClasses = '';
+    let variantIconClasses = '';
     for (const [key, value] of Object.entries(props)) {
         if (value) {
-            variantClasses += ` bbm-rcl-button--${key}`;
+            variantButtonClasses += ` bbm-rcl-button--${key}`;
+            variantIconClasses += ` bbm-rcl-icon--${key}`;
         }
     }
-    console.log(variantClasses)
     if (text == ' ') {
         text = 'C3PO Default';
     }
@@ -45,18 +45,18 @@ export const C3Tooltip = ({
     return (
         <div className={['bbm-rcl-tooltip'].join(' ')}>
             {transparent ?
-                <div className={`bbm-rcl-tooltip--with-icon --${display}`}>
-                    <C3Button iconButton transparent icon={icon} size={size}
-                              className={[className, variantClasses].join(' ')}/>
+                <div className={`bbm-rcl-tooltip--with-icon`}>
+                    <C3Icon icon={icon} size={size}
+                            className={[className, variantIconClasses, 'b-p-3'].join(' ')}/>
                     <span
-                        className={[`bbm-rcl-tooltip--with-icon--text --${size} --${display}`].join(' ')}>{text}</span>
+                        className={[`bbm-rcl-tooltip--with-icon--text --${size}`].join(' ')}>{text}</span>
                 </div>
                 :
-                <div className={`bbm-rcl-tooltip--with-icon --${display}`}>
+                <div className={`bbm-rcl-tooltip--with-icon`}>
                     <C3Button variant={variant} iconButton icon={icon} size={size}
-                              className={[className, variantClasses].join(' ')}/>
+                              className={[className, variantButtonClasses].join(' ')}/>
                     <span
-                        className={[`bbm-rcl-tooltip--with-icon--text --${size} --${display}`].join(' ')}>{text}</span>
+                        className={[`bbm-rcl-tooltip--with-icon--text --${size}`].join(' ')}>{text}</span>
                 </div>}
         </div>
     )

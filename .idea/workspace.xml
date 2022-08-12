@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 109 : icon &amp; tooltip &amp; tabs) code review and design changes made">
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip-stories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="23450000" />
-    </task>
-    <task id="LOCAL-00010" summary="rcl (button - 105) : buttons templated added. - only icon button, icon button, max width button">
-      <created>1657103668087</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1657103668087</updated>
+      <workItem from="1660074345950" duration="26654000" />
     </task>
     <task id="LOCAL-00011" summary="rcl (icon - 105) : icon component started.">
       <created>1657104010215</created>
@@ -418,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660301342453</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="rcl (code-review 109 : icon &amp; tooltip &amp; tabs) code review and design changes made">
+      <created>1660301395589</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1660301395589</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

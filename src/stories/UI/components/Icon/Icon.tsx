@@ -37,7 +37,7 @@ export const C3Icon = ({
             className={['bbm-rcl-icon', className].join(' ')}>
             <div
                 style={{width: width == 0 ? "none" : `${width}px`, height: width == 0 ? 'none' : `${width}px`}}
-                className={[`bbm-rcl-icon--${size} bbm-rcl-icon--${icon}`, variantClasses].join(' ')}/>
+                className={[`bbm-rcl-icon--${size} bbm-rcl-icon--${icon}`, variantClasses ,className].join(' ')}/>
         </div>
     )
 }
