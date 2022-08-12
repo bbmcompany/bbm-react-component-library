@@ -1,0 +1,98 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+@mixin colorGenerator($color :$primary-400) {
+  .bbm-rcl-progress-indicator--progress {
+    color: $color;
+
+    &::before {
+      background-color: $color;
+    }
+  }
+
+}
+
+.bbm-rcl-progress-indicator {
+  display: flex;
+  flex-direction: column;
+
+  &[class*='--white'] {
+    @include colorGenerator($color: $white-base);
+  }
+
+  &[class*='--black'] {
+    @include colorGenerator($color: $black-base);
+  }
+
+  &[class*='--primary'] {
+    @include colorGenerator($color: $primary-300);
+  }
+
+  &[class*='--primary'] {
+    @include colorGenerator($color: $primary-300);
+  }
+
+  &[class*='--secondary'] {
+    @include colorGenerator($color: $secondary-400);
+  }
+
+  &[class*='--tertiary'] {
+    @include colorGenerator($color: $tertiary-500);
+  }
+
+  &[class*='--orange'] {
+    @include colorGenerator($color: $orange-400);
+  }
+
+  &[class*='--grey'] {
+    @include colorGenerator($color: $grey-600);
+  }
+
+  &[class*='--error'] {
+    @include colorGenerator($color: $error-300);
+  }
+  &[class*='--success'] {
+    @include colorGenerator($color: $success-300);
+  }
+  &[class*='--warning'] {
+    @include colorGenerator($color: $warning-400);
+  }
+
+  &[class*='--info'] {
+    @include colorGenerator($color: $info-200);
+  }
+
+  &--title-group {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    height: 20px;
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Rubik', sans-serif;
+      line-height: 1;
+      color: $grey-600;
+    }
+  }
+
+  &--progress {
+    color: $success-300;
+    background-color: $grey-400;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  &--progress::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    width: calc(100% / var(--max) * var(--value));
+    background-color: $success-300;
+  }
+
+}
