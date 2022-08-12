@@ -39,7 +39,7 @@ const VariantsTemplate: ComponentStory<typeof C3Tabs> = args => (
         <C3Tabs {...args} fluid>
             <C3Button icon={'add_photo'} iconButton>Button</C3Button>
             <C3Button icon={'academy'} iconButton>Tabs</C3Button>
-            <C3Button>Only Icon</C3Button>
+            <C3Button>Only Icon Fluid</C3Button>
         </C3Tabs>
     </div>
 );
