@@ -24,7 +24,7 @@ export const C3Tooltip = ({
                               transparent = false,
                               icon = 'alert',
                               size = 's',
-                              text = 'C3PO Default',
+                              text = 'C3PO Tooltip',
                               variant = 'primary',
                               className = ' ',
                               ...props

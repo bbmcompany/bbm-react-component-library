@@ -1,6 +1,7 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
 import {C3Tooltip} from "./Tooltip";
 import './tooltip-stories.scss'
+
 export default {
     title: 'COMPONENTS/C3Tooltip',
     component: C3Tooltip,
@@ -29,12 +30,19 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Tooltip> = args => (
     <div className={'tooltip'}>
+        <C3Tooltip {...args} transparent/>
         <C3Tooltip {...args} className={'b-border-100'}/>
-        <C3Tooltip {...args} transparent/>
         <C3Tooltip {...args} className={'b-border-4'}/>
-        <C3Tooltip {...args} transparent/>
         <C3Tooltip {...args}/>
-        <C3Tooltip {...args} transparent/>
+        <C3Tooltip {...args} primary/>
+        <C3Tooltip {...args} secondary/>
+        <C3Tooltip {...args} tertiary/>
+        <C3Tooltip {...args} orange/>
+        <C3Tooltip {...args} grey/>
+        <C3Tooltip {...args} error/>
+        <C3Tooltip {...args} success/>
+        <C3Tooltip {...args} warning/>
+        <C3Tooltip {...args} info/>
     </div>
 );
 export const Variants = VariantsTemplate.bind([])

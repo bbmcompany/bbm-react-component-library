@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 109 : icon &amp; tooltip &amp; tabs) code review and design changes made">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip-stories.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (code-review 109.1 : tooltip) code review and design changes made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
@@ -78,14 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="26654000" />
-    </task>
-    <task id="LOCAL-00011" summary="rcl (icon - 105) : icon component started.">
-      <created>1657104010215</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1657104010215</updated>
+      <workItem from="1660074345950" duration="27165000" />
     </task>
     <task id="LOCAL-00012" summary="rcl (icon - 105) : icon size added.">
       <created>1657109495376</created>
@@ -423,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660301395589</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="rcl (code-review 109.1 : tooltip) code review and design changes made">
+      <created>1660305313427</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1660305313427</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (dimensions) dimensions (margin) scss added and classname variable added to all components" />
     <MESSAGE value="rcl (dimensions) dimensions (padding) scss added" />
     <MESSAGE value="rcl (dimensions) dimensions (height &amp; width) scss added" />
     <MESSAGE value="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added." />
@@ -466,6 +463,7 @@
     <MESSAGE value="rcl (code-review 107 : spinner) code review and design changes made" />
     <MESSAGE value="rcl (code-review 108 : tab) code review and design changes made" />
     <MESSAGE value="rcl (code-review 109 : icon &amp; tooltip &amp; tabs) code review and design changes made" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (code-review 109 : icon &amp; tooltip &amp; tabs) code review and design changes made" />
+    <MESSAGE value="rcl (code-review 109.1 : tooltip) code review and design changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (code-review 109.1 : tooltip) code review and design changes made" />
   </component>
 </project>
