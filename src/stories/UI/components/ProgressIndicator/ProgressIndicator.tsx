@@ -1,3 +1,4 @@
+import { C3Icon } from '../Icon/Icon';
 import './progress-indicator.scss'
 
 interface C3ProgressIndicatorProps {
@@ -23,16 +24,19 @@ interface C3ProgressIndicatorProps {
 }
 
 export const C3ProgressIndicator = ({
-                                        max = 100,
-                                        value = 45,
+                                        max = 0,
+                                        value = 0,
                                         percent = false,
                                         isError = false,
-                                        errorMessage = ' ',
+                                        errorMessage = 'C3PO failed',
                                         size = 's',
                                         title = ' ',
                                         className = ' ',
                                         ...props
                                     }: C3ProgressIndicatorProps) => {
+    if(value > max) {
+        value = max;
+    }
     let cssProp = {}
     // @ts-ignore
     cssProp['--max'] = max;
@@ -45,10 +49,13 @@ export const C3ProgressIndicator = ({
         }
     }
     return (
-        <div className={['bbm-rcl-progress-indicator', variantClasses].join(' ')}>
+        <div className={['bbm-rcl-progress-indicator', variantClasses, className].join(' ')}>
             <div className={'bbm-rcl-progress-indicator--title-group'}>
                 {isError ?
-                    <p className={'error'}>{errorMessage}</p>
+                    <>
+                        <C3Icon icon={'exclamation'} error/>
+                        <p className={'error'}>{errorMessage}</p>
+                    </>
                     :
                     <>
                         <p>{title}</p>
@@ -61,7 +68,7 @@ export const C3ProgressIndicator = ({
                     </>
                 }
             </div>
-            <div className={'bbm-rcl-progress-indicator--progress'} style={cssProp}/>
+            <div className={['bbm-rcl-progress-indicator--progress', `--${size}`].join(' ')} style={cssProp}/>
         </div>
     )
 }

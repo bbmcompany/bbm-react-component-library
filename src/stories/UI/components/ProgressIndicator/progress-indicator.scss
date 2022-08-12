@@ -2,6 +2,11 @@
 @import "../../styles/color/color-pallette";
 
 @mixin colorGenerator($color :$primary-400) {
+  .bbm-rcl-progress-indicator--title-group {
+    b{
+      color: $color;
+    }
+  }
   .bbm-rcl-progress-indicator--progress {
     color: $color;
 
@@ -65,8 +70,13 @@
   &--title-group {
     display: flex;
     align-items: center;
-    gap: 1%;
+    gap: .2%;
     height: 20px;
+
+    .error {
+      font-size: 16px;
+      color: $error-400;
+    }
 
     p {
       font-weight: 400;
@@ -81,9 +91,21 @@
     color: $success-300;
     background-color: $grey-400;
     width: 100%;
-    height: 20px;
     border-radius: 10px;
     position: relative;
+
+    &[class*='--xs'] {
+      height: 4px;
+    }
+    &[class*='--s'] {
+      height: 6px;
+    }
+    &[class*='--m'] {
+      height: 8px;
+    }
+    &[class*='--l'] {
+      height: 12px;
+    }
   }
 
   &--progress::before {
