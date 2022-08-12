@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (progress-indicator : 101) progress-indicator component started.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/progress-indicator-stories.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (progress-indicator : 101.1) progress-indicator component.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/ProgressIndicator.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/ProgressIndicator.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/ProgressIndicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/ProgressIndicator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/progress-indicator-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/progress-indicator-stories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/progress-indicator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/progress-indicator.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,14 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="35385000" />
-    </task>
-    <task id="LOCAL-00014" summary="rcl (input - 102) : input bug fixed">
-      <created>1658251217774</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1658251217774</updated>
+      <workItem from="1660074345950" duration="36346000" />
     </task>
     <task id="LOCAL-00015" summary="rcl (input - 103) :  with fixed label, without label and label options added">
       <created>1658260472693</created>
@@ -422,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660317760637</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="rcl (progress-indicator : 101.1) progress-indicator component.">
+      <created>1660320934405</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1660320934405</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (dimensions) dimensions (height &amp; width) scss added" />
     <MESSAGE value="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (spacing) to utilities.&#10;margin, margin-top, margin-bottom margin-left, margin-right, margin-x, margin-y properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
@@ -465,6 +463,7 @@
     <MESSAGE value="rcl (code-review 109 : icon &amp; tooltip &amp; tabs) code review and design changes made" />
     <MESSAGE value="rcl (code-review 109.1 : tooltip) code review and design changes made" />
     <MESSAGE value="rcl (progress-indicator : 101) progress-indicator component started." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (progress-indicator : 101) progress-indicator component started." />
+    <MESSAGE value="rcl (progress-indicator : 101.1) progress-indicator component." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (progress-indicator : 101.1) progress-indicator component." />
   </component>
 </project>

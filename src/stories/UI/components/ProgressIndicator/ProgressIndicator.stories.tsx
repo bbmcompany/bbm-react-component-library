@@ -36,8 +36,9 @@ const VariantsTemplate: ComponentStory<typeof C3ProgressIndicator> = args => (
 export const Variants = VariantsTemplate.bind({});
 
 const CustomTemplate: ComponentStory<typeof C3ProgressIndicator> = args => (
-    <div className={'progress-indicator'}>
-        <C3ProgressIndicator {...args} className={'b-m-5'}/>
+    <div className={'progress-indicator custom'}>
+            <C3ProgressIndicator {...args} className={'b-m-5'}/>
+
     </div>
 );
 export const Custom = CustomTemplate.bind({});
