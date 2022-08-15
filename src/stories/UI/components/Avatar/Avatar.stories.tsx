@@ -1,4 +1,5 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import { C3Box } from "../Box/Box";
 import {C3Avatar} from "./Avatar";
 import './avatar-stories.scss'
 
@@ -21,7 +22,7 @@ export default {
 } as ComponentMeta<typeof C3Avatar>
 
 const AvatarVariantsTemplate: ComponentStory<typeof C3Avatar> = args => (
-    <div className={'avatar'}>
+    <C3Box d={'flex'} className={'avatar'}>
         <C3Avatar {...args} className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} icon className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} primary text className={'b-m-5'}>C3PO</C3Avatar>
@@ -34,17 +35,17 @@ const AvatarVariantsTemplate: ComponentStory<typeof C3Avatar> = args => (
         <C3Avatar {...args} warning text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} info text className={'b-m-5'}>C3PO</C3Avatar>
         <C3Avatar {...args} text className={'b-m-5'}>DF</C3Avatar>
-    </div>
+    </C3Box>
 );
 export const Variants = AvatarVariantsTemplate.bind({});
 
 const AvatarSizeTemplate: ComponentStory<typeof C3Avatar> = args => (
-    <div className={'avatar'}>
+    <C3Box d={'flex'} className={'avatar'}>
         <C3Avatar {...args} size={'xs'} className={'b-m-5'}/>
         <C3Avatar {...args} size={'s'} className={'b-m-5'}/>
         <C3Avatar {...args} size={'m'} className={'b-m-5'}/>
         <C3Avatar {...args} size={'l'} className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const AvatarSize = AvatarSizeTemplate.bind({});
 

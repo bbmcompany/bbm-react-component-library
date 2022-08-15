@@ -1,14 +1,7 @@
 .skeleton {
-  display: flex;
-  justify-content: space-between;
-
   .skeleton-template-custom {
-    display: flex;
-    flex-direction: column;
     row-gap: 20px;
-
     .custom-image {
-      display: flex;
       column-gap: 60%;
     }
   }

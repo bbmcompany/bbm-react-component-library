@@ -4,8 +4,8 @@ interface C3IconProps {
     size?: string;
     icon?: string;
     width?: number;
-    white?:boolean;
-    black?:boolean;
+    white?: boolean;
+    black?: boolean;
     primary?: boolean;
     secondary?: boolean;
     tertiary?: boolean;
@@ -16,6 +16,8 @@ interface C3IconProps {
     orange?: boolean;
     grey?: boolean;
     className?: string;
+    // @ts-ignore
+    onClick?: IntrinsicAttributes & C3IconProps,
 };
 
 export const C3Icon = ({
@@ -23,6 +25,7 @@ export const C3Icon = ({
                            icon = 'academy',
                            className = ' ',
                            width = 0,
+                           onClick = undefined,
                            ...props
                        }: C3IconProps) => {
 
@@ -34,10 +37,12 @@ export const C3Icon = ({
     }
     return (
         <div
+            onClick={onClick}
             className={['bbm-rcl-icon', className].join(' ')}>
             <div
                 style={{width: width == 0 ? "none" : `${width}px`, height: width == 0 ? 'none' : `${width}px`}}
-                className={[`bbm-rcl-icon--${size} bbm-rcl-icon--${icon}`, variantClasses ,className].join(' ')}/>
-        </div>
+                className={[`bbm-rcl-icon--${size} bbm-rcl-icon--${icon}`, variantClasses, className].join(' ')}/>
+        </div
+        >
     )
 }

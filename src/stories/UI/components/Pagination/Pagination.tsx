@@ -1,6 +1,7 @@
 import {any} from "prop-types";
 import React from "react";
 import {C3Button} from "../Button/Button";
+import { C3Icon } from "../Icon/Icon";
 import './pagination.scss'
 
 interface C3PaginationProps {
@@ -20,7 +21,7 @@ interface C3PaginationProps {
 export const C3Pagination = ({
                                  count = 0,
                                  listSize = count,
-                                 size = 'small',
+                                 size = 's',
                                  className = ' ',
                                  nextPageFunction = function () {
                                  },
@@ -83,11 +84,10 @@ export const C3Pagination = ({
         <nav className={['bbm-rcl-pagination', className].join(' ')}>
             <ul>
                 <li className={'arrow left-arrow'}>
-                    <C3Button
+                    <C3Icon
                         size={size}
-                        text
-                        iconButton
                         icon={'left-arrow'}
+                        black
                         onClick={() => previousPage()}
                     />
                 </li>
@@ -119,10 +119,9 @@ export const C3Pagination = ({
 
                 })}
                 <li className={'arrow right-arrow'}>
-                    <C3Button
+                    <C3Icon
                         size={size}
-                        text
-                        iconButton
+                        black
                         icon={'arrow-right'}
                         onClick={() => nextPage()}
                     />

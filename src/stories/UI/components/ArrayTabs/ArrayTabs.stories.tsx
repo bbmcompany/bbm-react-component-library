@@ -1,6 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { C3ArrayTabs } from "./ArrayTabs";
 import './array-tabs-stories.scss'
+import { C3Box } from "../Box/Box";
 export default  {
     title: 'COMPONENTS/C3ArrayTabs',
     component: C3ArrayTabs,
@@ -10,24 +11,24 @@ export default  {
 
 
 const VariantsTemplate: ComponentStory<typeof C3ArrayTabs> = args => (
-    <div className='tabs'>
+    <C3Box d={'flex'} displaydirection={'column'} className='array-tabs'>
         <C3ArrayTabs {...args} orange tabs={['All', "Today's Deals", 'Customer Service', 'Registery', 'Sell']} className={'b-position-relative'}></C3ArrayTabs>
         <C3ArrayTabs  {...args} orange tabs={['All', "Today's Deals", 'Customer Service', 'Registery', 'Sell']} className={'b-position-relative'} fluid></C3ArrayTabs>
         <C3ArrayTabs {...args} orange tabs={['All', "Today's Deals", 'Customer Service', 'Registery', 'Sell']} className={'b-position-relative'}></C3ArrayTabs>
         <C3ArrayTabs  {...args} orange tabs={['All', "Today's Deals", 'Customer Service', 'Registery', 'Sell']} className={'b-position-relative'} fluid></C3ArrayTabs>
-    </div>
+    </C3Box>
 );
 export const Variants = VariantsTemplate.bind({});
 
 const AbsoulteTemplate: ComponentStory<typeof C3ArrayTabs> = args => (
-    <div className='tabs'>
+    <C3Box className='array-tabs'>
         <C3ArrayTabs {...args} tabs={['Position', 'Absolute', 'C3PO']} className={'b-position-absolute'}></C3ArrayTabs>
-    </div>
+    </C3Box>
 );
 export const Absoulte = AbsoulteTemplate.bind({});
 
 const RelativeTemplate: ComponentStory<typeof C3ArrayTabs> = args => (
-    <div className='tabs'>
+    <C3Box d={'flex'} displaydirection={'column'} className='array-tabs'>
         <C3ArrayTabs {...args} tabs={['Position', 'Relative', 'Fluid']} className={'b-position-relative'} fluid></C3ArrayTabs>
         <C3ArrayTabs {...args} tabs={['Position', 'Relative', 'C3PO']} className={'b-position-relative'}></C3ArrayTabs>
         <C3ArrayTabs {...args} primary tabs={['Position', 'Relative', 'Fluid']} className={'b-position-relative'} fluid></C3ArrayTabs>
@@ -49,6 +50,6 @@ const RelativeTemplate: ComponentStory<typeof C3ArrayTabs> = args => (
         <C3ArrayTabs {...args} info tabs={['Position', 'Relative', 'Fluid']} className={'b-position-relative'} fluid></C3ArrayTabs>
         <C3ArrayTabs {...args} info tabs={['Position', 'Relative', 'C3PO']} className={'b-position-relative'}></C3ArrayTabs>
 
-    </div>
+    </C3Box>
 );
 export const Relative = RelativeTemplate.bind({});

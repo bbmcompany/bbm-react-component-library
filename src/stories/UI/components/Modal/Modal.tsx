@@ -1,6 +1,7 @@
 import {C3Button} from "../Button/Button";
 import './modal.scss'
 import './modal-stoires.scss'
+import { C3Icon } from "../Icon/Icon";
 interface C3ModalProps {
     className?: string;
     title?: string;
@@ -34,13 +35,11 @@ export const C3Modal = ({
                 <div className={'body b-m-auto b-p-25 b-border-5'}>
                     <div className={'title-group'}>
                         <div className={'title'}>{title}</div>
-                        <C3Button
+                        <C3Icon
                             className='b-m-5'
                             icon='close'
-                            iconButton
-                            text
+                            black
                             onClick={() => closeModal()}
-                            primary
                         />
                     </div>
                     <div className={'content b-my-25'}>{children}</div>

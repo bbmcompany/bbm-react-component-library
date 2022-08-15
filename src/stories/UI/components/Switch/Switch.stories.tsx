@@ -1,4 +1,5 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import { C3Box } from "../Box/Box";
 import {C3Switch} from "./Switch";
 
 export default {
@@ -20,7 +21,7 @@ export default {
 } as ComponentMeta<typeof C3Switch>;
 
 const VariantsTemplate: ComponentStory<typeof C3Switch> = args => (
-    <div>
+    <C3Box>
         <C3Switch {...args} className={'b-m-15'}/>
         <C3Switch {...args} white className={'b-m-15'}/>
         <C3Switch {...args}  primary className={'b-m-15'}/>
@@ -32,16 +33,16 @@ const VariantsTemplate: ComponentStory<typeof C3Switch> = args => (
         <C3Switch {...args} success className={'b-m-15'}/>
         <C3Switch {...args} warning className={'b-m-15'}/>
         <C3Switch {...args} info className={'b-m-15'}/>
-    </div>
+    </C3Box>
 );
 export const Variants = VariantsTemplate.bind({});
 
 const SwitchSizeTemplate: ComponentStory<typeof C3Switch> = args => (
-    <div>
+    <C3Box>
         <C3Switch {...args} size={'xs'} className={'b-m-15'}/>
         <C3Switch {...args} size={'s'} className={'b-m-15'}/>
         <C3Switch {...args} size={'m'} className={'b-m-15'}/>
         <C3Switch {...args} size={'l'} className={'b-m-15'}/>
-    </div>
+    </C3Box>
 );
 export const SwitchSize = SwitchSizeTemplate.bind({});

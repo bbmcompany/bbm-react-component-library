@@ -1,4 +1,5 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import { C3Box } from "../Box/Box";
 import {C3DropdownButton} from "./DropddownButton";
 import './dropdown-button-stories.scss'
 
@@ -30,7 +31,7 @@ export default {
 } as ComponentMeta<typeof C3DropdownButton>;
 
 const VariantsTemplate: ComponentStory<typeof C3DropdownButton> = args => (
-    <div className={'dropdown'}>
+    <C3Box>
         <C3DropdownButton {...args} primary className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
@@ -94,12 +95,12 @@ const VariantsTemplate: ComponentStory<typeof C3DropdownButton> = args => (
         </C3DropdownButton>
         <div className={'aaa'}></div>
 
-    </div>
+    </C3Box>
 );
 export const Variants = VariantsTemplate.bind({});
 
 const SizeTemplate: ComponentStory<typeof C3DropdownButton> = args => (
-    <div className={'dropdown'}>
+    <C3Box>
         <C3DropdownButton {...args} tertiary size={'xs'} className={'b-m-5'}>
             <a href="#">SPORT & OUTDOOR</a>
             <a href="#">SHOES & BAGS</a>
@@ -124,6 +125,6 @@ const SizeTemplate: ComponentStory<typeof C3DropdownButton> = args => (
             <a href="#">HOME & FURNITURE</a>
             <a href="#">DRAWING COUPON</a>
         </C3DropdownButton>
-    </div>
+    </C3Box>
 );
 export const DropdownSize = SizeTemplate.bind({});

@@ -1,4 +1,5 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import { C3Box } from "../Box/Box";
 import {C3Button} from "../Button/Button";
 import {C3Tabs} from "./Tabs";
 import './tabs-stories.scss'
@@ -10,7 +11,7 @@ export default {
 } as ComponentMeta<typeof C3Tabs>;
 
 const VariantsTemplate: ComponentStory<typeof C3Tabs> = args => (
-    <div className={'tabs'}>
+    <C3Box d={'flex'} displaydirection={'column'} className={'tabs'}>
         <C3Tabs {...args}>
             <C3Button>Button</C3Button>
             <C3Button>Tabs</C3Button>
@@ -41,12 +42,12 @@ const VariantsTemplate: ComponentStory<typeof C3Tabs> = args => (
             <C3Button icon={'academy'} iconButton>Tabs</C3Button>
             <C3Button>Only Icon Fluid</C3Button>
         </C3Tabs>
-    </div>
+    </C3Box>
 );
 export const Variants = VariantsTemplate.bind({});
 
 const IconTemplate: ComponentStory<typeof C3Tabs> = args => (
-    <div className={'tabs'}>
+    <C3Box d={'flex'} displaydirection={'column'} className={'tabs'}>
         <C3Tabs {...args} >
             <C3Button icon={'add_photo'}/>
             <C3Button icon={'academy'}/>
@@ -147,12 +148,12 @@ const IconTemplate: ComponentStory<typeof C3Tabs> = args => (
             <C3Button icon={'academy'}/>
             <C3Button icon={'add_product'}/>
         </C3Tabs>
-    </div>
+    </C3Box>
 );
 export const OnlyIcon = IconTemplate.bind({});
 
 const WithIconTemplate: ComponentStory<typeof C3Tabs> = args => (
-    <div className={'tabs'}>
+    <C3Box d={'flex'} displaydirection={'column'} className={'tabs'}>
         <C3Tabs {...args} >
             <C3Button icon={'add_photo'}>Button</C3Button>
             <C3Button icon={'academy'}>Tabs</C3Button>
@@ -253,18 +254,18 @@ const WithIconTemplate: ComponentStory<typeof C3Tabs> = args => (
             <C3Button icon={'academy'}>Tabs</C3Button>
             <C3Button>With Icon</C3Button>
         </C3Tabs>
-    </div>
+    </C3Box>
 );
 export const WithIcon = WithIconTemplate.bind({});
 
 
 const CustomTemplate: ComponentStory<typeof C3Tabs> = args => (
-    <div className={'tabs'}>
+    <C3Box d={'flex'} displaydirection={'column'} className={'tabs'}>
         <C3Tabs {...args} >
             <C3Button icon={'add_photo'}>Button</C3Button>
             <C3Button icon={'academy'}>Tabs</C3Button>
             <C3Button>With Icon</C3Button>
         </C3Tabs>
-    </div>
+    </C3Box>
 );
 export const Custom = CustomTemplate.bind({});

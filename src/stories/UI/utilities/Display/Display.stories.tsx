@@ -12,7 +12,7 @@ export default {
 const DisplayNoneTemplate: ComponentStory<typeof C3Display> = args => (
     <div className={'display-none'}>
         <div className={'b-m-20'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum nulla sem, at vehicula urna
-            mollis at. Nulla ultricies volutpat magna nec scelerisque. <C3Display className={'b-none'}>Fusce varius nibh massa, nec dictum ante aliquam
+            mollis at. Nulla ultricies volutpat magna nec scelerisque. <C3Display className={'b-d-none'}>Fusce varius nibh massa, nec dictum ante aliquam
                 quis.</C3Display> Mauris quis arcu vulputate, malesuada nibh et, tincidunt dui. Integer viverra urna vel suscipit
             congue. Cras dignissim hendrerit nulla et lobortis. Nulla quis elementum sapien, nec molestie nulla. Donec
             eu elementum tellus, vel hendrerit sapien. Etiam dapibus lorem ut enim porta luctus.
@@ -24,7 +24,7 @@ export const None = DisplayNoneTemplate.bind({});
 const DisplayInlineTemplate: ComponentStory<typeof C3Display> = args => (
     <div className={'display-inline'}>
         <div className={'b-m-20'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum nulla sem, at vehicula urna
-            mollis at. Nulla ultricies volutpat magna nec scelerisque. <C3Display className={'b-inline'}>Fusce varius nibh massa, nec dictum ante aliquam
+            mollis at. Nulla ultricies volutpat magna nec scelerisque. <C3Display className={'b-d-inline'}>Fusce varius nibh massa, nec dictum ante aliquam
                 quis.</C3Display> Mauris quis arcu vulputate, malesuada nibh et, tincidunt dui. Integer viverra urna vel suscipit
             congue. Cras dignissim hendrerit nulla et lobortis. Nulla quis elementum sapien, nec molestie nulla. Donec
             eu elementum tellus, vel hendrerit sapien. Etiam dapibus lorem ut enim porta luctus.

@@ -1,4 +1,5 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import { C3Box } from "../Box/Box";
 import {C3Pagination} from "./Pagination";
 
 export default {
@@ -33,13 +34,13 @@ const selectedPageFunction = () => {
 }
 const PaginationVariantsTemplate: ComponentStory<typeof C3Pagination> = args => (
 
-    <div className={'pagination'}>
+    <C3Box>
         <C3Pagination {...args} className={'b-m-5'}/>
         <C3Pagination {...args} count={7} nextPageFunction={nextPageFunction}
                       previousPageFunction={previousPageFunction}
                       selectedPageFunction={selectedPageFunction} className={'b-m-5'}/>
         <C3Pagination {...args} count={7} rounded outlined className={'b-m-5'}/>
         <C3Pagination {...args} count={7} outlined className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const Variants = PaginationVariantsTemplate.bind({});

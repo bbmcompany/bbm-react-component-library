@@ -1,4 +1,5 @@
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import { C3Box } from "../Box/Box";
 import {C3Input} from "./Input";
 import './input-stories.scss'
 
@@ -34,7 +35,7 @@ export default {
 } as ComponentMeta<typeof C3Input>;
 
 const VariantsTemplate: ComponentStory<typeof C3Input> = args => (
-    <div className={'variants'}>
+    <C3Box d={'flex'} align={'center'} className={'variants'}>
         <C3Input {...args} type={'text'} placeHolder={'Enter Your Name'} label={'User Name'} className={'b-m-5'}/>
         <C3Input {...args} type={'password'} placeHolder={'Enter Your Password'} label={'Password'} className={'b-m-5'}/>
         <C3Input {...args} type={'email'} label={'Email'} placeHolder={'Enter Your Email'} className={'b-m-5'}/>
@@ -50,40 +51,40 @@ const VariantsTemplate: ComponentStory<typeof C3Input> = args => (
         <C3Input {...args} type={'range'} labelFixed label={'Enter Your Weight'} className={'b-m-5'}/>
         <C3Input {...args} type={'time'} labelFixed label={'Appointment time'} className={'b-m-5'}/>
         <C3Input {...args} type={'week'} labelFixed label={'Holiday Week'} className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const Variants = VariantsTemplate.bind({});
 
 const InputWithLabelTemplate: ComponentStory<typeof C3Input> = args => (
-    <div className={'input-label'}>
+    <C3Box d={'flex'} align={'end'} className={'input-label'}>
         <C3Input {...args} type={'text'} placeHolder={'Enter Your Name'} label={'User Name'} className={'b-m-5'}/>
         <C3Input {...args} type={'password'} placeHolder={'Enter Your Password'} label={'Password'} className={'b-m-5'}/>
         <C3Input {...args} type={'number'} placeHolder={'Enter Your Age'} label={'Age'} className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const InputWithLabel = InputWithLabelTemplate.bind({});
 
 const InputWithFixedLabelTemplate: ComponentStory<typeof C3Input> = args => (
-    <div className={'input-label'}>
+    <C3Box d={'flex'} align={'end'} className={'input-label'}>
         <C3Input {...args} type={'text'} placeHolder={'Enter Your Name'} label={'User Name'} labelFixed className={'b-m-5'}/>
         <C3Input {...args} type={'password'} placeHolder={'Enter Your Password'} label={'Password'} labelFixed className={'b-m-5'}/>
         <C3Input {...args} type={'number'} placeHolder={'Enter Your Age'} label={'Age'} labelFixed className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const InputWithFixedLabel = InputWithFixedLabelTemplate.bind({});
 
 const InputWithOutLabelTemplate: ComponentStory<typeof C3Input> = args => (
-    <div className={'input-label'}>
+    <C3Box d={'flex'} className={'input-label'}>
         <C3Input {...args} type={'text'} placeHolder={'Enter Your Name'} className={'b-m-5'}/>
         <C3Input {...args} type={'password'} placeHolder={'Enter Your Password'} className={'b-m-5'}/>
         <C3Input {...args} type={'number'} placeHolder={'Enter Your Age'} className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const InputWithoutLabel = InputWithOutLabelTemplate.bind({});
 
 const TemplateSample : ComponentStory<typeof C3Input> = args => (
-    <div>
+    <C3Box>
         <C3Input {...args} className={'b-m-5'}/>
-    </div>
+    </C3Box>
 );
 export const Template = TemplateSample.bind({});
