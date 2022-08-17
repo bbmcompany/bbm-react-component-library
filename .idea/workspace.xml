@@ -4,49 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (progress-indicator : 101.1) progress-indicator component.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Box/Box.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Box/Box.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Box/box-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Box/box.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl box component added">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/GoogleMap.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/GoogleMap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/google-map.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/ArrayTabs.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ArrayTabs/array-tabs-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/Avatar.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Avatar/avatar-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/Badge.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Badge/badge-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/Button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/Checkbox.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/checkbox-stoires.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Checkbox/checkbox-stoires.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropwdownButton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/ClickableDropwdownButton.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ClickableDropdownButton/clickable-dropdown-button-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropdownButton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/DropdownButton.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/DropdownButton/dropdown-button-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Icon/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/Input.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Input/input-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/Label.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Label/label-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Label/label-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Modal/modal-stoires.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Modal/modal-stoires.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Pagination/Pagination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/ProgressIndicator.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/ProgressIndicator/ProgressIndicator.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/Skeleton.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/skleton-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Skeleton/skleton-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Spinner/Spinner.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Switch/Switch.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/Tabs.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tabs/tabs-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tabs/tabs-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/Tooltip.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip-stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip-stories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/display/display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/display/display.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/styles/fonts/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/styles/fonts/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/utilities/Display/Display.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/utilities/Display/Display.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,14 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="45842000" />
-    </task>
-    <task id="LOCAL-00016" summary="rcl (Form -inputForm 101) :  input form component started">
-      <created>1658321143843</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1658321143843</updated>
+      <workItem from="1660074345950" duration="50307000" />
     </task>
     <task id="LOCAL-00017" summary="rcl (Form -loginForm 101) :  display and input options added">
       <created>1658406240402</created>
@@ -459,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660329629697</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="rcl box component added">
+      <created>1660563539957</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1660563539957</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (dimensions) Start adding dimension system to utilities.&#10;Width,height,width &amp; height, max width,max height properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (spacing) to utilities.&#10;margin, margin-top, margin-bottom margin-left, margin-right, margin-x, margin-y properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added." />
@@ -502,6 +465,7 @@
     <MESSAGE value="rcl (code-review 109.1 : tooltip) code review and design changes made" />
     <MESSAGE value="rcl (progress-indicator : 101) progress-indicator component started." />
     <MESSAGE value="rcl (progress-indicator : 101.1) progress-indicator component." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (progress-indicator : 101.1) progress-indicator component." />
+    <MESSAGE value="rcl box component added" />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl box component added" />
   </component>
 </project>
