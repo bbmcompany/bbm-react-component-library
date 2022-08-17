@@ -5,12 +5,16 @@ import {useLoadScript} from '@react-google-maps/api'
 interface C3GoogleMapProps {
     lat?: number,
     lng?: number,
+    width?: number,
+    height?: number,
     className?: string,
 }
 
 export const C3GoogleMap = ({
                                 lat = 39.928410,
                                 lng = 32.834961,
+                                width = 400,
+                                height = 400,
                                 className = ' ',
                                 ...props
                             }: C3GoogleMapProps) => {

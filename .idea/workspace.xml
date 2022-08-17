@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl box component added">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/GoogleMap.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/GoogleMap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/google-map.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (google-map) google-map component started.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/GoogleMap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/GoogleMap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/google-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/GoogleMap/google-map.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="50307000" />
-    </task>
-    <task id="LOCAL-00017" summary="rcl (Form -loginForm 101) :  display and input options added">
-      <created>1658406240402</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1658406240402</updated>
+      <workItem from="1660074345950" duration="50600000" />
     </task>
     <task id="LOCAL-00018" summary="rcl (avatar - 101) : avatar component started">
       <created>1658837246821</created>
@@ -423,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660563539957</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="rcl (google-map) google-map component started.">
+      <created>1660736125768</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1660736125768</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (spacing) to utilities.&#10;margin, margin-top, margin-bottom margin-left, margin-right, margin-x, margin-y properties have been added." />
     <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-top-left and -right,  border-bottom-left and -right properties have been added." />
@@ -466,6 +462,7 @@
     <MESSAGE value="rcl (progress-indicator : 101) progress-indicator component started." />
     <MESSAGE value="rcl (progress-indicator : 101.1) progress-indicator component." />
     <MESSAGE value="rcl box component added" />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl box component added" />
+    <MESSAGE value="rcl (google-map) google-map component started." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (google-map) google-map component started." />
   </component>
 </project>
