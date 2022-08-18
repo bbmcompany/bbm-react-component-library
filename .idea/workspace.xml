@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (google-map) google-map component started.">
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/Alert.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/Alert.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/alert-stories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/alert.scss" afterDir="false" />
+    <list default="true" id="805edf67-b069-462c-a4f5-c884f926e4f6" name="Changes" comment="rcl (alert) alert component started.">
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ClosableAlert/CloasableAlert.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ClosableAlert/ClosableAlert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UI/components/ClosableAlert/closable-alert.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Tooltip/tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Alert/Alert.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/Alert.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Alert/Alert.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/Alert.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UI/components/Alert/alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UI/components/Alert/alert.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656852590625</updated>
       <workItem from="1656852591671" duration="88875000" />
-      <workItem from="1660074345950" duration="56471000" />
-    </task>
-    <task id="LOCAL-00019" summary="rcl (checkbox -101) : checkbox component started">
-      <created>1658845357516</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1658845357516</updated>
+      <workItem from="1660074345950" duration="61127000" />
     </task>
     <task id="LOCAL-00020" summary="rcl (login-form - 104) : login form template, label variants and title options added.">
       <created>1658851086898</created>
@@ -423,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660736364430</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="rcl (alert) alert component started.">
+      <created>1660828702199</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1660828702199</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rcl (dimensions - 102) Start adding dimension system (border) to utilities.&#10;border, border-top, border-bottom properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-left, border-right properties have been added." />
     <MESSAGE value="rcl (dimensions - 102.1) Start adding dimension system (border) to utilities.&#10;border-top-left and -right,  border-bottom-left and -right properties have been added." />
     <MESSAGE value="rcl (dimensions - 103)  adding dimension system (border) to components." />
@@ -466,6 +466,7 @@
     <MESSAGE value="rcl (progress-indicator : 101.1) progress-indicator component." />
     <MESSAGE value="rcl box component added" />
     <MESSAGE value="rcl (google-map) google-map component started." />
-    <option name="LAST_COMMIT_MESSAGE" value="rcl (google-map) google-map component started." />
+    <MESSAGE value="rcl (alert) alert component started." />
+    <option name="LAST_COMMIT_MESSAGE" value="rcl (alert) alert component started." />
   </component>
 </project>

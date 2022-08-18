@@ -20,7 +20,7 @@ export default {
 
 const VariantsTemplate: ComponentStory<typeof C3Alert> = args => (
     <C3Box d={'flex'} displaydirection={'column'} className={'alert'}>
-        <C3Alert {...args} primary className={'b-border-5'}/>
+        <C3Alert {...args} className={'b-border-5'}/>
         <C3Alert className={'b-border-5'}>
             <li>
                 <p>Item 1</p>
@@ -57,19 +57,19 @@ export const Custom = CustomTemplate.bind({});
 const WithChildTemplate: ComponentStory<typeof C3Alert> = args => (
     <C3Box d={'flex'} displaydirection={'column'} className={'alert'}>
         <C3Alert className={'b-border-5'}>BBM React Component Libray Alert With Child</C3Alert>
-        <C3Alert className={'b-border-5'}>
+        <C3Alert className={'b-border-5'} warning>
             <p>Item 1</p>
             <p>Item 2</p>
             <p>Item 3</p>
         </C3Alert>
-        <C3Alert className={'b-border-5'}>
+        <C3Alert className={'b-border-5'} tertiary>
             <li>
                 <p>Item 1</p>
                 <p>Item 2</p>
                 <p>Item 3</p>
             </li>
         </C3Alert>
-        <C3Alert icon={'academy'} className={'b-border-5'}>
+        <C3Alert icon={'academy'} className={'b-border-5'} error>
             <li>
                 <p>Item 1</p>
                 <p>Item 2</p>
@@ -82,7 +82,7 @@ export const WithChild = WithChildTemplate.bind({});
 
 const WithIconTemplate: ComponentStory<typeof C3Alert> = args => (
     <C3Box d={'flex'} displaydirection={'column'} className={'alert'}>
-        <C3Alert icon={'academy'}>Academy</C3Alert>
+        <C3Alert icon={'academy'} className={'b-border-5'}>Academy</C3Alert>
         <C3Alert icon={'alert'} error>Error</C3Alert>
         <C3Alert icon={'exclamation'} warning>Warning</C3Alert>
         <C3Alert icon={'award'} success>Success</C3Alert>

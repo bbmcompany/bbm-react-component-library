@@ -3,7 +3,6 @@ import './alert.scss'
 
 interface C3AlertProps {
     text?: string;
-    size?: string;
     primary?: boolean;
     secondary?: boolean;
     tertiary?: boolean;
@@ -21,13 +20,12 @@ interface C3AlertProps {
 
 export const C3Alert = ({
                             text = 'BBM React Component Libray Alert',
-                            size = 's',
                             icon = ' ',
                             children = undefined,
                             className = ' ',
                             ...props
                         }: C3AlertProps) => {
-    let iconClass = 'primary'
+    let iconClass = ' '
     if (children != undefined) {
         text = children;
     }
@@ -39,13 +37,13 @@ export const C3Alert = ({
         }
     }
     return (
-        <div className={['bbm-rcl-alert', variantClasses, className, `bbm-rcl-alert--${size}`].join(' ')}>
+        <div className={['bbm-rcl-alert', variantClasses, className].join(' ')}>
             {
                 icon == ' ' ?
                     <p>{text}</p>
                     :
                     <div className={'bbm-rcl-alert--icon-group'}>
-                        <C3Icon className={`bbm-rcl-icon--${iconClass}`} icon={icon} size={size}></C3Icon>
+                        <C3Icon className={`bbm-rcl-icon--${iconClass}`} icon={icon}></C3Icon>
                         <p>{text}</p>
                     </div>
             }
