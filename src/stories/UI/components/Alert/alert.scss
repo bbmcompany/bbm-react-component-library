@@ -1,0 +1,74 @@
+@use 'sass:map';
+@import "../../styles/color/color-pallette";
+
+@mixin colorGenerator($color: $primary-400, $background-color: $primary-200) {
+  color: $color;
+  background-color: $background-color;
+}
+
+.bbm-rcl-alert {
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  min-height: 50px;
+  color: $primary-400;
+  background-color: $primary-200;
+
+  &--primary {
+    @include colorGenerator($color: $primary-400, $background-color: $primary-200);
+  }
+
+  &--secondary {
+    @include colorGenerator($color: $secondary-400, $background-color: $secondary-300);
+
+  }
+
+  &--tertiary {
+    @include colorGenerator($color: $tertiary-400, $background-color: $tertiary-200);
+  }
+
+  &--orange {
+    @include colorGenerator($color: $orange-400, $background-color: $orange-200);
+  }
+
+  &--grey {
+    @include colorGenerator($color: $grey-500, $background-color: $grey-300);
+  }
+
+  &--error {
+    @include colorGenerator($color: $error-400, $background-color: $error-200);
+  }
+
+  &--success {
+    @include colorGenerator($color: $success-400, $background-color: $success-200);
+  }
+
+  &--warning {
+    @include colorGenerator($color: $warning-400, $background-color: $warning-200);
+  }
+
+  &--info {
+    @include colorGenerator($color: $info-400, $background-color: $info-200);
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: .5%;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  &--icon-group {
+    width: 100%;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+}
